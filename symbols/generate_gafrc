@@ -1,0 +1,10 @@
+#!/bin/bash
+
+pushd www/user >/dev/null
+
+echo "(define gedasymbols \"${PWD}\")"
+
+for user in $(ls)
+do
+  [[ -d ${user}/symbols ]] && echo "(component-library (build-path gedasymbols \"${user}/symbols\") \"${user}\")"
+done
