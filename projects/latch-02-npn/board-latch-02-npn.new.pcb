@@ -1,0 +1,327 @@
+# release: pcb 1.99x
+# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
+FileVersion[20070407]
+PCB["" 600000 500000]
+Grid[10000.000000 0 0 0]
+Cursor[0 0 0.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2:3:4:5:6,s:7:8")
+Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+
+Element["" "push_button_2pin" "S1" "unknown" 0 0 0.0000 0.0000 0 100 ""]
+(
+	Pin[0.0000 0.0000 60.00mil 20.00mil 66.00mil 28.00mil "" "1" "edge2"]
+	Pin[200.00mil 0.0000 60.00mil 20.00mil 66.00mil 28.00mil "" "2" "edge2"]
+	Pad[-25.00mil 50.00mil -25.00mil 125.00mil 10.00mil 20.00mil 30.00mil "" "3" "edge2"]
+	Pad[-25.00mil 125.00mil 225.00mil 125.00mil 10.00mil 20.00mil 30.00mil "" "4" ""]
+	Pad[225.00mil 50.00mil 225.00mil 125.00mil 10.00mil 20.00mil 30.00mil "" "5" "edge2"]
+	Pad[225.00mil -125.00mil 225.00mil -50.00mil 10.00mil 20.00mil 30.00mil "" "6" ""]
+	Pad[-25.00mil -125.00mil 225.00mil -125.00mil 10.00mil 20.00mil 30.00mil "" "7" ""]
+	Pad[-25.00mil -125.00mil -25.00mil -50.00mil 10.00mil 20.00mil 30.00mil "" "8" ""]
+
+	)
+
+	
+	
+	
+	
+	
+	
+Element(0x00 "RCY100P" "C1" "100uF" 0 0 0 100 0x00)
+(
+	Pin(50 100 60 30 "1" 0x101)
+	Pin(150 100 60 30 "2" 0x01)
+	ElementArc(100 100 100 100 0 360 10)
+	ElementLine(-60 100            -20 100 10)
+	ElementLine(-40 80 -40 120 10)
+	ElementLine(220 100 260  100 10)
+	Mark (50 100)
+)
+
+	
+Element(0x00 "CONNECTOR-1-2" "U1" "unknown" 260 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	Pin(150 50 60 38 "2" 0x01)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 200 100 10)
+	ElementLine(200 100 200 0 10)
+	ElementLine(200 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY200" "C2" "220nF" 0 0 0 100 0x00)
+(
+	Pin(0 16 55 30 "1" 0x101)
+	Pin(200 16 55 30 "2" 0x01)
+	ElementLine(0 16 50 16 10)
+	ElementLine(150 16 200 16 10)
+	ElementLine(50 0 150 0 10)
+	ElementLine(150 0 150 32 10)
+	ElementLine(150 32 50 32 10)
+	ElementLine(50 32 50 0 10)
+	Mark(0 16)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "R8" "1100" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "R7" "1100" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+
+	
+Element(0x00 "CONNECTOR-1-2" "R_LOAD" "LOAD" 260 0 3 100 0x00)
+(
+	Pin(50 50 60 38 "1" 0x101)
+	Pin(150 50 60 38 "2" 0x01)
+	 
+	ElementLine(0 0 0 100 10)
+	ElementLine(0 100 200 100 10)
+	ElementLine(200 100 200 0 10)
+	ElementLine(200 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "R6" "10k" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "R5" "1k" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "R3" "1M" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "R2" "100k" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "R1" "5k6" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+
+	
+	
+	
+	
+	
+	
+	
+	
+Element(0x00 "ACY300" "R4" "10k" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+Element(0x00 "TO92" "Q4" "unknown" 0 0 0 100 0x00)
+(
+	Pin(250 200 72 42 "1" 0x101)
+	Pin(150 200 72 42 "2" 0x01)
+	Pin(50 200 72 42 "3" 0x01)
+	ElementArc(150 200 100 100 315 270 10)
+	ElementLine( 80 130 220 130 10)
+	Mark(50 200)
+)
+Element(0x00 "TO92" "Q3" "unknown" 0 0 0 100 0x00)
+(
+	Pin(250 200 72 42 "1" 0x101)
+	Pin(150 200 72 42 "2" 0x01)
+	Pin(50 200 72 42 "3" 0x01)
+	ElementArc(150 200 100 100 315 270 10)
+	ElementLine( 80 130 220 130 10)
+	Mark(50 200)
+)
+Element(0x00 "TO92" "Q2" "unknown" 0 0 0 100 0x00)
+(
+	Pin(250 200 72 42 "1" 0x101)
+	Pin(150 200 72 42 "2" 0x01)
+	Pin(50 200 72 42 "3" 0x01)
+	ElementArc(150 200 100 100 315 270 10)
+	ElementLine( 80 130 220 130 10)
+	Mark(50 200)
+)
+Element(0x00 "TO92" "Q1" "unknown" 0 0 0 100 0x00)
+(
+	Pin(250 200 72 42 "1" 0x101)
+	Pin(150 200 72 42 "2" 0x01)
+	Pin(50 200 72 42 "3" 0x01)
+	ElementArc(150 200 100 100 315 270 10)
+	ElementLine( 80 130 220 130 10)
+	Mark(50 200)
+)
+Layer(1 "top")
+(
+)
+Layer(2 "ground")
+(
+)
+Layer(3 "signal2")
+(
+)
+Layer(4 "signal3")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "bottom")
+(
+)
+Layer(7 "outline")
+(
+)
+Layer(8 "spare")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)
