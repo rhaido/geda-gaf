@@ -1,2 +1,76 @@
 v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
+C 47700 42900 1 0 0 lm555-1.sym
+{
+T 48200 46300 5 10 0 0 0 0 1
+device=LM555
+T 48000 45600 5 10 1 1 0 0 1
+refdes=U?
+T 48200 46100 5 10 0 0 0 0 1
+footprint=DIP8-op
+}
+C 45100 47300 1 0 0 4093-1.sym
+{
+T 45400 49600 5 10 0 0 0 0 1
+device=4093
+T 45400 48200 5 10 1 1 0 0 1
+refdes=U?
+T 45400 49800 5 10 0 0 0 0 1
+footprint=DIP14
+}
+C 48300 47300 1 0 0 4093-1.sym
+{
+T 48600 49600 5 10 0 0 0 0 1
+device=4093
+T 48600 48200 5 10 1 1 0 0 1
+refdes=U?
+T 48600 49800 5 10 0 0 0 0 1
+footprint=DIP14
+}
+C 46500 45800 1 90 0 diode-1.sym
+{
+T 45900 46200 5 10 0 0 90 0 1
+device=DIODE
+T 46000 46100 5 10 1 1 90 0 1
+refdes=D?
+}
+C 46900 46700 1 270 0 diode-1.sym
+{
+T 47500 46300 5 10 0 0 270 0 1
+device=DIODE
+T 47400 46400 5 10 1 1 270 0 1
+refdes=D?
+}
+C 46500 43600 1 270 0 capacitor-polarised.sym
+{
+T 47200 43400 5 10 0 0 270 0 1
+device=POLARIZED_CAPACITOR
+T 47000 43400 5 10 1 1 270 0 1
+refdes=C?
+T 47400 43400 5 10 0 0 270 0 1
+symversion=0.1
+T 46800 43508 5 8 1 1 270 0 1
+pinnumber=1
+T 46800 42908 5 8 1 1 270 0 1
+pinnumber=2
+T 46500 43608 5 10 1 1 270 0 1
+value=uF
+}
+C 46400 44800 1 90 0 resistor-2.sym
+{
+T 46050 45200 5 10 0 0 90 0 1
+device=RESISTOR
+T 46100 45000 5 10 1 1 90 0 1
+refdes=R?
+T 46348 45216 5 8 1 1 90 0 1
+value=R
+}
+C 47200 44800 1 90 0 resistor-2.sym
+{
+T 46850 45200 5 10 0 0 90 0 1
+device=RESISTOR
+T 46900 45000 5 10 1 1 90 0 1
+refdes=R?
+T 47148 45216 5 8 1 1 90 0 1
+value=R
+}
