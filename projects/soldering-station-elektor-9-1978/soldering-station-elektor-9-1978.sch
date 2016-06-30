@@ -1,2 +1,53 @@
 v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
+C 44900 47800 1 270 0 led-2.sym
+{
+T 45200 47000 5 10 1 1 270 0 1
+refdes=D?
+T 45500 47700 5 10 0 0 270 0 1
+device=LED
+}
+T 47800 45400 8 8 0 0 0 0 1
+symversion=1.0
+T 48300 43900 8 8 0 1 0 0 1
+footprint=DIP8
+T 47600 43300 8 10 0 1 0 0 1
+pinnumber=1
+C 48075 44725 1 0 0 ca3130.sym
+{
+T 48275 46825 5 8 0 0 0 0 1
+symversion=1.0
+T 49125 46450 5 10 1 1 0 0 1
+refdes=U?
+T 49125 46250 5 10 1 1 0 0 1
+value=CA3130
+T 48775 45325 5 8 0 1 0 0 1
+footprint=DIP8
+}
+C 47725 43825 1 0 0 resistor-2-1.sym
+{
+T 48125 44175 5 10 0 0 0 0 1
+device=RESISTOR
+T 47850 44075 5 8 1 1 0 0 1
+refdes=R?
+T 47991 43902 5 5 1 1 0 0 1
+value=10k
+}
+C 45250 44350 1 0 0 tup-small.sym
+{
+T 46150 44650 5 8 1 1 0 0 1
+device=TUP
+T 46150 44850 5 10 1 1 0 0 1
+refdes=Q?
+T 46150 45350 5 10 0 1 0 0 1
+footprint=TO92
+}
+C 46725 44425 1 0 0 tun-small.sym
+{
+T 47375 44650 5 6 1 1 0 0 1
+device=TUN
+T 47375 44825 5 8 1 1 0 0 1
+refdes=Q?
+T 47625 45425 5 10 0 1 0 0 1
+footprint=TO92
+}
