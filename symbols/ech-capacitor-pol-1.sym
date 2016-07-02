@@ -1,0 +1,45 @@
+v 20140308 2
+P 200 1000 200 550 1 0 0
+{
+T 650 850 5 10 0 0 90 2 1
+pintype=pas
+T 250 850 9 10 0 1 90 2 1
+pinlabel=1
+T 150 850 5 10 0 1 90 0 1
+pinnumber=1
+T 450 850 5 10 0 0 90 2 1
+pinseq=1
+}
+P 200 0 200 475 1 0 0
+{
+T 650 150 5 10 0 0 90 8 1
+pintype=pas
+T 250 150 9 10 0 1 90 8 1
+pinlabel=2
+T 150 150 5 10 0 1 90 6 1
+pinnumber=2
+T 450 150 5 10 0 0 90 8 1
+pinseq=2
+}
+T 400 700 8 10 1 1 0 1 1
+refdes=C?
+T 400 500 8 10 1 1 0 1 1
+value=$(Capacitance)
+T 400 300 8 10 1 1 0 1 1
+package=$(Package)
+T -5 800 8 10 0 0 0 7 1
+footprint=$(Footprint)
+L 50 550 350 550 3 30 0 0 -1 -1
+A 200 175 300 62 56 3 30 0 0 -1 -1
+L 100 600 100 650 3 10 0 0 -1 -1
+L 125 625 75 625 3 10 0 0 -1 -1
+T -5 1000 8 10 0 0 0 7 1
+device=CAPACITOR
+T -5 500 8 10 0 0 0 7 1
+author=Edward Hennessy
+T -5 300 8 10 0 0 0 7 1
+copyright=(C) 2014 Edward Hennessy
+T -5 100 8 10 0 0 0 7 1
+dist-license=GPL
+T -5 -100 8 10 0 0 0 7 1
+use-license=Unlimited

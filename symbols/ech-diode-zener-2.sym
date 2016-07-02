@@ -1,0 +1,47 @@
+v 20130925 2
+P 600 200 425 200 1 0 0
+{
+T 550 -250 5 10 0 0 0 2 1
+pintype=pas
+T 550 150 9 10 0 1 0 2 1
+pinlabel=1
+T 550 250 5 10 0 1 0 0 1
+pinnumber=1
+T 550 -50 5 10 0 0 0 2 1
+pinseq=1
+}
+P 0 200 375 200 1 0 0
+{
+T 250 -250 5 10 0 0 0 8 1
+pintype=pas
+T 250 150 9 10 0 1 0 8 1
+pinlabel=2
+T 250 250 5 10 0 1 0 6 1
+pinnumber=2
+T 250 -50 5 10 0 0 0 8 1
+pinseq=2
+}
+H 3 0 0 0 -1 -1 1 -1 -1 -1 -1 -1 4
+M 175,350
+L 175,50
+L 425,200
+z
+T 300 700 8 10 0 0 0 3 1
+footprint=$(Footprint)
+T 300 450 8 10 1 1 0 3 1
+refdes=D?
+H 3 20 0 0 -1 -1 0 -1 -1 -1 -1 -1 4
+M 475,350
+L 425,350
+L 425,50
+L 375,50
+T 300 900 8 10 0 0 0 3 1
+device=DIODE
+T 300 1200 8 10 0 0 0 3 1
+use-license=Unlimited
+T 300 1400 8 10 0 0 0 3 1
+dist-license=GPL
+T 300 1600 8 10 0 0 0 3 1
+copyright=(C) 2014 Edward Hennessy
+T 300 1800 8 10 0 0 0 3 1
+author=Edward Hennessy
