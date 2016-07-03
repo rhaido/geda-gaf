@@ -1,0 +1,41 @@
+v 20130925 2
+P 100 0 100 100 1 0 0
+{
+T 150 -350 5 10 0 0 0 2 1
+pintype=pas
+T 155 50 5 10 0 1 0 2 1
+pinlabel=1
+T 55 50 5 10 0 1 0 8 1
+pinnumber=1
+T 150 -150 5 10 0 0 0 2 1
+pinseq=1
+}
+V 100 150 50 3 10 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 100 250 8 10 1 1 0 3 1
+refdes=SI?
+T 100 1050 8 10 0 0 0 3 1
+use-license=Unlimited
+T 100 1250 8 10 0 0 0 3 1
+dist-license=GPL
+T 100 1450 8 10 0 0 0 3 1
+copyright=(C) 2016 Mikhail 'Mike' Grozak
+T 100 1650 8 10 0 0 0 3 1
+author=Mikhail Grozak
+T 100 750 8 10 0 0 0 3 1
+device=SOLDERING_IRON
+T 100 550 8 10 0 0 0 3 1
+footprint=$(Footprint)
+T -28 -205 8 10 0 0 0 0 1
+numslots=5
+T 300 100 8 10 0 1 0 0 1
+slot=1
+T 400 300 8 10 0 1 0 0 1
+slotdef=1:1
+T 400 350 8 10 0 1 0 0 1
+slotdef=2:2
+T 400 400 8 10 0 1 0 0 1
+slotdef=3:3
+T 400 450 8 10 0 1 0 0 1
+slotdef=4:4
+T 400 500 8 10 0 1 0 0 1
+slotdef=5:5

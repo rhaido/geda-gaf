@@ -51,7 +51,7 @@ pinseq=4
 T 350 650 9 8 1 1 0 0 1
 pinlabel=CLK
 T 300 700 5 8 0 1 0 2 1
-pintype=in
+pintype=clk
 }
 L 300 700 200 775 3 0 0 0 -1 -1
 L 300 700 200 625 3 0 0 0 -1 -1
@@ -100,5 +100,5 @@ T 1900 1050 5 10 0 0 0 0 1
 slotdef=2:4,5,6,3,1,2,7
 T 1900 1250 5 10 0 0 0 0 1
 description=2 JK master-slave flip-flop
-T 200 0 9 8 1 0 0 0 1
-4027
+T 225 25 9 10 1 0 0 0 1
+FF
