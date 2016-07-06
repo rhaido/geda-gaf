@@ -1,23 +1,23 @@
 v 20130925 2
-T -300 2200 5 8 0 0 0 0 1
+T -300 2100 5 8 0 0 0 0 1
 description=operational amplifier
-T -300 2000 5 8 0 0 0 0 1
+T -300 1900 5 8 0 0 0 0 1
 comment=Use symbol opamp_pwr.sym to connect power pins.
-T -300 1800 5 8 0 0 0 0 1
+T -300 1700 5 8 0 0 0 0 1
 documentation=https://www.intersil.com/en/products/amplifiers-and-buffers/all-amplifiers/amplifiers/CA3130.html
-T -300 1600 5 8 0 0 0 0 1
+T -300 1500 5 8 0 0 0 0 1
 footprints=SO8, DIP8
-T -300 1400 5 8 0 0 0 0 1
+T -300 1300 5 8 0 0 0 0 1
 symversion=1.0
-T -300 1200 5 8 0 0 0 0 1
+T -300 1100 5 8 0 0 0 0 1
 author=Mike Grozak mike.grozak@gmail.com
-T -300 1000 5 8 0 0 0 0 1
+T -300 900 5 8 0 0 0 0 1
 dist-license=GPL 3, http://www.gnu.org/licenses/gpl-3.0.txt
 T 600 1100 8 10 1 1 0 0 1
 refdes=U?
 T 600 900 8 10 1 1 0 0 1
 value=CA3130
-T 200 -100 8 8 0 1 0 0 1
+T 200 -200 8 8 0 1 0 0 1
 footprint=DIP8
 P 0 300 100 300 1 0 0
 {
@@ -52,7 +52,7 @@ pintype=out
 T 700 500 9 8 0 1 0 7 1
 pinlabel=out
 }
-T -300 800 5 8 0 0 0 0 1
+T -300 700 5 8 0 0 0 0 1
 use-license=free, no restrictions
 L 100 900 900 500 3 15 0 0 -1 -1
 L 100 100 900 500 3 15 0 0 -1 -1
@@ -60,45 +60,45 @@ L 150 700 250 700 3 10 0 0 -1 -1
 L 200 750 200 650 3 10 0 0 -1 -1
 L 150 300 250 300 3 10 0 0 -1 -1
 L 100 900 100 100 3 15 2 0 -1 -1
-P 200 100 200 150 1 0 0
+P 200 0 200 150 1 0 0
 {
 T 200 50 5 10 0 0 0 0 1
 pintype=pas
-T 200 205 5 8 0 1 90 0 1
-pinlabel=-
+T 155 200 5 4 1 1 0 0 1
+pinlabel=bal.
 T 70 75 5 6 1 1 180 6 1
 pinnumber=5
 T 200 50 5 10 0 0 0 0 1
 pinseq=5
 }
-P 800 100 800 450 1 0 0
+P 800 0 800 450 1 0 0
 {
 T 800 50 5 10 0 0 0 0 1
 pintype=pas
-T 800 505 5 10 0 1 90 0 1
-pinlabel=-
+T 875 230 5 4 1 1 90 0 1
+pinlabel=strobe
 T 670 75 5 6 1 1 180 6 1
 pinnumber=8
 T 800 50 5 10 0 0 0 0 1
 pinseq=8
 }
-P 400 100 400 250 1 0 0
+P 400 0 400 250 1 0 0
 {
 T 400 50 5 10 0 0 0 0 1
 pintype=pwr
-T 400 305 5 8 0 1 90 0 1
-pinlabel=-
+T 420 350 5 4 1 1 180 0 1
+pinlabel=V-
 T 270 75 5 6 1 1 180 6 1
 pinnumber=4
 T 400 50 5 10 0 0 0 0 1
 pinseq=4
 }
-P 600 100 600 350 1 0 0
+P 600 0 600 350 1 0 0
 {
 T 600 50 5 10 0 0 0 0 1
 pintype=pas
-T 600 405 5 10 0 1 90 0 1
-pinlabel=-
+T 530 400 5 4 1 1 0 0 1
+pinlabel=bal.
 T 470 75 5 6 1 1 180 6 1
 pinnumber=1
 T 600 50 5 10 0 0 0 0 1
@@ -108,8 +108,8 @@ P 400 900 400 750 1 0 0
 {
 T 400 600 5 10 0 0 0 0 1
 pintype=pwr
-T 575 945 5 10 0 1 90 6 1
-pinlabel=-
+T 355 700 5 4 1 1 180 6 1
+pinlabel=V+
 T 355 925 5 6 1 1 180 0 1
 pinnumber=7
 T 400 600 5 10 0 0 0 0 1
