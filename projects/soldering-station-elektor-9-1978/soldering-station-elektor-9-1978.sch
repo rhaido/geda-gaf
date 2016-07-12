@@ -373,7 +373,7 @@ C 43050 48300 1 0 0 ech-diode-2.sym
 {
 T 43350 49000 5 10 0 0 0 3 1
 footprint=$(Footprint)
-T 43350 48750 5 8 1 1 0 3 1
+T 43250 48650 5 8 1 1 0 3 1
 refdes=D1
 T 43350 49200 5 10 0 0 0 3 1
 device=DIODE
@@ -587,7 +587,7 @@ C 56100 46900 1 0 0 ech-diode-1.sym
 {
 T 55995 47595 5 10 0 0 0 7 1
 footprint=$(Footprint)
-T 56375 47200 5 10 1 1 0 0 1
+T 56375 47200 5 8 1 1 0 0 1
 refdes=D5
 T 55995 47795 5 10 0 0 0 7 1
 device=DIODE
@@ -598,18 +598,18 @@ C 54400 46000 1 0 0 ech-diode-2.sym
 {
 T 54700 46700 5 10 0 0 0 3 1
 footprint=$(Footprint)
-T 54700 46450 5 10 1 1 0 3 1
+T 54600 46350 5 8 1 1 0 3 1
 refdes=D4
 T 54700 46900 5 10 0 0 0 3 1
 device=DIODE
-T 54500 45900 5 6 1 1 0 0 1
+T 54500 45800 5 6 1 1 0 0 1
 model-name=1N4001
 }
 C 56100 45500 1 0 0 led-1.sym
 {
 T 55745 45995 5 10 0 0 0 7 1
 footprint=$(Footprint)
-T 56525 45400 5 10 1 1 180 1 1
+T 56525 45400 5 8 1 1 180 1 1
 refdes=D6
 T 55745 46195 5 10 0 0 0 7 1
 device=DIODE
@@ -664,7 +664,7 @@ N 52900 47100 52900 47200 4
 N 52200 48300 52200 48400 4
 N 52200 47300 52200 47200 4
 T 50200 40700 9 10 1 0 0 0 1
-Soldering Station from Elektor Issue 09 1978 UK edition
+Soldering Station from Elektor Issue 09 1978 UK Edition
 T 50000 40400 9 10 1 0 0 0 1
 soldering-station-elektor-9-1978.sh
 T 50300 40100 9 10 1 0 0 0 1
