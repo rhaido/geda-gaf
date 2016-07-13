@@ -29,7 +29,7 @@ L 275,100
 z
 T 200 600 8 10 0 0 0 3 1
 footprint=$(Footprint)
-T 200 350 8 10 1 1 0 3 1
+T 200 350 8 8 1 1 0 3 1
 refdes=D?
 T 200 800 8 10 0 0 0 3 1
 device=DIODE

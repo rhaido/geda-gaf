@@ -29,7 +29,7 @@ L 100,125
 z
 T -5 395 8 10 0 0 0 7 1
 footprint=$(Footprint)
-T 200 400 8 10 1 1 0 1 1
+T 200 400 8 8 1 1 0 1 1
 refdes=D?
 T -5 95 8 10 0 0 0 7 1
 author=Edward Hennessy
