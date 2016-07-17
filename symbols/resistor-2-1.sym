@@ -26,5 +26,5 @@ T 350 300 5 10 0 0 0 0 1
 device=RESISTOR
 T 50 250 8 8 1 1 0 0 1
 refdes=R?
-T 191 77 8 5 1 1 0 0 1
+T 191 102 8 5 1 1 0 1 1
 value=R
