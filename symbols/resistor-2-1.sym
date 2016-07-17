@@ -28,3 +28,5 @@ T 50 250 8 8 1 1 0 0 1
 refdes=R?
 T 191 102 8 5 1 1 0 1 1
 value=R
+T 400 300 8 10 0 1 0 0 1
+footprint=ACY300

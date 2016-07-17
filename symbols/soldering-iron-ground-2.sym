@@ -10,7 +10,7 @@ author=Mikhail Grozak
 T -3500 -350 8 10 0 0 0 3 1
 device=SOLDERING_IRON
 T -3500 -550 8 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=CONNECTOR 1 1
 T -3628 -1305 8 10 0 0 0 0 1
 numslots=3
 T -3300 -1000 8 10 0 1 0 0 1
