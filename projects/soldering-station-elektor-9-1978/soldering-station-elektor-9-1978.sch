@@ -362,12 +362,14 @@ C 43300 46600 1 0 0 ech-capacitor-pol-1.sym
 {
 T 43200 47500 5 8 1 1 0 1 1
 refdes=C1
-T 43000 46800 5 7 1 1 0 1 1
+T 43000 46900 5 7 1 1 0 1 1
 value=470uF
 T 43295 47400 5 10 0 0 0 7 1
 footprint=$(Footprint)
 T 43295 47600 5 10 0 0 0 7 1
 device=CAPACITOR
+T 43000 46700 9 6 1 1 0 0 1
+comment=40V
 }
 N 43500 47600 43500 48800 4
 N 43500 48400 43600 48400 4
@@ -427,7 +429,7 @@ N 55300 49200 55300 46900 4
 C 45600 47200 1 0 0 led-1.sym
 {
 T 45245 47695 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=led_5mm_red
 T 45525 47600 5 8 1 1 180 1 1
 refdes=D3
 T 45245 47895 5 10 0 0 0 7 1
@@ -514,7 +516,7 @@ model-name=1n4001
 C 54200 46000 1 0 0 ech-diode-2.sym
 {
 T 54500 46700 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=CONNECTOR 1 2
 T 54400 46350 5 8 1 1 0 3 1
 refdes=D4
 T 54500 46900 5 10 0 0 0 3 1
@@ -623,7 +625,7 @@ T 48250 46200 5 10 0 0 0 0 1
 device=RESISTOR
 T 47950 46150 5 8 1 1 0 0 1
 refdes=R17
-T 48091 45977 5 5 1 1 0 0 1
+T 48191 46002 5 5 1 1 0 4 1
 value=1M
 }
 N 47900 46000 47600 46000 4
