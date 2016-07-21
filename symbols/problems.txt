@@ -1,0 +1,7 @@
+opamp.sym
+opamp_741compat_pwr.sym
+soldering-iron-ground-1.sym
+soldering-iron-ground-2.sym
+soldering-iron-heater-1.sym
+soldering-iron-ptc-element-1.sym
+switch-pb.sym
