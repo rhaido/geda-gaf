@@ -115,3 +115,5 @@ pinnumber=7
 T 400 600 5 10 0 0 0 0 1
 pinseq=7
 }
+T -7 -5 8 10 0 1 0 0 1
+device=CA3130
