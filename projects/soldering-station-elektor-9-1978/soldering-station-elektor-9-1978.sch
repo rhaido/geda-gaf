@@ -297,7 +297,7 @@ refdes=C2
 T 51200 47300 5 7 1 1 0 5 1
 value=100n
 T 51200 48000 5 10 0 0 0 3 1
-footprint=-
+footprint=ACY200
 T 51200 48200 5 10 0 0 0 3 1
 device=CAPACITOR
 }
@@ -314,7 +314,7 @@ refdes=C5
 T 48700 43825 5 7 1 1 0 5 1
 value=22n
 T 48500 44500 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=ACY200
 T 48500 44700 5 10 0 0 0 3 1
 device=CAPACITOR
 }
@@ -333,7 +333,7 @@ refdes=C4
 T 44300 42900 5 7 1 1 0 1 1
 value=100n
 T 43895 43400 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=ACY200
 T 43895 43800 5 10 0 0 0 7 1
 device=CAPACITOR
 }
@@ -344,7 +344,7 @@ N 44200 42700 44200 42900 4
 C 44200 46900 1 0 0 ech-diode-zener-1.sym
 {
 T 44095 47495 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=DIODE_LAY 300
 T 44000 47400 5 8 1 1 0 1 1
 refdes=D2
 T 44095 47695 5 10 0 0 0 7 1
@@ -365,7 +365,7 @@ refdes=C1
 T 43000 46900 5 7 1 1 0 1 1
 value=470uF
 T 43295 47400 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=RADIAL_CAN 400
 T 43295 47600 5 10 0 0 0 7 1
 device=CAPACITOR
 T 43000 46700 9 6 1 1 0 0 1
@@ -377,7 +377,7 @@ N 43500 46600 43500 46100 4
 C 42800 48300 1 0 0 ech-diode-2.sym
 {
 T 43100 49000 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY 300
 T 43000 48650 5 8 1 1 0 3 1
 refdes=D1
 T 43100 49200 5 10 0 0 0 3 1
@@ -395,7 +395,7 @@ N 52000 44200 52000 44500 4
 C 55000 45000 1 180 1 triac-1.sym
 {
 T 54795 44305 5 10 0 0 180 1 1
-footprint=$(Footprint)
+footprint=TO220W
 T 55825 44475 5 8 1 1 0 7 1
 refdes=Tr1
 T 54795 44105 5 10 0 0 180 1 1
@@ -429,7 +429,7 @@ N 55300 49200 55300 46900 4
 C 45600 47200 1 0 0 led-1.sym
 {
 T 45245 47695 5 10 0 0 0 7 1
-footprint=led_5mm_red
+footprint=RCY100
 T 45525 47600 5 8 1 1 180 1 1
 refdes=D3
 T 45245 47895 5 10 0 0 0 7 1
@@ -505,7 +505,7 @@ value=4k7
 C 55900 46900 1 0 0 ech-diode-1.sym
 {
 T 55795 47595 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=DIODE_LAY 300
 T 56175 47200 5 8 1 1 0 0 1
 refdes=D5
 T 55795 47795 5 10 0 0 0 7 1
@@ -516,7 +516,7 @@ model-name=1n4001
 C 54200 46000 1 0 0 ech-diode-2.sym
 {
 T 54500 46700 5 10 0 0 0 3 1
-footprint=CONNECTOR 1 2
+footprint=DIODE_LAY 300
 T 54400 46350 5 8 1 1 0 3 1
 refdes=D4
 T 54500 46900 5 10 0 0 0 3 1
@@ -527,7 +527,7 @@ model-name=1N4001
 C 55900 45500 1 0 0 led-1.sym
 {
 T 55545 45995 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=HEADER2_1
 T 56325 45400 5 8 1 1 180 1 1
 refdes=D6
 T 55545 46195 5 10 0 0 0 7 1
@@ -555,7 +555,7 @@ value=10u
 T 52200 47600 5 10 0 1 0 1 1
 package=$(Package)
 T 51795 48100 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=RCY100P
 T 51795 48300 5 10 0 0 0 7 1
 device=CAPACITOR
 }
@@ -655,7 +655,7 @@ refdefs=SI1a
 T 54600 46700 5 10 1 1 0 0 1
 comment=Heater
 T 55200 45900 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 2
+footprint=HEADER2_1
 }
 N 52500 43900 52600 43900 4
 C 44800 44100 1 0 0 soldering-iron-ptc-element-1.sym
@@ -665,7 +665,7 @@ device=SOLDERING_IRON
 T 44400 44500 5 8 1 1 0 0 1
 refdefs=SI1b
 T 44800 44100 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 2
+footprint=HEADER2_1
 }
 C 43000 42600 1 0 0 soldering-iron-ground-2.sym
 {
@@ -674,7 +674,7 @@ device=SOLDERING_IRON
 T 42975 42475 5 8 1 1 0 0 1
 refdefs=SIc
 T 43000 42600 5 10 0 0 0 0 1
-footprint=CONNECTOR 1 1
+footprint=JUMPER1
 }
 N 43300 42700 43400 42700 4
 N 52700 47200 52700 47000 4
