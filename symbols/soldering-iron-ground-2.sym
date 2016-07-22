@@ -4,23 +4,13 @@ use-license=Unlimited
 T -3500 150 8 10 0 0 0 3 1
 dist-license=GPL
 T -3500 350 8 10 0 0 0 3 1
-copyright=(C) 2016 Mikhail 'Mike' Grozak
+copyright=2016 Mikhail Grozak
 T -3500 550 8 10 0 0 0 3 1
 author=Mikhail Grozak
 T -3500 -350 8 10 0 0 0 3 1
 device=SOLDERING_IRON
 T -3500 -550 8 10 0 0 0 3 1
 footprint=CONNECTOR 1 1
-T -3628 -1305 8 10 0 0 0 0 1
-numslots=3
-T -3300 -1000 8 10 0 1 0 0 1
-slot=3
-T -3200 -800 8 10 0 1 0 0 1
-slotdef=1:1,2
-T -3200 -750 8 10 0 1 0 0 1
-slotdef=2:3,4
-T -3200 -700 8 10 0 1 0 0 1
-slotdef=3:5
 V 150 100 50 3 15 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 300 100 200 100 1 0 0
 {
@@ -34,4 +24,4 @@ T 0 100 5 6 1 1 0 4 1
 pinlabel=E
 }
 T 100 200 8 8 1 1 0 0 1
-refdefs=SI?
+refdes=SI?
