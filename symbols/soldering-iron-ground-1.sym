@@ -10,16 +10,16 @@ author=Mikhail Grozak
 T -3300 -350 8 10 0 0 0 3 1
 device=SOLDERING_IRON
 T -3300 -550 8 10 0 0 0 3 1
-footprint=CONNECTOR 1 1
+footprint=JUMPER1
 V 100 150 50 3 15 0 0 -1 -1 0 -1 -1 -1 -1 -1
 P 100 0 100 100 1 0 0
 {
 T 100 0 5 10 0 0 0 0 1
 pintype=pas
 T 50 5 5 10 0 1 90 6 1
-pinnumber=5
+pinnumber=1
 T 100 0 5 10 0 0 0 0 1
-pinseq=5
+pinseq=1
 T 200 200 5 6 1 1 0 0 1
 pinlabel=E
 }

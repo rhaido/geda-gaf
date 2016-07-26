@@ -23,7 +23,7 @@ pintype=pas
 }
 B 100 25 400 150 3 10 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 350 300 5 10 0 0 0 0 1
-device=RESISTOR
+device=FUSE
 T 50 225 8 8 1 1 0 0 1
 refdes=F?
 L 100 100 500 100 3 5 0 0 -1 -1

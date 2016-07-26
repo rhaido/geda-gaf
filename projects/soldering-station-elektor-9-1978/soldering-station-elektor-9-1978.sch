@@ -139,7 +139,7 @@ value=10k
 C 51500 43000 1 0 0 4027-1.sym
 {
 T 51925 44100 5 8 1 1 0 6 1
-refdes=U3b
+refdes=U3
 T 53400 42650 5 10 0 0 0 0 1
 device=4027
 T 53400 42850 5 10 0 0 0 0 1
@@ -150,7 +150,7 @@ slot=2
 C 51400 45100 1 0 0 4027-1.sym
 {
 T 51800 46200 5 8 1 1 0 6 1
-refdes=U3a
+refdes=U3
 T 53300 44750 5 10 0 0 0 0 1
 device=4027
 T 53300 44950 5 10 0 0 0 0 1
@@ -161,7 +161,7 @@ C 48800 47300 1 0 0 4093-1.sym
 T 49000 49600 5 10 0 2 0 0 1
 device=4093
 T 48900 47800 5 8 1 1 0 0 1
-refdes=U2c
+refdes=U2
 T 49000 49800 5 10 0 0 0 0 1
 footprint=DIP14
 T 49200 47800 5 8 0 0 0 0 1
@@ -172,7 +172,7 @@ C 50000 47300 1 0 0 4093-1.sym
 T 50200 49600 5 10 0 0 0 0 1
 device=4093
 T 50100 47800 5 8 1 1 0 0 1
-refdes=U2d
+refdes=U2
 T 50200 49800 5 10 0 0 0 0 1
 footprint=DIP14
 T 50000 47300 5 10 0 0 0 0 1
@@ -183,7 +183,7 @@ C 49100 45000 1 0 0 4093-1.sym
 T 49300 47300 5 10 0 0 0 0 1
 device=4093
 T 49200 45500 5 8 1 1 0 0 1
-refdes=U2a
+refdes=U2
 T 49300 47500 5 10 0 0 0 0 1
 footprint=DIP14
 T 49100 45000 5 10 0 0 0 0 1
@@ -194,7 +194,7 @@ C 50000 43700 1 0 0 4093-1.sym
 T 50200 46000 5 10 0 0 0 0 1
 device=4093
 T 50100 44200 5 8 1 1 0 0 1
-refdes=U2b
+refdes=U2
 T 50200 46200 5 10 0 0 0 0 1
 footprint=DIP14
 T 50000 43700 5 10 0 0 0 0 1
@@ -258,7 +258,7 @@ refdes=P1
 T 47302 47248 5 10 0 0 270 0 1
 device=VARIABLE_RESISTOR
 T 47102 47248 5 10 0 0 270 0 1
-footprint=POT_LAYING
+footprint=POT_BOURNS_3386P
 T 46548 47472 5 5 1 1 90 0 1
 value=10k
 }
@@ -269,7 +269,7 @@ refdes=P2
 T 47302 44648 5 10 0 0 270 0 1
 device=VARIABLE_RESISTOR
 T 47102 44648 5 10 0 0 270 0 1
-footprint=POT_LAYING
+footprint=JUMPER3
 T 46548 44897 5 5 1 1 90 0 1
 value=100R
 }
@@ -281,7 +281,7 @@ refdes=P3
 T 47098 44652 5 10 0 0 90 0 1
 device=VARIABLE_RESISTOR
 T 47298 44652 5 10 0 0 90 0 1
-footprint=POT_LAYING
+footprint=POT_BOURNS_3386P
 T 47923 44197 5 5 1 1 90 0 1
 value=100k
 }
@@ -422,7 +422,9 @@ C 42000 46700 1 0 0 transformer-1.sym
 T 42200 47900 5 8 1 1 0 0 1
 refdes=T1
 T 42300 48000 5 10 0 0 0 0 1
-device=transformer
+device=TRANSFORMER
+T 42000 46700 5 10 0 0 0 0 1
+footprint=TERMBLOCK138-V-2d
 }
 N 42500 46700 42500 46100 4
 N 55300 49200 55300 46900 4
@@ -441,7 +443,7 @@ N 49900 43800 50000 43800 4
 C 41400 48300 1 0 0 fuse-1.sym
 {
 T 41750 48600 5 10 0 0 0 0 1
-device=RESISTOR
+device=FUSE
 T 41550 48525 5 8 1 1 0 0 1
 refdes=F1
 T 41600 48225 5 6 1 1 0 0 1
@@ -460,8 +462,6 @@ T 41400 47350 5 8 0 1 0 0 1
 refdes=VAC1
 T 40800 47450 5 8 1 1 0 0 1
 device=Mains
-T 41600 47650 5 10 0 0 0 0 1
-footprint=none
 }
 C 52900 45900 1 0 0 nc-right-1.sym
 {
@@ -655,7 +655,7 @@ refdefs=SI1a
 T 54600 46700 5 10 1 1 0 0 1
 comment=Heater
 T 55200 45900 5 10 0 0 0 0 1
-footprint=HEADER2_1
+footprint=TERMBLOCK138-V-2d
 }
 N 52500 43900 52600 43900 4
 C 44800 44100 1 0 0 soldering-iron-ptc-element-1.sym
@@ -665,14 +665,14 @@ device=SOLDERING_IRON
 T 44400 44500 5 8 1 1 0 0 1
 refdefs=SI1b
 T 44800 44100 5 10 0 0 0 0 1
-footprint=HEADER2_1
+footprint=JUMPER2
 }
 C 43000 42600 1 0 0 soldering-iron-ground-2.sym
 {
 T 39600 42250 5 10 0 0 0 3 1
 device=SOLDERING_IRON
 T 42975 42475 5 8 1 1 0 0 1
-refdefs=SIc
+refdefs=SI1c
 T 43000 42600 5 10 0 0 0 0 1
 footprint=JUMPER1
 }

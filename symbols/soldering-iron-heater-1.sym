@@ -10,7 +10,7 @@ author=Mikhail Grozak
 T -800 450 8 10 0 0 0 3 1
 device=SOLDERING_IRON
 T -800 250 8 10 0 0 0 3 1
-footprint=CONNECTOR 1 2
+footprint=TERMBLOCK138-V-2d
 B 0 200 200 600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 L 100 200 100 150 3 0 0 0 -1 -1
 L 0 700 200 700 3 0 0 0 -1 -1
