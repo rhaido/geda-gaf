@@ -3,8 +3,6 @@ T 400 550 8 8 1 1 0 0 1
 refdes=VAC?
 T 600 650 5 10 0 0 0 0 1
 device=vac
-T 600 850 5 10 0 0 0 0 1
-footprint=none
 T 600 1050 5 10 0 0 0 0 1
 numslots=0
 T 600 1250 5 10 0 0 0 0 1
