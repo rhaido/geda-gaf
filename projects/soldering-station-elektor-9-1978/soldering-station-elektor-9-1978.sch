@@ -297,7 +297,7 @@ refdes=C2
 T 51200 47300 5 7 1 1 0 5 1
 value=100n
 T 51200 48000 5 10 0 0 0 3 1
-footprint=ACY200
+footprint=cap_200mil
 T 51200 48200 5 10 0 0 0 3 1
 device=CAPACITOR
 }
@@ -314,7 +314,7 @@ refdes=C5
 T 48700 43825 5 7 1 1 0 5 1
 value=22n
 T 48500 44500 5 10 0 0 0 3 1
-footprint=ACY200
+footprint=cap_200mil
 T 48500 44700 5 10 0 0 0 3 1
 device=CAPACITOR
 }
@@ -333,7 +333,7 @@ refdes=C4
 T 44300 42900 5 7 1 1 0 1 1
 value=100n
 T 43895 43400 5 10 0 0 0 7 1
-footprint=ACY200
+footprint=cap_200mil
 T 43895 43800 5 10 0 0 0 7 1
 device=CAPACITOR
 }
@@ -564,14 +564,14 @@ C 52800 47300 1 0 0 74_pwr.sym
 T 52790 49300 5 8 0 0 0 0 1
 symversion=1.0
 T 52775 47750 5 8 1 1 0 0 1
-refdes=U2p
+refdes=U2
 }
 C 53200 47300 1 0 0 74_pwr16.sym
 {
 T 53190 49300 5 8 0 0 0 0 1
 symversion=1.0
 T 53175 47750 5 8 1 1 0 0 1
-refdes=U3p
+refdes=U3
 }
 N 52900 48300 52900 48400 4
 N 52000 47200 53300 47200 4
@@ -601,7 +601,7 @@ C 52400 47300 1 0 0 opamp_741compat_pwr.sym
 T 52290 49300 5 8 0 0 0 0 1
 symversion=1.0
 T 52500 47800 5 8 1 1 0 4 1
-refdes=U1p
+refdes=U1
 }
 N 52500 48300 52500 48400 4
 N 52500 47200 52500 47300 4
@@ -651,7 +651,7 @@ C 55200 45900 1 0 0 soldering-iron-heater-1.sym
 T 54400 46350 5 10 0 0 0 3 1
 device=SOLDERING_IRON
 T 54800 46400 5 8 1 1 0 0 1
-refdefs=SI1a
+refdes=SI1a
 T 54600 46700 5 10 1 1 0 0 1
 comment=Heater
 T 55200 45900 5 10 0 0 0 0 1
@@ -663,7 +663,7 @@ C 44800 44100 1 0 0 soldering-iron-ptc-element-1.sym
 T 41600 43850 5 10 0 0 0 3 1
 device=SOLDERING_IRON
 T 44400 44500 5 8 1 1 0 0 1
-refdefs=SI1b
+refdes=SI1b
 T 44800 44100 5 10 0 0 0 0 1
 footprint=JUMPER2
 }
@@ -672,7 +672,7 @@ C 43000 42600 1 0 0 soldering-iron-ground-2.sym
 T 39600 42250 5 10 0 0 0 3 1
 device=SOLDERING_IRON
 T 42975 42475 5 8 1 1 0 0 1
-refdefs=SI1c
+refdes=SI1c
 T 43000 42600 5 10 0 0 0 0 1
 footprint=JUMPER1
 }
