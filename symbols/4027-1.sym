@@ -2,7 +2,7 @@ v 20130925 2
 T 250 1100 8 10 1 1 0 6 1
 refdes=U?
 T 1800 -450 5 10 0 0 0 0 1
-device=4027
+device=LOGIC_IC
 T 1800 -250 5 10 0 0 0 0 1
 footprint=DIP16
 T 1800 -50 5 10 0 0 0 0 1
@@ -100,3 +100,5 @@ T 1800 950 5 10 0 0 0 0 1
 slotdef=2:4,5,6,3,1,2,7
 T 1800 1150 5 10 0 0 0 0 1
 description=2 JK master-slave flip-flop
+T 1100 600 8 10 0 1 0 0 1
+value=4027
