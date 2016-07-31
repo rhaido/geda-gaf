@@ -2,7 +2,7 @@ v 20130925 2
 T -110 2000 5 8 0 0 0 0 1
 symversion=1.0
 T -110 2200 5 8 0 0 0 0 1
-description=power pins for 74** parts, 14  pin
+description=power pins for 74**/4*** parts, 14  pin
 T -110 1800 5 8 0 0 0 0 1
 author=Kai-Martin Knaak kmk@lilalaser.de
 T -110 1600 5 8 0 0 0 0 1
