@@ -282,7 +282,7 @@ refdes=P1
 T 47302 47248 5 10 0 0 270 0 1
 device=VARIABLE_RESISTOR
 T 47102 47248 5 10 0 0 270 0 1
-footprint=POT_BOURNS_3386P
+footprint=pot_cermet_3362p
 T 46548 47472 5 5 1 1 90 0 1
 value=10k
 }
@@ -305,7 +305,7 @@ refdes=P3
 T 47098 44652 5 10 0 0 90 0 1
 device=VARIABLE_RESISTOR
 T 47298 44652 5 10 0 0 90 0 1
-footprint=POT_BOURNS_3386P
+footprint=pot_cermet_3362p
 T 47923 44197 5 5 1 1 90 0 1
 value=100k
 }
