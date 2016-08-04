@@ -225,7 +225,7 @@ device=BC559C
 T 46675 46225 5 8 1 1 0 0 1
 refdes=Q1
 T 46800 46800 5 10 0 1 0 0 1
-footprint=TO92
+footprint=mike_grozak_TO-92-cornered
 }
 N 48700 45200 49000 45200 4
 N 49900 43800 49900 46000 4
@@ -514,7 +514,7 @@ N 52400 46000 52900 46000 4
 C 53700 45100 1 0 0 tun-small.sym
 {
 T 53400 45700 5 10 0 1 0 0 1
-footprint=TO92
+footprint=phil_taylor-TO-92-round
 T 54275 45250 5 6 1 1 0 0 1
 model=BC547B
 T 54275 45425 5 8 1 1 0 0 1
