@@ -56,23 +56,15 @@ ChangePinName(Q2, 2, B)
 ChangePinName(Q2, 1, E)
 ChangePinName(Q2, 3, C)
 
-# Start of element VAC1
-ChangePinName(VAC1, 2, 2)
-ChangePinName(VAC1, 1, 1)
-
-# Start of element F1
-ChangePinName(F1, 1, 1)
-ChangePinName(F1, 2, 2)
-
 # Start of element D3
 ChangePinName(D3, 2, 2)
 ChangePinName(D3, 1, 1)
 
 # Start of element T1
-ChangePinName(T1, 3, 3)
-ChangePinName(T1, 4, 4)
-ChangePinName(T1, 1, 1)
-ChangePinName(T1, 2, 2)
+ChangePinName(T1, 3, 1)
+ChangePinName(T1, 4, 2)
+ChangePinName(T1, 3, 1)
+ChangePinName(T1, 4, 2)
 
 # Start of element R14
 ChangePinName(R14, 1, 1)
