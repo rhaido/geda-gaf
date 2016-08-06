@@ -8,8 +8,8 @@ ChangePinName(SI11, 2, D)
 ChangePinName(SI11, 1, C)
 
 # Start of element SI10
-ChangePinName(SI10, 2, B)
-ChangePinName(SI10, 1, A)
+ChangePinName(SI10, 1, B)
+ChangePinName(SI10, 2, A)
 
 # Start of element R18
 ChangePinName(R18, 1, 1)

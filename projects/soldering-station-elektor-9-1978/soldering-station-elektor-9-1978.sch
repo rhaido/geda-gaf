@@ -88,6 +88,8 @@ T 43791 48377 5 5 1 1 0 0 1
 value=2k2
 T 43800 48200 5 6 1 1 0 4 1
 comment=1W
+T 43600 48300 5 10 0 0 0 0 1
+footprint=ACY500
 }
 C 54200 47300 1 90 0 resistor-2-1.sym
 {
@@ -99,6 +101,8 @@ T 54123 47541 5 5 1 1 90 0 1
 value=1k
 T 54250 47575 5 6 1 1 0 0 1
 comment=1W
+T 54200 47300 5 10 0 0 0 0 1
+footprint=ACY500
 }
 C 48700 47700 1 90 0 resistor-2-1.sym
 {
@@ -426,6 +430,12 @@ T 55825 44475 5 8 1 1 0 7 1
 refdes=Tr1
 T 54795 44105 5 10 0 0 180 1 1
 device=DIODE
+T 55000 45000 5 10 0 0 0 0 1
+numslots=1
+T 55000 45000 5 10 0 0 0 0 1
+slotdef=1:2,1,3
+T 55000 45000 5 10 0 0 0 0 1
+slot=1
 }
 C 54900 43100 1 90 0 resistor-2-1.sym
 {
@@ -456,7 +466,7 @@ refdes=T1
 T 42300 46600 5 10 0 0 180 0 1
 device=TRANSFORMER
 T 42600 47900 5 10 0 0 180 0 1
-footprint=TERMBLOCK138-V-2d
+footprint=mike_grozak_termblock200
 T 42600 47900 5 10 0 0 180 0 1
 slot=2
 }
@@ -693,7 +703,13 @@ refdes=SI10
 T 54600 46700 5 10 1 1 0 0 1
 comment=Heater
 T 55200 45900 5 10 0 0 0 0 1
-footprint=TERMBLOCK138-V-2d
+footprint=mike_grozak_termblock200
+T 55200 45900 5 10 0 0 0 0 1
+numslots=1
+T 55200 45900 5 10 0 0 0 0 1
+slotdef=1:2,1
+T 55200 45900 5 10 0 0 0 0 1
+slot=1
 }
 N 52500 43900 52600 43900 4
 C 44800 44100 1 0 0 soldering-iron-ptc-element-1.sym
