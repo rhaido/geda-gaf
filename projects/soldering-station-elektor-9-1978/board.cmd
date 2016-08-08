@@ -80,8 +80,8 @@ ChangePinName(R14, 2, 2)
 
 # Start of element Tr1
 ChangePinName(Tr1, 3, g)
-ChangePinName(Tr1, 2, a1)
-ChangePinName(Tr1, 1, a2)
+ChangePinName(Tr1, 1, a1)
+ChangePinName(Tr1, 2, a2)
 
 # Start of element D1
 ChangePinName(D1, 2, 2)

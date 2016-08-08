@@ -466,7 +466,7 @@ refdes=T1
 T 42300 46600 5 10 0 0 180 0 1
 device=TRANSFORMER
 T 42600 47900 5 10 0 0 180 0 1
-footprint=mike_grozak_termblock200
+footprint=mike_grozak_termblock200-2
 T 42600 47900 5 10 0 0 180 0 1
 slot=2
 }
@@ -703,7 +703,7 @@ refdes=SI10
 T 54600 46700 5 10 1 1 0 0 1
 comment=Heater
 T 55200 45900 5 10 0 0 0 0 1
-footprint=mike_grozak_termblock200
+footprint=mike_grozak_termblock200-2
 T 55200 45900 5 10 0 0 0 0 1
 numslots=1
 T 55200 45900 5 10 0 0 0 0 1
