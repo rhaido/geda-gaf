@@ -1,0 +1,56 @@
+v 20111231 2
+T 200 2800 5 8 0 0 0 0 1
+description=variable negative voltage regulator
+T 200 2600 5 8 0 0 0 0 1
+documentation=http://www.ti.com/lit/gpn/lm337
+T 200 2000 5 8 0 0 0 0 1
+author=Kai-Martin Knaak kmk@lilalaser.de
+T 200 1800 5 8 0 0 0 0 1
+dist-license=GPL 3, see http://www.gnu.org/licenses/gpl-3.0.txt
+T 200 1600 5 8 0 0 0 0 1
+use-license=free, no restrictions
+T 200 1300 8 10 1 1 0 0 1
+refdes=U?
+T 200 1100 8 10 1 1 0 0 1
+value=LM337T
+T 200 900 8 8 1 1 0 0 1
+footprint=TO220
+P 1200 500 1300 500 1 0 1
+{
+T 1300 600 5 10 0 1 0 0 1
+pinnumber=3
+T 1300 600 5 10 1 1 0 0 1
+pinseq=3
+T 1150 500 9 10 1 1 0 6 1
+pinlabel=out
+T 1300 300 5 10 0 1 0 0 1
+pintype=pwr
+}
+P 100 500 200 500 1 0 0
+{
+T 100 600 5 10 1 1 0 6 1
+pinnumber=2
+T 100 600 5 10 0 1 0 6 1
+pinseq=2
+T 300 500 9 10 1 1 0 0 1
+pinlabel=in
+T 0 300 5 10 0 1 0 0 1
+pintype=in
+}
+P 700 100 700 200 1 0 0
+{
+T 800 0 5 10 1 1 0 0 1
+pinnumber=1
+T 800 0 5 10 0 1 0 0 1
+pinseq=1
+T 700 300 9 10 1 1 0 3 1
+pinlabel=adjust
+T 300 0 5 10 0 1 0 0 1
+pintype=pas
+}
+B 200 200 1000 600 3 10 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 600 650 800 650 3 10 0 0 -1 -1
+T 200 2400 5 8 0 0 0 0 1
+footprints=TO220, D2PAK
+T 200 2200 5 8 0 0 0 0 1
+symversion=2.0

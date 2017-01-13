@@ -309,3 +309,25 @@ footprint=$(Footprint)
 T 53595 48100 5 10 0 0 0 7 1
 device=CAPACITOR
 }
+C 43500 47600 1 0 0 lm317.sym
+{
+T 43700 48475 5 10 1 1 0 0 1
+refdes=U?
+T 43675 48400 5 10 0 1 0 0 1
+value=LM317T
+T 43700 48500 5 8 0 1 0 0 1
+footprint=TO220
+T 43800 50000 5 8 0 0 0 0 1
+symversion=3.0
+}
+C 44200 40700 1 0 0 lm337.sym
+{
+T 44400 41575 5 10 1 1 0 0 1
+refdes=U?
+T 44400 41800 5 10 0 1 0 0 1
+value=LM337T
+T 44400 41600 5 8 0 1 0 0 1
+footprint=TO220
+T 44400 42900 5 8 0 0 0 0 1
+symversion=2.0
+}
