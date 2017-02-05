@@ -248,7 +248,5 @@ value=8R
 N 47300 48800 47200 48800 4
 N 47200 48800 47200 48400 4
 N 47200 48400 47600 48400 4
-T 47800 48900 9 7 1 0 0 0 3
-*Should be
-mechanically
-fixed to 1 Ohm
+T 52800 49200 9 7 1 0 0 0 1
+P1 - should be mechanically fixed to 1 Ohm
