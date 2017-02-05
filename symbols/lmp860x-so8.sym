@@ -1,0 +1,95 @@
+v 20130925 2
+T -300 2100 5 8 0 0 0 0 1
+description=operational amplifier
+T -300 1900 5 8 0 0 0 0 1
+comment=Use symbol opamp_pwr.sym to connect power pins.
+T -300 1700 5 8 0 0 0 0 1
+documentation=https://www.intersil.com/en/products/amplifiers-and-buffers/all-amplifiers/amplifiers/CA3130.html
+T -300 1500 5 8 0 0 0 0 1
+footprints=SO8, DIP8
+T -300 1300 5 8 0 0 0 0 1
+symversion=1.0
+T -300 1100 5 8 0 0 0 0 1
+author=Mike Grozak mike.grozak@gmail.com
+T -300 900 5 8 0 0 0 0 1
+dist-license=GPL 3, http://www.gnu.org/licenses/gpl-3.0.txt
+T 500 900 8 10 1 1 0 0 1
+refdes=U?
+T 200 -200 8 8 0 1 0 0 1
+footprint=SO8
+P 0 300 100 300 1 0 0
+{
+T 50 350 5 6 1 1 0 6 1
+pinnumber=1
+T 50 350 5 8 0 1 0 6 1
+pinseq=1
+T 150 200 9 16 0 1 0 0 1
+pinlabel=-
+T 50 250 5 8 0 1 0 8 1
+pintype=in
+}
+P 0 700 100 700 1 0 0
+{
+T 50 750 5 6 1 1 0 6 1
+pinnumber=8
+T 50 750 5 8 0 1 0 6 1
+pinseq=8
+T 150 600 9 16 0 1 0 0 1
+pinlabel=+
+T 50 650 5 8 0 1 0 8 1
+pintype=in
+}
+P 900 500 1000 500 1 0 1
+{
+T 900 550 5 6 1 1 0 0 1
+pinnumber=5
+T 900 550 5 8 0 1 0 0 1
+pinseq=5
+T 900 350 5 8 0 1 0 0 1
+pintype=out
+T 700 500 9 8 0 1 0 7 1
+pinlabel=out
+}
+T -300 700 5 8 0 0 0 0 1
+use-license=free, no restrictions
+L 100 900 900 500 3 15 0 0 -1 -1
+L 100 100 900 500 3 15 0 0 -1 -1
+L 150 700 250 700 3 10 0 0 -1 -1
+L 200 750 200 650 3 10 0 0 -1 -1
+L 150 300 250 300 3 10 0 0 -1 -1
+L 100 900 100 100 3 15 2 0 -1 -1
+P 200 0 200 150 1 0 0
+{
+T 200 50 5 10 0 0 0 0 1
+pintype=pas
+T 300 30 5 4 1 1 90 0 1
+pinlabel=A1
+T 95 75 5 6 1 1 180 6 1
+pinnumber=3
+T 200 50 5 10 0 0 0 0 1
+pinseq=3
+}
+P 800 0 800 450 1 0 0
+{
+T 800 50 5 10 0 0 0 0 1
+pintype=pas
+T 900 30 5 4 1 1 90 0 1
+pinlabel=off.
+T 695 75 5 6 1 1 180 6 1
+pinnumber=7
+T 800 50 5 10 0 0 0 0 1
+pinseq=7
+}
+P 500 0 500 300 1 0 0
+{
+T 500 50 5 10 0 0 0 0 1
+pintype=pas
+T 600 30 5 4 1 1 90 0 1
+pinlabel=A2
+T 395 75 5 6 1 1 180 6 1
+pinnumber=4
+T 500 50 5 10 0 0 0 0 1
+pinseq=4
+}
+T -7 -5 8 10 0 1 0 0 1
+device=LMP860x
