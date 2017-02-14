@@ -25,10 +25,10 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <java.awt.Point x="1.9" y="2.0"/>
+        <java.awt.Point x="1.9" y="2.2"/>
         <java.awt.Point x="5.8" y="3.3"/>
       </controlPoints>
-      <firstPoint x="1.9" y="2.0"/>
+      <firstPoint x="1.9" y="2.2"/>
       <secondPoint x="5.8" y="3.3"/>
       <boardColor>
         <red>248</red>
@@ -83,16 +83,6 @@
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
       <point x="2.5" y="2.4"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut2</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.6" y="2.4"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut3</name>
@@ -172,7 +162,7 @@
       <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="5.1" y="2.9"/>
+      <point x="5.0" y="2.9"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut12</name>
@@ -182,7 +172,7 @@
       <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="5.1" y="2.8"/>
+      <point x="5.0" y="2.8"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut13</name>
@@ -192,127 +182,7 @@
       <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
       <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="5.1" y="2.7"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut18</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="2.8" y="2.1"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut19</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="2.8" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut20</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="2.9" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut21</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.0" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut22</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.1" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut23</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.1" y="2.1"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut28</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.2" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut29</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.2" y="2.1"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut30</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.3" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut31</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.4" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut32</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.5" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut33</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
-      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
-      <point x="3.5" y="2.1"/>
+      <point x="5.0" y="2.7"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut37</name>
@@ -347,289 +217,361 @@
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut38</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.1" y="2.4"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut39</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.1" y="2.5"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut40</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.2" y="2.5"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut41</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.2" y="2.6"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut42</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.1" y="2.6"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut43</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.1" y="2.7"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut44</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.2" y="2.7"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut45</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="4.4" y="2.4"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut46</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="4.5" y="2.4"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut47</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="4.5" y="2.5"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut48</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="4.4" y="2.5"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut49</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="4.4" y="2.6"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut50</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="4.5" y="2.6"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut51</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="4.5" y="2.7"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut52</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="4.4" y="2.7"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
-      <name>Cut53</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
-      <point x="2.5" y="2.3"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
       <name>Cut54</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.7" y="2.4"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut14</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="2.5" y="2.5"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut15</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="2.5" y="2.6"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut16</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="2.5" y="2.7"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut17</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="2.5" y="2.8"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut24</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="2.5" y="3.2"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut26</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
-      <point x="5.1" y="2.5"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
+      <point x="5.0" y="2.5"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut27</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
-      <point x="5.1" y="2.4"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
+      <point x="5.0" y="2.4"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut34</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
-      <point x="5.1" y="2.3"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut35</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
-      <point x="5.1" y="2.2"/>
-    </org.diylc.components.connectivity.TraceCut>
-    <org.diylc.components.connectivity.TraceCut>
-      <name>Cut36</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
-      <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
-      <point x="5.1" y="2.1"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
+      <point x="5.0" y="2.3"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.TraceCut>
       <name>Cut55</name>
-      <size reference="../../org.diylc.components.connectivity.TraceCut[25]/size"/>
-      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[25]/borderColor"/>
-      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[25]/boardColor"/>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[12]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[12]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[12]/boardColor"/>
       <cutBetweenHoles>false</cutBetweenHoles>
-      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[25]/holeSpacing"/>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[12]/holeSpacing"/>
       <point x="3.8" y="3.2"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut25</name>
+      <size>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <fillColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </fillColor>
+      <borderColor>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <boardColor>
+        <red>248</red>
+        <green>235</green>
+        <blue>179</blue>
+        <alpha>255</alpha>
+      </boardColor>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </holeSpacing>
+      <point x="5.3" y="3.2"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut56</name>
+      <size>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <fillColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </fillColor>
+      <borderColor>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <boardColor>
+        <red>248</red>
+        <green>235</green>
+        <blue>179</blue>
+        <alpha>255</alpha>
+      </boardColor>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </holeSpacing>
+      <point x="3.1" y="3.2"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut57</name>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[39]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[39]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[39]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[39]/boardColor"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[39]/holeSpacing"/>
+      <point x="3.2" y="3.2"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut58</name>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[39]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[39]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[39]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[39]/boardColor"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[39]/holeSpacing"/>
+      <point x="2.6" y="3.2"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut59</name>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[39]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[39]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[39]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[39]/boardColor"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[39]/holeSpacing"/>
+      <point x="3.7" y="3.2"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut2</name>
+      <size reference="../../org.diylc.components.connectivity.TraceCut[39]/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut[39]/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut[39]/borderColor"/>
+      <boardColor reference="../../org.diylc.components.connectivity.TraceCut[39]/boardColor"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing reference="../../org.diylc.components.connectivity.TraceCut[39]/holeSpacing"/>
+      <point x="3.5" y="2.3"/>
     </org.diylc.components.connectivity.TraceCut>
     <org.diylc.components.connectivity.Jumper>
       <name>J1</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="2.6" y="3.0"/>
+        <java.awt.Point x="2.6" y="2.9"/>
         <java.awt.Point x="2.6" y="2.5"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
@@ -653,8 +595,8 @@
       <name>J2</name>
       <alpha>127</alpha>
       <points>
+        <java.awt.Point x="2.7" y="3.0"/>
         <java.awt.Point x="2.7" y="2.6"/>
-        <java.awt.Point x="2.7" y="2.3"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -667,7 +609,7 @@
       <name>U1</name>
       <alpha>64</alpha>
       <value></value>
-      <orientation>DEFAULT</orientation>
+      <orientation>_180</orientation>
       <pinCount>_8</pinCount>
       <pinSpacing>
         <value>0.1</value>
@@ -678,14 +620,14 @@
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </rowSpacing>
       <controlPoints>
-        <java.awt.Point x="3.0" y="2.4"/>
-        <java.awt.Point x="3.0" y="2.5"/>
-        <java.awt.Point x="3.0" y="2.6"/>
-        <java.awt.Point x="3.0" y="2.7"/>
-        <java.awt.Point x="3.3" y="2.4"/>
-        <java.awt.Point x="3.3" y="2.5"/>
-        <java.awt.Point x="3.3" y="2.6"/>
         <java.awt.Point x="3.3" y="2.7"/>
+        <java.awt.Point x="3.3" y="2.6"/>
+        <java.awt.Point x="3.3" y="2.5"/>
+        <java.awt.Point x="3.3" y="2.4"/>
+        <java.awt.Point x="3.0" y="2.7"/>
+        <java.awt.Point x="3.0" y="2.6"/>
+        <java.awt.Point x="3.0" y="2.5"/>
+        <java.awt.Point x="3.0" y="2.4"/>
       </controlPoints>
       <display>NAME</display>
       <bodyColor>
@@ -714,7 +656,7 @@
       <alpha>127</alpha>
       <points>
         <java.awt.Point x="2.8" y="2.7"/>
-        <java.awt.Point x="2.8" y="3.0"/>
+        <java.awt.Point x="2.8" y="3.2"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -727,8 +669,8 @@
       <name>J4</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="3.5" y="2.5"/>
-        <java.awt.Point x="3.5" y="3.0"/>
+        <java.awt.Point x="3.7" y="2.3"/>
+        <java.awt.Point x="3.7" y="2.5"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -741,8 +683,8 @@
       <name>J5</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="3.7" y="2.6"/>
-        <java.awt.Point x="3.7" y="2.9"/>
+        <java.awt.Point x="3.6" y="2.4"/>
+        <java.awt.Point x="3.6" y="3.0"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -780,38 +722,10 @@
       <flipStanding>false</flipStanding>
     </org.diylc.components.connectivity.Jumper>
     <org.diylc.components.connectivity.Jumper>
-      <name>J8</name>
-      <alpha>127</alpha>
-      <points>
-        <java.awt.Point x="4.0" y="2.5"/>
-        <java.awt.Point x="4.0" y="2.9"/>
-      </points>
-      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
-      <labelColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
-      <leadColor reference="../../org.diylc.components.connectivity.Jumper/leadColor"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-    </org.diylc.components.connectivity.Jumper>
-    <org.diylc.components.connectivity.Jumper>
-      <name>J9</name>
-      <alpha>127</alpha>
-      <points>
-        <java.awt.Point x="4.0" y="2.9"/>
-        <java.awt.Point x="4.1" y="3.0"/>
-      </points>
-      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
-      <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
-      <labelColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
-      <leadColor reference="../../org.diylc.components.connectivity.Jumper/leadColor"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-    </org.diylc.components.connectivity.Jumper>
-    <org.diylc.components.connectivity.Jumper>
       <name>J10</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="4.1" y="3.0"/>
+        <java.awt.Point x="4.1" y="2.5"/>
         <java.awt.Point x="4.1" y="3.2"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
@@ -825,8 +739,8 @@
       <name>J11</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="4.1" y="2.4"/>
-        <java.awt.Point x="4.1" y="2.9"/>
+        <java.awt.Point x="4.0" y="2.4"/>
+        <java.awt.Point x="4.0" y="2.9"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -884,8 +798,8 @@
       <name>J14</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="5.5" y="2.6"/>
-        <java.awt.Point x="5.5" y="2.7"/>
+        <java.awt.Point x="5.1" y="2.6"/>
+        <java.awt.Point x="5.1" y="2.7"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -898,9 +812,9 @@
       <name>P4</name>
       <alpha>92</alpha>
       <controlPoints>
+        <java.awt.Point x="5.3" y="2.6"/>
         <java.awt.Point x="5.3" y="2.7"/>
         <java.awt.Point x="5.3" y="2.8"/>
-        <java.awt.Point x="5.3" y="2.9"/>
       </controlPoints>
       <resistance>
         <value>50.0</value>
@@ -995,8 +909,8 @@
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </width>
       <points>
-        <java.awt.Point x="4.2" y="3.0"/>
-        <java.awt.Point x="4.2" y="3.2"/>
+        <java.awt.Point x="4.3" y="3.0"/>
+        <java.awt.Point x="4.3" y="3.2"/>
       </points>
       <bodyColor>
         <red>255</red>
@@ -1024,8 +938,8 @@
       <name>J15</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="5.5" y="2.9"/>
-        <java.awt.Point x="5.5" y="3.2"/>
+        <java.awt.Point x="5.1" y="2.8"/>
+        <java.awt.Point x="5.1" y="3.2"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -1038,8 +952,8 @@
       <name>J16</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="2.9" y="2.4"/>
-        <java.awt.Point x="2.9" y="2.1"/>
+        <java.awt.Point x="3.7" y="3.0"/>
+        <java.awt.Point x="3.7" y="2.6"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -1052,8 +966,8 @@
       <name>J17</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="3.4" y="2.4"/>
-        <java.awt.Point x="3.4" y="2.1"/>
+        <java.awt.Point x="3.5" y="3.2"/>
+        <java.awt.Point x="3.5" y="2.7"/>
       </points>
       <bodyColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
       <borderColor reference="../../org.diylc.components.connectivity.Jumper/borderColor"/>
@@ -1066,9 +980,9 @@
       <name>+24v</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.3" y="3.4"/>
-        <java.awt.Point x="1.8" y="3.4"/>
-        <java.awt.Point x="1.8" y="3.2"/>
+        <java.awt.Point x="1.3" y="3.1"/>
+        <java.awt.Point x="1.7" y="3.1"/>
+        <java.awt.Point x="1.8" y="3.1"/>
         <java.awt.Point x="2.0" y="3.1"/>
       </controlPoints>
       <color>
@@ -1084,9 +998,9 @@
       <name>W2</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.3" y="2.9"/>
-        <java.awt.Point x="1.7" y="2.9"/>
-        <java.awt.Point x="1.7" y="3.1"/>
+        <java.awt.Point x="1.3" y="3.0"/>
+        <java.awt.Point x="1.6" y="3.0"/>
+        <java.awt.Point x="1.7" y="3.0"/>
         <java.awt.Point x="2.0" y="3.0"/>
       </controlPoints>
       <color>
@@ -1102,9 +1016,9 @@
       <name>+5V</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.3" y="2.4"/>
-        <java.awt.Point x="1.8" y="2.4"/>
-        <java.awt.Point x="1.8" y="2.8"/>
+        <java.awt.Point x="1.3" y="2.9"/>
+        <java.awt.Point x="1.6" y="2.9"/>
+        <java.awt.Point x="1.9" y="2.9"/>
         <java.awt.Point x="2.0" y="2.9"/>
       </controlPoints>
       <color>
@@ -1128,8 +1042,8 @@
         <unit class="org.diylc.core.measures.SizeUnit">in</unit>
       </width>
       <points>
-        <java.awt.Point x="3.0" y="2.9"/>
-        <java.awt.Point x="3.0" y="3.0"/>
+        <java.awt.Point x="3.1" y="2.9"/>
+        <java.awt.Point x="3.1" y="3.0"/>
       </points>
       <bodyColor>
         <red>255</red>
@@ -1231,7 +1145,7 @@
         <java.awt.Point x="4.9" y="2.5"/>
         <java.awt.Point x="4.9" y="2.3"/>
       </points>
-      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
+      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
       <borderColor reference="../../org.diylc.components.passive.RadialFilmCapacitor[2]/labelColor"/>
       <labelColor reference="../../org.diylc.components.passive.RadialFilmCapacitor[2]/labelColor"/>
       <leadColor>
@@ -1250,10 +1164,88 @@
         <java.awt.Point x="4.2" y="2.3"/>
         <java.awt.Point x="4.2" y="2.7"/>
       </points>
-      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[25]/fillColor"/>
+      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[12]/fillColor"/>
       <borderColor reference="../../org.diylc.components.passive.RadialFilmCapacitor[2]/labelColor"/>
       <labelColor reference="../../org.diylc.components.passive.RadialFilmCapacitor[2]/labelColor"/>
-      <leadColor reference="../../org.diylc.components.connectivity.Jumper[17]/leadColor"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Jumper[15]/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+    </org.diylc.components.connectivity.Jumper>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="5.7" y="3.0"/>
+        <java.awt.Point x="6.2" y="3.0"/>
+        <java.awt.Point x="6.5" y="3.0"/>
+        <java.awt.Point x="6.7" y="3.0"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W3</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="5.7" y="3.1"/>
+        <java.awt.Point x="6.2" y="3.1"/>
+        <java.awt.Point x="6.4" y="3.1"/>
+        <java.awt.Point x="6.7" y="3.1"/>
+      </controlPoints>
+      <color>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W4</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="5.7" y="3.2"/>
+        <java.awt.Point x="6.2" y="3.2"/>
+        <java.awt.Point x="6.4" y="3.2"/>
+        <java.awt.Point x="6.7" y="3.2"/>
+      </controlPoints>
+      <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.Jumper>
+      <name>J19</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.5" y="2.6"/>
+        <java.awt.Point x="5.5" y="3.2"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.TraceCut[38]/fillColor"/>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <leadColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </leadColor>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
     </org.diylc.components.connectivity.Jumper>
