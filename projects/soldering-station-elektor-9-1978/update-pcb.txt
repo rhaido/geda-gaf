@@ -1,0 +1,27 @@
+mgrozak@workbot32:~/dev/geda-gaf/projects/soldering-station-elektor-9-1978$ make pcb
+gsch2pcb -d /home/mike/dev/geda-gaf/footprints project
+WARNING: T1 has no footprint attribute so won't be in the layout.
+WARNING: VAC1 has no footprint attribute so won't be in the layout.
+WARNING: F1 has no footprint attribute so won't be in the layout.
+
+----------------------------------
+Done processing.  Work performed:
+board.pcb is backed up as board.pcb.bak.
+2 elements deleted from board.pcb.
+1 file elements and 0 m4 elements added to board.new.pcb.
+3 components had no footprint attribute and are omitted.
+4 elements had a value change in board.pcb.
+
+Next steps:
+1.  Run pcb on your file board.pcb.
+2.  From within PCB, select "File -> Load layout data to paste buffer"
+    and select board.new.pcb to load the new footprints into your existing layout.
+3.  From within PCB, select "File -> Load netlist file" and select 
+    board.net to load the updated netlist.
+
+4.  From within PCB, enter
+
+           :ExecuteFile(board.cmd)
+
+    to update the pin names of all footprints.
+

@@ -1,0 +1,54 @@
+# release: pcb 1.99x
+# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
+FileVersion[20070407]
+PCB["" 600000 500000]
+Grid[10000.000000 0 0 0]
+Cursor[0 0 0.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("nameonpcb,uniquename,clearnew,snappin")
+Groups("1,c:2:3:4:5:6,s:7:8")
+Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+Element(0x00 "ACY300" "R13" "2k" 0 0 0 100 0x00)
+(
+	Pin(0 25 55 30 "1" 0x101)
+	Pin(300 25 55 30 "2" 0x01)
+	ElementLine(0 25 75 25 10)
+	ElementLine(225 25 300 25 10)
+	ElementLine(75 0 225 0 10)
+	ElementLine(225 0 225 50 10)
+	ElementLine(225 50 75 50 10)
+	ElementLine(75 50 75 0 10)
+	Mark(0 25)
+)
+Layer(1 "top")
+(
+)
+Layer(2 "ground")
+(
+)
+Layer(3 "signal2")
+(
+)
+Layer(4 "signal3")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "bottom")
+(
+)
+Layer(7 "outline")
+(
+)
+Layer(8 "spare")
+(
+)
+Layer(9 "silk")
+(
+)
+Layer(10 "silk")
+(
+)
