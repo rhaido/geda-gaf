@@ -1,4 +1,4 @@
-unnamed_net37	SI12-1 R18-1 
+unnamed_net37	SI12-1 R19-1 
 unnamed_net36	D6-2 R16-1 
 unnamed_net35	D5-1 R16-2 
 unnamed_net34	R18-1 R13-1 R17-1 D4-2 Q2-3 
@@ -33,7 +33,7 @@ unnamed_net7	SI11-1 R2-1 R7-1
 unnamed_net6	U1-3 R7-2 
 unnamed_net5	P2-2 R8-1 
 unnamed_net4	U1-2 R8-2 
-CGND	R18-2 C4-2 R15-1 
+CGND	R19-2 C4-2 R15-1 
 unnamed_net3	SI11-2 C4-1 R15-2 R3-2 R6-1 
 unnamed_net2	P2-3 R6-2 
 REF	U1-4 C3-2 T1-6 C1-2 D2-2 U2-7 U3-8 P3-2 Tr1-1 R14-1 R3-1 Q2-1 U3-9 U3-7 U3-11 U3-5 R4-1 

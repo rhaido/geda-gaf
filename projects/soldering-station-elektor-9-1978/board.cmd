@@ -8,6 +8,10 @@ ChangePinName(T1, 4, 4)
 ChangePinName(T1, 1, 1)
 ChangePinName(T1, 2, 2)
 
+# Start of element R18
+ChangePinName(R18, 1, 1)
+ChangePinName(R18, 2, 2)
+
 # Start of element R13
 ChangePinName(R13, 1, 1)
 ChangePinName(R13, 2, 2)
@@ -27,11 +31,9 @@ ChangePinName(SI11, 1, C)
 ChangePinName(SI10, 1, B)
 ChangePinName(SI10, 2, A)
 
-# Start of element R18
-ChangePinName(R18, 1, 1)
-ChangePinName(R18, 2, 2)
-ChangePinName(R18, 1, 1)
-ChangePinName(R18, 2, 2)
+# Start of element R19
+ChangePinName(R19, 1, 1)
+ChangePinName(R19, 2, 2)
 
 # Start of element U1
 ChangePinName(U1, 4, GND)
