@@ -649,7 +649,7 @@ C 43400 42600 1 0 0 resistor-2-1.sym
 T 43750 42900 5 10 0 0 0 0 1
 device=RESISTOR
 T 43450 42850 5 8 1 1 0 0 1
-refdes=R18
+refdes=R19
 T 43591 42677 5 5 1 1 0 0 1
 value=1M
 }
