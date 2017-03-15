@@ -11,10 +11,10 @@ Flags("nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
-Element["" "mike_grozak_termblock300-1" "T1" "unknown" 0 0 0 0 0 100 ""]
+Element["" "mike_grozak_termblock300-1.fp" "T1" "unknown" 0 0 0 0 0 100 ""]
 (
-	Pin[0 20000 6000 2000 6600 2800 "" "1" ""]
-	Pin[0 0 6000 2000 6600 2800 "" "2" ""]
+	Pin[0 20000 6000 2000 6600 2800 "" "3" ""]
+	Pin[0 0 6000 2000 6600 2800 "" "1" ""]
 	Pin[0 -20000 6000 2000 6600 2800 "" "2" ""]
 	ElementLine [-20000 30000 13000 30000 1000]
 	ElementLine [0 15000 0 25000 1000]
@@ -52,54 +52,6 @@ Element["" "mike_grozak_termblock300-1" "T1" "unknown" 0 0 0 0 0 100 ""]
 	ElementArc [-14950 -20006 2000 2000 45 90 1000]
 
 	)
-Element(0x00 "ACY400" "R18" "2k" 0 0 0 100 0x00)
-(
-	Pin(0 33 55 30 "1" 0x101)
-	Pin(400 33 55 30 "2" 0x01)
-	ElementLine(0 33 100 33 10)
-	ElementLine(300 33 400 33 10)
-	ElementLine(100 0 300 0 10)
-	ElementLine(300 0 300 66 10)
-	ElementLine(300 66 100 66 10)
-	ElementLine(100 66 100 0 10)
-	Mark(0 33)
-)
-Element(0x00 "ACY400" "R13" "2k" 0 0 0 100 0x00)
-(
-	Pin(0 33 55 30 "1" 0x101)
-	Pin(400 33 55 30 "2" 0x01)
-	ElementLine(0 33 100 33 10)
-	ElementLine(300 33 400 33 10)
-	ElementLine(100 0 300 0 10)
-	ElementLine(300 0 300 66 10)
-	ElementLine(300 66 100 66 10)
-	ElementLine(100 66 100 0 10)
-	Mark(0 33)
-)
-Element(0x00 "ACY400" "R17" "2k" 0 0 0 100 0x00)
-(
-	Pin(0 33 55 30 "1" 0x101)
-	Pin(400 33 55 30 "2" 0x01)
-	ElementLine(0 33 100 33 10)
-	ElementLine(300 33 400 33 10)
-	ElementLine(100 0 300 0 10)
-	ElementLine(300 0 300 66 10)
-	ElementLine(300 66 100 66 10)
-	ElementLine(100 66 100 0 10)
-	Mark(0 33)
-)
-Element(0x00 "ACY300" "R19" "1M" 0 0 0 100 0x00)
-(
-	Pin(0 25 55 30 "1" 0x101)
-	Pin(300 25 55 30 "2" 0x01)
-	ElementLine(0 25 75 25 10)
-	ElementLine(225 25 300 25 10)
-	ElementLine(75 0 225 0 10)
-	ElementLine(225 0 225 50 10)
-	ElementLine(225 50 75 50 10)
-	ElementLine(75 50 75 0 10)
-	Mark(0 25)
-)
 Layer(1 "top")
 (
 )
