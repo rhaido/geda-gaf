@@ -719,7 +719,7 @@ refdes=R17
 T 53898 47691 5 5 1 1 90 1 1
 value=2k
 T 53700 47900 5 10 0 1 90 0 1
-footprint=ACY400
+footprint=ACY500
 }
 C 54200 47500 1 90 0 resistor-2-1.sym
 {
@@ -730,7 +730,7 @@ refdes=R13
 T 54098 47691 5 5 1 1 90 1 1
 value=2k
 T 53900 47900 5 10 0 1 90 0 1
-footprint=ACY400
+footprint=ACY500
 }
 C 54400 47500 1 90 0 resistor-2-1.sym
 {
@@ -741,7 +741,7 @@ refdes=R18
 T 54298 47691 5 5 1 1 90 1 1
 value=2k
 T 54100 47900 5 10 0 1 90 0 1
-footprint=ACY400
+footprint=ACY500
 }
 N 53900 48200 54300 48200 4
 N 53900 47400 54300 47400 4
