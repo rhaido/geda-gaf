@@ -1,0 +1,56 @@
+v 20130925 2
+T 202 498 8 8 1 1 0 0 1
+refdes=P?
+T 752 802 8 10 0 0 0 0 1
+device=VARIABLE_RESISTOR
+B 25 102 152 398 3 15 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 752 602 8 10 0 0 0 0 1
+footprint=POT_LAYING
+T 752 802 5 10 0 0 0 0 1
+author=Levente Kovacs
+T 752 1002 5 10 0 0 0 0 1
+email=levente.kovacs@interware.hu
+T 752 1202 5 10 0 0 0 0 1
+dist-license=GPL
+T 752 1402 5 10 0 0 0 0 1
+use-license=unlimited
+T 77 197 8 5 1 1 90 2 1
+value=R
+H 3 0 0 0 -1 -1 1 -1 -1 -1 -1 -1 4
+M 225,275
+L 225,325
+L 175,300
+z
+P 100 0 100 100 1 0 0
+{
+T 100 0 5 10 0 0 90 2 1
+pintype=pas
+T 100 155 5 10 0 1 90 0 1
+pinlabel=-
+T 50 5 5 10 0 1 90 6 1
+pinnumber=1
+T 100 0 5 10 0 0 90 2 1
+pinseq=1
+}
+P 300 300 225 300 1 0 0
+{
+T 325 300 5 10 0 0 90 2 1
+pintype=pas
+T 170 295 5 10 0 1 0 6 1
+pinlabel=-
+T 320 345 5 5 0 1 0 0 1
+pinnumber=2
+T 325 300 5 10 0 0 90 2 1
+pinseq=2
+}
+P 100 600 100 500 1 0 0
+{
+T 100 600 5 10 0 0 90 2 1
+pintype=pas
+T 100 445 5 10 0 1 90 6 1
+pinlabel=-
+T 50 595 5 5 0 1 90 0 1
+pinnumber=3
+T 100 600 5 10 0 0 90 2 1
+pinseq=3
+}

@@ -30,7 +30,7 @@ z
 T 0 600 8 10 0 0 0 3 1
 footprint=$(Footprint)
 T 200 850 8 8 1 1 0 3 1
-refdes=D?
+refdes=B?
 T 0 800 8 10 0 0 0 3 1
 device=DIODE
 T 0 1000 8 10 0 0 0 3 1
