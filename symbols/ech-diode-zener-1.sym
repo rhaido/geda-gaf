@@ -28,7 +28,7 @@ L 100,275
 z
 T -205 495 8 10 0 0 0 7 1
 footprint=$(Footprint)
-T 200 400 8 10 1 1 0 1 1
+T 300 300 8 10 1 1 0 0 1
 refdes=D?
 H 3 20 0 0 -1 -1 0 -1 -1 -1 -1 -1 4
 M 0,325
@@ -45,3 +45,7 @@ T -205 -205 8 10 0 0 0 7 1
 dist-license=GPL
 T -205 -405 8 10 0 0 0 7 1
 use-license=Unlimited
+T 300 200 8 6 1 1 0 0 1
+stdvoltage=$(stdvoltage)
+T 300 100 8 6 1 1 0 0 1
+pwrdis=$(pwrdis)
