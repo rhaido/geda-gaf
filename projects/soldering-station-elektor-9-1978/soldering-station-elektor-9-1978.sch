@@ -212,7 +212,7 @@ net=REF:7
 C 46100 45900 1 0 0 tup-small.sym
 {
 T 46675 46050 5 6 1 1 0 0 1
-device=BC559C
+value=BC559C
 T 46675 46225 5 8 1 1 0 0 1
 refdes=Q1
 T 46800 46800 5 10 0 1 0 0 1
@@ -504,7 +504,7 @@ C 53700 45100 1 0 0 tun-small.sym
 T 53400 45700 5 10 0 1 0 0 1
 footprint=phil_taylor-TO-92-round
 T 54275 45250 5 6 1 1 0 0 1
-model=BC547B
+value=BC547B
 T 54275 45425 5 8 1 1 0 0 1
 refdes=Q2
 }
