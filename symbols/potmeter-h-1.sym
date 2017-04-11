@@ -14,7 +14,7 @@ T 652 1302 5 10 0 0 0 0 1
 dist-license=GPL
 T 652 1502 5 10 0 0 0 0 1
 use-license=unlimited
-T 197 77 8 5 1 1 0 0 1
+T 197 102 8 5 1 1 0 1 1
 value=R
 H 3 0 0 0 -1 -1 1 -1 -1 -1 -1 -1 4
 M 275,225

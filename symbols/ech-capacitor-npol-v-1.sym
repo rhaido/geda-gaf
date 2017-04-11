@@ -23,7 +23,7 @@ pinseq=2
 }
 T 0 300 8 8 1 1 0 0 1
 refdes=C?
-T 400 0 8 6 1 1 0 0 1
+T 400 100 8 6 1 1 0 0 1
 value=$(capacitance)
 T 200 500 8 10 0 0 0 3 1
 footprint=$(Footprint)
@@ -39,3 +39,5 @@ T 200 1400 8 10 0 0 0 3 1
 copyright=(C) 2014 Edward Hennessy
 T 200 1600 8 10 0 0 0 3 1
 author=Edward Hennessy
+T 400 0 8 5 1 1 0 0 1
+dielectric=$(dielectric)
