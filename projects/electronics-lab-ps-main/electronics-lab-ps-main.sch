@@ -4,12 +4,14 @@ C 41300 46100 1 0 0 resistor-v-1.sym
 {
 T 41650 46400 5 10 0 0 0 0 1
 device=RESISTOR
-T 41300 46600 5 8 1 1 180 0 1
+T 41100 46500 5 8 1 1 0 0 1
 refdes=R2
 T 41398 46291 5 5 1 1 90 1 1
-value=R
+value=82R
 T 41700 46400 5 10 0 1 0 0 1
 footprint=ACY300
+T 41100 46400 5 5 1 1 0 0 1
+pwrdissp=2W
 }
 C 43800 48300 1 0 0 resistor-v-1.sym
 {
@@ -18,7 +20,7 @@ device=RESISTOR
 T 43800 48800 5 8 1 1 180 0 1
 refdes=R19
 T 43898 48491 5 5 1 1 90 1 1
-value=R
+value=2k2
 T 44200 48600 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -26,12 +28,14 @@ C 43300 46300 1 0 0 resistor-v-1.sym
 {
 T 43650 46600 5 10 0 0 0 0 1
 device=RESISTOR
-T 43300 46800 5 8 1 1 180 0 1
+T 43000 46700 5 8 1 1 0 0 1
 refdes=R22
 T 43398 46491 5 5 1 1 90 1 1
-value=R
+value=1k5
 T 43700 46600 5 10 0 1 0 0 1
 footprint=ACY300
+T 43000 46600 5 5 1 1 0 0 1
+pwrdissp=1W
 }
 C 47300 46500 1 0 0 resistor-v-1.sym
 {
@@ -40,7 +44,7 @@ device=RESISTOR
 T 47300 47000 5 8 1 1 180 0 1
 refdes=R4
 T 47398 46691 5 5 1 1 90 1 1
-value=R
+value=1k
 T 47700 46800 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -51,7 +55,7 @@ device=RESISTOR
 T 47700 46300 5 8 1 1 180 0 1
 refdes=R6
 T 47798 45991 5 5 1 1 90 1 1
-value=R
+value=10k
 T 48100 46100 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -62,7 +66,7 @@ device=RESISTOR
 T 50400 47400 5 8 1 1 180 0 1
 refdes=R9
 T 50498 47091 5 5 1 1 90 1 1
-value=R
+value=2k2
 T 50800 47200 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -73,7 +77,7 @@ device=RESISTOR
 T 51100 46800 5 8 1 1 180 0 1
 refdes=R11
 T 51198 46491 5 5 1 1 90 1 1
-value=R
+value=27k
 T 51500 46600 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -81,12 +85,14 @@ C 42200 46100 1 0 0 resistor-v-1.sym
 {
 T 42550 46400 5 10 0 0 0 0 1
 device=RESISTOR
-T 42200 46600 5 8 1 1 180 0 1
+T 42000 46500 5 8 1 1 0 0 1
 refdes=R1
 T 42298 46291 5 5 1 1 90 1 1
-value=R
+value=2k2
 T 42600 46400 5 10 0 1 0 0 1
-footprint=ACY300
+footprint=ACY500
+T 42000 46400 5 5 1 1 0 0 1
+pwrdissp=2W
 }
 C 43800 47500 1 0 0 resistor-v-1.sym
 {
@@ -95,7 +101,7 @@ device=RESISTOR
 T 43800 47800 5 8 1 1 180 0 1
 refdes=R20
 T 43898 47691 5 5 1 1 90 1 1
-value=R
+value=10k
 T 44200 47800 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -106,7 +112,7 @@ device=RESISTOR
 T 46800 46500 5 8 1 1 180 0 1
 refdes=R17
 T 46398 46191 5 5 1 1 90 1 1
-value=R
+value=68R
 T 46700 46300 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -117,7 +123,7 @@ device=RESISTOR
 T 45900 46100 5 8 1 1 180 0 1
 refdes=R21
 T 45998 45791 5 5 1 1 90 1 1
-value=R
+value=10k
 T 46300 45900 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -128,7 +134,7 @@ device=RESISTOR
 T 46300 48500 5 8 1 1 180 0 1
 refdes=R18
 T 46398 48191 5 5 1 1 90 1 1
-value=R
+value=33k
 T 46700 48300 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -139,7 +145,7 @@ device=RESISTOR
 T 52300 45900 5 8 1 1 180 0 1
 refdes=R10
 T 52398 45891 5 5 1 1 90 1 1
-value=R
+value=1k
 T 52700 46000 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -150,7 +156,7 @@ device=RESISTOR
 T 53800 46700 5 8 1 1 180 0 1
 refdes=R13
 T 53398 46391 5 5 1 1 90 1 1
-value=R
+value=12k
 T 53700 46500 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -158,12 +164,14 @@ C 42300 43300 1 0 0 resistor-h-1.sym
 {
 T 42650 43600 5 10 0 0 0 0 1
 device=RESISTOR
-T 42350 43150 5 8 1 1 0 0 1
+T 42400 43200 5 8 1 1 0 0 1
 refdes=R3
 T 42491 43402 5 5 1 1 0 1 1
 value=220R
 T 42700 43600 5 10 0 1 0 0 1
 footprint=ACY300
+T 42400 43100 5 5 1 1 0 0 1
+pwrdissp=1/2W
 }
 C 49800 46600 1 0 0 resistor-h-1.sym
 {
@@ -172,7 +180,7 @@ device=RESISTOR
 T 49850 46850 5 8 1 1 0 0 1
 refdes=R8
 T 49991 46702 5 5 1 1 0 1 1
-value=R
+value=27k
 T 50200 46900 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -183,9 +191,11 @@ device=RESISTOR
 T 55050 49250 5 8 1 1 0 0 1
 refdes=R24
 T 55191 49102 5 5 1 1 0 1 1
-value=R
+value=0R33
 T 55400 49300 5 10 0 1 0 0 1
 footprint=ACY300
+T 55500 48900 5 5 1 1 0 0 1
+pwrdissp=2W
 }
 C 55000 49800 1 0 0 resistor-h-1.sym
 {
@@ -194,9 +204,11 @@ device=RESISTOR
 T 55050 50050 5 8 1 1 0 0 1
 refdes=R23
 T 55191 49902 5 5 1 1 0 1 1
-value=R
+value=0R33
 T 55400 50100 5 10 0 1 0 0 1
 footprint=ACY300
+T 55500 49700 5 5 1 1 0 0 1
+pwrdissp=2W
 }
 C 48200 46400 1 0 0 resistor-h-1.sym
 {
@@ -205,7 +217,7 @@ device=RESISTOR
 T 48250 46250 5 8 1 1 0 0 1
 refdes=R5
 T 48391 46502 5 5 1 1 0 1 1
-value=R
+value=10k
 T 48600 46700 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -216,7 +228,7 @@ device=RESISTOR
 T 54650 47450 5 8 1 1 0 0 1
 refdes=R12
 T 54791 47302 5 5 1 1 0 1 1
-value=R
+value=56k
 T 55000 47500 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -227,7 +239,7 @@ device=RESISTOR
 T 54500 45300 5 8 1 1 0 8 1
 refdes=R7
 T 54598 44991 5 5 1 1 90 1 1
-value=R
+value=0R47
 T 54400 45200 5 10 0 1 90 0 1
 footprint=ACY300
 }
@@ -238,7 +250,7 @@ device=RESISTOR
 T 55050 48250 5 8 1 1 0 0 1
 refdes=R16
 T 55191 48102 5 5 1 1 0 1 1
-value=R
+value=1k
 T 55400 48300 5 10 0 1 0 0 1
 footprint=ACY300
 }
@@ -305,8 +317,8 @@ C 41000 47000 1 0 0 diode-bridge-1.sym
 {
 T 41000 47600 5 10 0 0 0 3 1
 footprint=$(Footprint)
-T 41200 47850 5 8 1 1 0 3 1
-refdes=B?
+T 41200 47650 5 8 1 1 0 3 1
+refdes=B1
 T 41000 47800 5 10 0 0 0 3 1
 device=DIODE
 }
@@ -526,7 +538,7 @@ device=VARIABLE_RESISTOR
 T 51852 46202 5 10 0 0 0 0 1
 footprint=POT_LAYING
 T 51177 45797 5 5 1 1 90 2 1
-value=R
+value=20k
 }
 C 49400 46400 1 0 0 potmeter-v-1.sym
 {
@@ -537,18 +549,22 @@ device=VARIABLE_RESISTOR
 T 50152 47002 5 10 0 0 0 0 1
 footprint=POT_LAYING
 T 49477 46597 5 5 1 1 90 2 1
-value=R
+value=10k
+T 49200 46300 5 5 1 1 0 0 1
+comment=lin.
 }
 C 46500 47200 1 0 1 potmeter-v-1.sym
 {
-T 46698 47598 5 8 1 1 0 6 1
+T 46502 47598 5 8 1 1 0 0 1
 refdes=P2
 T 45748 48002 5 10 0 0 0 6 1
-device=VARIABLE_RESISTOR
+device=POT
 T 45748 47802 5 10 0 0 0 6 1
 footprint=POT_LAYING
 T 46398 47397 5 5 1 1 90 1 1
-value=R
+value=10k
+T 46500 47500 5 5 1 1 0 0 1
+comment=lin.
 }
 C 46500 48700 1 0 0 potmeter-h-1.sym
 {
@@ -559,7 +575,7 @@ device=VARIABLE_RESISTOR
 T 47152 49402 5 10 0 0 0 0 1
 footprint=POT_LAYING
 T 46697 48777 5 5 1 1 0 0 1
-value=R
+value=100k
 }
 C 54300 47700 1 90 0 tun-small-1.sym
 {
@@ -734,7 +750,7 @@ device=VARIABLE_RESISTOR
 T 52752 46702 5 10 0 0 0 0 1
 footprint=POT_LAYING
 T 52077 46297 5 5 1 1 90 2 1
-value=R
+value=5k
 }
 N 51700 47100 51700 46000 4
 N 51700 46000 52100 46000 4
