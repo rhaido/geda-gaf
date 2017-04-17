@@ -379,7 +379,7 @@ device=VARIABLE_RESISTOR
 T 51952 45102 5 10 0 0 0 0 1
 footprint=POT_LAYING
 T 51277 44697 5 5 1 1 90 2 1
-value=R
+value=1k
 }
 C 48000 44700 1 0 1 potmeter-v-1.sym
 {
