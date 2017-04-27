@@ -48,7 +48,7 @@ pinlabel=3
 T 1450 550 5 8 0 1 0 0 1
 pintype=pas
 }
-T -50 1350 8 10 1 1 0 0 1
+T 150 1350 8 7 1 1 0 0 1
 refdes=T?
 T 700 2050 8 10 0 0 0 0 1
 device=transformer

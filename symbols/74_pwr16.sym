@@ -9,7 +9,7 @@ T -110 1600 5 8 0 0 0 0 1
 dist-license=GPL 3, see http://www.gnu.org/licenses/gpl-3.0.txt
 T -110 1400 5 8 0 0 0 0 1
 use-license=free, no restrictions
-T 25 450 8 8 1 1 0 0 1
+T 25 450 8 7 1 1 0 0 1
 refdes=U?
 P 100 1000 100 900 1 0 0
 {

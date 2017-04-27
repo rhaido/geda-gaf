@@ -13,11 +13,11 @@ T 200 1900 5 8 0 0 0 0 1
 author=Kai-Martin Knaak kmk@lilalaser.de
 T 200 1700 5 8 0 0 0 0 1
 dist-license=GPL 3, http://www.gnu.org/licenses/gpl-3.0.txt
-T 700 1000 8 10 1 1 0 0 1
+T 600 900 8 7 1 1 0 0 1
 refdes=U?
-T 700 800 8 10 1 1 0 0 1
+T 600 800 8 5 1 1 0 0 1
 value=TL081
-T 700 600 8 8 1 1 0 0 1
+T 700 700 8 5 0 1 0 0 1
 footprint=SO8
 P 100 200 200 200 1 0 0
 {

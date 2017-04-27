@@ -11,7 +11,7 @@ T 300 1800 5 8 0 0 0 0 1
 use-license=free, no restrictions
 T 300 2600 5 8 0 0 0 0 1
 footprints=TO220, TO220_LAY, TO220_BLOCK, SOT223, SO8_LM317, SOT89_LM317
-T 200 875 8 10 1 1 0 0 1
+T 200 875 8 7 1 1 0 0 1
 refdes=U?
 T 175 800 8 10 0 1 0 0 1
 value=LM317T
@@ -21,31 +21,31 @@ P 1000 500 1100 500 1 0 1
 {
 T 1100 600 5 10 0 1 0 0 1
 pinnumber=2
-T 1100 600 5 10 1 1 0 0 1
+T 1100 600 5 6 1 1 0 0 1
 pinseq=2
-T 925 450 9 7 1 1 0 6 1
+T 925 450 9 6 1 1 0 6 1
 pinlabel=Out
 T 1100 300 5 10 0 1 0 0 1
 pintype=pwr
 }
 P 100 500 200 500 1 0 0
 {
-T 100 600 5 10 1 1 0 6 1
+T 100 600 5 6 1 1 0 6 1
 pinnumber=3
 T 100 600 5 10 0 1 0 6 1
 pinseq=3
-T 275 450 9 7 1 1 0 0 1
+T 275 450 9 6 1 1 0 0 1
 pinlabel=In
 T 0 300 5 10 0 1 0 0 1
 pintype=in
 }
 P 600 100 600 200 1 0 0
 {
-T 700 0 5 10 1 1 0 0 1
+T 700 0 5 6 1 1 0 0 1
 pinnumber=1
 T 700 0 5 10 0 1 0 0 1
 pinseq=1
-T 600 275 9 7 1 1 0 3 1
+T 600 275 9 6 1 1 0 3 1
 pinlabel=Adj
 T 500 0 5 10 0 1 0 6 1
 pintype=pas

@@ -29,7 +29,7 @@ L 225,450
 z
 T -205 695 8 10 0 0 0 7 1
 footprint=$(Footprint)
-T 825 525 8 8 1 1 180 1 1
+T 600 600 8 7 1 1 0 0 1
 refdes=Tr?
 T -205 395 8 10 0 0 0 7 1
 author=Mikhail 'Mike' Grozak
@@ -60,3 +60,7 @@ T 0 900 5 10 0 0 0 0 1
 pinseq=3
 }
 L 100 900 225 650 3 0 0 0 -1 -1
+T 600 500 8 5 1 1 0 0 1
+value=BT136
+T 600 700 8 5 0 1 0 0 1
+device=TRIAC

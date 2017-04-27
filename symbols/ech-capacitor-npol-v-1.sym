@@ -1,43 +1,43 @@
 v 20130925 2
-P 300 300 300 225 1 0 0
+P 100 300 100 225 1 0 0
 {
-T 750 500 5 10 0 0 90 2 1
-pintype=pas
-T 300 170 9 10 0 1 90 6 1
-pinlabel=1
-T 250 320 5 10 0 1 90 0 1
-pinnumber=1
 T 550 500 5 10 0 0 90 2 1
+pintype=pas
+T 100 170 9 10 0 1 90 6 1
+pinlabel=1
+T 50 320 5 10 0 1 90 0 1
+pinnumber=1
+T 350 500 5 10 0 0 90 2 1
 pinseq=1
 }
-P 300 100 300 175 1 0 0
+P 100 100 100 175 1 0 0
 {
-T 750 -50 5 10 0 0 90 8 1
-pintype=pas
-T 300 230 9 10 0 1 90 0 1
-pinlabel=2
-T 250 80 5 10 0 1 90 6 1
-pinnumber=2
 T 550 -50 5 10 0 0 90 8 1
+pintype=pas
+T 100 230 9 10 0 1 90 0 1
+pinlabel=2
+T 50 80 5 10 0 1 90 6 1
+pinnumber=2
+T 350 -50 5 10 0 0 90 8 1
 pinseq=2
 }
-T 0 300 8 8 1 1 0 0 1
+T 200 300 8 7 1 1 0 0 1
 refdes=C?
-T 400 100 8 6 1 1 0 0 1
+T 200 100 8 5 1 1 0 0 1
 value=$(capacitance)
-T 200 500 8 10 0 0 0 3 1
+T 0 500 8 10 0 0 0 3 1
 footprint=$(Footprint)
-L 400 175 200 175 3 30 0 0 -1 -1
-L 400 225 200 225 3 30 0 0 -1 -1
-T 200 700 8 10 0 0 0 3 1
+L 200 175 0 175 3 30 0 0 -1 -1
+L 200 225 0 225 3 30 0 0 -1 -1
+T 0 700 8 10 0 0 0 3 1
 device=CAPACITOR
-T 200 1000 8 10 0 0 0 3 1
+T 0 1000 8 10 0 0 0 3 1
 use-license=Unlimited
-T 200 1200 8 10 0 0 0 3 1
+T 0 1200 8 10 0 0 0 3 1
 dist-license=GPL
-T 200 1400 8 10 0 0 0 3 1
+T 0 1400 8 10 0 0 0 3 1
 copyright=(C) 2014 Edward Hennessy
-T 200 1600 8 10 0 0 0 3 1
+T 0 1600 8 10 0 0 0 3 1
 author=Edward Hennessy
-T 400 0 8 5 1 1 0 0 1
+T 200 0 8 5 1 1 0 0 1
 dielectric=$(dielectric)

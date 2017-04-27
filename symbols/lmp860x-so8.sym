@@ -13,7 +13,7 @@ T -300 1100 5 8 0 0 0 0 1
 author=Mike Grozak mike.grozak@gmail.com
 T -300 900 5 8 0 0 0 0 1
 dist-license=GPL 3, http://www.gnu.org/licenses/gpl-3.0.txt
-T 500 900 8 10 1 1 0 0 1
+T 500 900 8 7 1 1 0 0 1
 refdes=U?
 T 200 -200 8 8 0 1 0 0 1
 footprint=SO8

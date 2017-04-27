@@ -1,13 +1,13 @@
 v 20130925 2
 T -650 325 8 10 0 1 0 0 1
 footprint=TO92
-T -650 25 8 10 0 0 0 0 1
+T 1550 225 8 10 0 0 0 0 1
 numslots=0
-T -1450 525 8 10 0 1 0 0 1
+T 350 1525 8 10 0 1 0 0 1
 description=BC328 PNP general purpose transistor
-T -1450 725 8 10 0 1 0 0 1
+T 350 1725 8 10 0 1 0 0 1
 documentation=http://www.semiconductors.philips.com/pip/BC328C.html
-T -1450 925 8 10 0 1 0 0 1
+T 350 1925 8 10 0 1 0 0 1
 author=Karel 'Clock' Kulhavy clock -=[at]=- twibright -=[dot]=- com
 P 500 800 500 675 1 0 0
 {
@@ -54,9 +54,9 @@ M 200,300
 L 225,325
 L 250,275
 z
-T 850 100 5 6 1 1 0 0 1
-device=NPN Darlington
-T 850 275 8 8 1 1 0 0 1
+T 800 600 8 5 0 1 0 0 1
+device=NPN_DARLINGTON
+T 800 500 8 7 1 1 0 0 1
 refdes=Q?
 L 500 125 375 250 3 5 0 0 -1 -1
 L 500 425 375 300 3 5 0 0 -1 -1
@@ -71,3 +71,5 @@ z
 L 375 275 250 275 3 5 0 0 -1 -1
 L 500 425 500 675 3 5 0 0 -1 -1
 L 500 550 275 550 3 5 0 0 -1 -1
+T 800 400 8 5 1 1 0 0 1
+value=value
