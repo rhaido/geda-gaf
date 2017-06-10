@@ -293,15 +293,15 @@ stdvoltage=25v
 }
 C 47300 43600 1 0 0 ech-capacitor-pol-v-1.sym
 {
-T 47500 44000 5 7 1 1 0 0 1
+T 47600 43900 5 7 1 1 0 0 1
 refdes=C5
-T 47500 43600 5 5 1 1 0 0 1
+T 47600 43800 5 5 1 1 0 0 1
 value=10u
 T 47295 44200 5 10 0 0 0 7 1
 footprint=$(footprint)
 T 47295 44400 5 10 0 0 0 7 1
 device=CAPACITOR
-T 47500 43500 5 5 1 1 0 0 1
+T 47600 43700 5 5 1 1 0 0 1
 stdvoltage=25v
 }
 C 44600 43600 1 0 0 ech-capacitor-pol-v-1.sym
@@ -343,7 +343,7 @@ C 46200 43700 1 0 0 ech-capacitor-npol-v-1.sym
 {
 T 46100 44000 5 7 1 1 0 0 1
 refdes=C4
-T 46600 43700 5 5 1 1 0 0 1
+T 46400 43700 5 5 1 1 0 0 1
 value=100p
 T 46400 44200 5 10 0 0 0 3 1
 footprint=$(Footprint)
