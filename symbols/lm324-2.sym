@@ -1,0 +1,80 @@
+v 20130925 2
+T 0 2000 5 8 0 0 0 0 1
+description=operational amplifier
+T 0 1850 5 8 0 0 0 0 1
+comment=Use symbol opamp_pwr.sym to connect power pins.
+T 0 1700 5 8 0 0 0 0 1
+documentation=http://www.st.com/resource/en/datasheet/lm324.pdf
+T 0 1550 5 8 0 0 0 0 1
+footprints=SO14, DIP14
+T 0 1400 5 8 0 0 0 0 1
+symversion=1.0
+T 0 1250 5 8 0 0 0 0 1
+author=Mike Grozak mike.grozak@gmail.com
+T 0 1100 5 8 0 0 0 0 1
+dist-license=GPL 3, http://www.gnu.org/licenses/gpl-3.0.txt
+T 500 800 8 7 1 1 0 0 1
+refdes=U?
+T 200 -300 8 8 0 1 0 0 1
+footprint=DIP8
+P 0 600 100 600 1 0 0
+{
+T 50 650 5 6 1 1 0 6 1
+pinnumber=2
+T 250 650 5 8 0 1 0 6 1
+pinseq=2
+T 300 500 9 16 0 1 0 4 1
+pinlabel=-
+T 50 550 5 8 0 1 0 8 1
+pintype=in
+}
+P 0 200 100 200 1 0 0
+{
+T 50 250 5 6 1 1 0 6 1
+pinnumber=3
+T 200 50 5 8 0 1 0 4 1
+pinseq=1
+T 300 300 9 10 0 1 0 4 1
+pinlabel=+
+T 50 150 5 8 0 1 0 8 1
+pintype=in
+}
+P 900 400 1000 400 1 0 1
+{
+T 900 450 5 6 1 1 0 0 1
+pinnumber=1
+T 900 50 5 8 0 1 0 0 1
+pinseq=3
+T 900 250 5 8 0 1 0 0 1
+pintype=out
+T 700 400 9 8 0 1 0 7 1
+pinlabel=out
+}
+T 0 950 5 8 0 0 0 0 1
+use-license=free, no restrictions
+L 100 800 900 400 3 15 0 0 -1 -1
+L 100 0 900 400 3 15 0 0 -1 -1
+L 150 200 250 200 3 10 0 0 -1 -1
+L 200 250 200 150 3 10 0 0 -1 -1
+L 150 600 250 600 3 10 0 0 -1 -1
+L 100 800 100 0 3 15 2 0 -1 -1
+T 1193 395 8 10 0 1 0 0 1
+device=OPAMP
+T 500 700 8 5 1 1 0 0 1
+value=LM324
+T 0 3200 5 8 0 0 0 0 1
+slot=1
+T 0 3050 5 8 0 0 0 0 1
+numslots=4
+T 0 2450 5 8 0 0 0 0 1
+slotdef=2:5,6,7
+T 0 2300 5 8 0 0 0 0 1
+slotdef=3:12,13,14
+T 0 2150 5 8 0 0 0 0 1
+slotdef=4:10,9,8
+T 0 2600 5 8 0 0 0 0 1
+slotdef=1:3,2,1
+T 0 2750 5 8 0 0 0 0 1
+net=VCCP:4
+T 0 2900 5 8 0 0 0 0 1
+net=VCCN:11
