@@ -11,11 +11,11 @@ T 300 1800 5 8 0 0 0 0 1
 use-license=free, no restrictions
 T 300 2600 5 8 0 0 0 0 1
 footprints=TO220, TO220_LAY, TO220_BLOCK, SOT223, SO8_LM317, SOT89_LM317
-T 200 875 8 7 1 1 0 0 1
+T 200 900 8 7 1 1 0 0 1
 refdes=U?
-T 175 800 8 10 0 1 0 0 1
+T 1200 900 8 10 0 1 0 0 1
 value=LM317T
-T 200 900 8 8 0 1 0 0 1
+T 200 1300 8 8 0 0 0 0 1
 footprint=TO220
 P 1000 500 1100 500 1 0 1
 {
