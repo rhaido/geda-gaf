@@ -2,7 +2,7 @@ v 20130925 2
 T 300 3000 5 8 0 0 0 0 1
 description=variable positive voltage regulator
 T 300 2800 5 8 0 0 0 0 1
-documentation=http://www.st.com/resource/en/datasheet/l78.pdf
+documentation=http://www.st.com/resource/en/datasheet/l79.pdf
 T 300 2200 5 8 0 0 0 0 1
 author=Kai-Martin Knaak kmk@lilalaser.de
 T 300 2000 5 8 0 0 0 0 1
