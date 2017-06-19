@@ -31,15 +31,6 @@ refdes=B?
 T 41900 45300 5 10 0 0 0 3 1
 device=DIODE
 }
-C 42800 40900 1 0 0 diode-bridge-1.sym
-{
-T 42800 41500 5 10 0 0 0 3 1
-footprint=$(Footprint)
-T 42900 41550 5 7 1 1 0 3 1
-refdes=B?
-T 42800 41700 5 10 0 0 0 3 1
-device=DIODE
-}
 C 45500 47200 1 0 0 ech-capacitor-npol-h-1.sym
 {
 T 45800 47700 5 7 1 1 180 0 1
