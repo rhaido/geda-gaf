@@ -1,0 +1,39 @@
+v 20130925 2
+T -110 2000 5 8 0 0 0 0 1
+symversion=1.0
+T -110 2200 5 8 0 0 0 0 1
+description=power pins for LM324-compatible parts, 14-pin
+T -110 1800 5 8 0 0 0 0 1
+author=Mike Grozak mike.grozak@gmail.com
+T -110 1600 5 8 0 0 0 0 1
+dist-license=GPL 3, see http://www.gnu.org/licenses/gpl-3.0.txt
+T -110 1400 5 8 0 0 0 0 1
+use-license=free, no restrictions
+T 100 500 8 7 1 1 0 4 1
+refdes=U?
+P 100 1000 100 900 1 0 0
+{
+T 50 950 5 8 0 1 0 6 1
+pinseq=1
+T 100 800 5 6 1 1 0 4 1
+pinnumber=4
+T 100 1150 5 8 0 1 0 7 1
+pintype=pwr
+T 100 800 5 6 0 1 0 4 1
+pinlabel=Vcc
+}
+P 100 0 100 100 1 0 0
+{
+T 50 50 5 8 0 1 0 8 1
+pinseq=2
+T 100 200 5 6 1 1 180 4 1
+pinnumber=11
+T 400 0 5 8 0 1 0 6 1
+pintype=pwr
+T 100 0 5 10 0 1 0 0 1
+pinlabel=GND
+}
+V 100 800 100 3 15 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 100 200 100 3 15 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 500 500 8 10 0 1 0 0 1
+device=OPAMP
