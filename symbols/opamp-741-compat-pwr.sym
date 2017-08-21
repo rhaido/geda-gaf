@@ -2,9 +2,9 @@ v 20130925 2
 T -110 2000 5 8 0 0 0 0 1
 symversion=1.0
 T -110 2200 5 8 0 0 0 0 1
-description=power pins for 74** parts, 14  pin
+description=power pins for 741-compatible parts, 8-pin
 T -110 1800 5 8 0 0 0 0 1
-author=Kai-Martin Knaak kmk@lilalaser.de
+author=Mike Grozak mike.grozak@gmail.com
 T -110 1600 5 8 0 0 0 0 1
 dist-license=GPL 3, see http://www.gnu.org/licenses/gpl-3.0.txt
 T -110 1400 5 8 0 0 0 0 1
