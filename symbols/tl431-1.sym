@@ -1,0 +1,60 @@
+v 20130925 2
+P 100 200 100 175 1 0 0
+{
+T 1200 375 5 10 0 0 90 2 1
+pintype=pas
+T 800 375 9 10 0 1 90 2 1
+pinlabel=cat
+T 150 225 5 2 0 1 0 0 1
+pinnumber=2
+T 1000 375 5 10 0 0 90 2 1
+pinseq=2
+}
+P 100 0 100 25 1 0 0
+{
+T 2000 375 5 10 0 0 90 0 1
+pintype=pas
+T 1600 375 9 10 0 1 90 0 1
+pinlabel=an
+T 150 -25 5 2 0 1 0 0 1
+pinnumber=3
+T 1800 375 5 10 0 0 90 0 1
+pinseq=3
+}
+H 3 0 0 0 -1 -1 1 -1 -1 -1 -1 -1 4
+M 0,25
+L 200,25
+L 100,175
+z
+T 2595 2820 8 10 0 0 0 7 1
+footprint=$(Footprint)
+T 300 200 8 7 1 1 0 0 1
+refdes=D?
+H 3 20 0 0 -1 -1 0 -1 -1 -1 -1 -1 4
+M 0,225
+L 0,175
+L 200,175
+L 200,125
+T 2595 3020 8 10 0 0 0 7 1
+device=DIODE
+T 2595 2520 8 10 0 0 0 7 1
+author=Mike Grozak
+T 2595 2320 8 10 0 0 0 7 1
+copyright=(C) 2017 Mike Grozak
+T 2595 2120 8 10 0 0 0 7 1
+dist-license=GPL
+T 2595 1920 8 10 0 0 0 7 1
+use-license=Unlimited
+P 0 100 50 100 1 0 0
+{
+T 700 375 5 10 0 0 90 0 1
+pintype=pas
+T 280 380 9 10 0 1 90 0 1
+pinlabel=ref
+T 475 375 5 10 0 0 90 0 1
+pinseq=1
+T -25 25 5 2 0 1 0 0 1
+pinnumber=1
+}
+T 300 100 8 5 1 1 0 0 1
+value=TL431

@@ -1,0 +1,57 @@
+v 20130925 2
+T 200 3100 5 8 0 0 0 0 1
+description=variable positive voltage regulator
+T 200 2900 5 8 0 0 0 0 1
+documentation=http://focus.ti.com/lit/ds/symlink/lm317.pdf
+T 200 2300 5 8 0 0 0 0 1
+author=Mike Grozak
+T 200 2100 5 8 0 0 0 0 1
+dist-license=GPL 3, see http://www.gnu.org/licenses/gpl-3.0.txt
+T 200 1900 5 8 0 0 0 0 1
+use-license=free, no restrictions
+T 200 2700 5 8 0 0 0 0 1
+footprints=TO220, TO220_LAY, TO220_BLOCK, SOT223, SO8_LM317, SOT89_LM317
+T 100 600 8 7 1 1 0 0 1
+refdes=U?
+T 200 1700 5 8 0 0 0 0 1
+footprint=TO220
+P 900 300 1000 300 1 0 1
+{
+T 1000 400 5 10 0 1 0 0 1
+pinnumber=2
+T 1000 350 5 6 1 1 0 6 1
+pinseq=2
+T 800 300 9 4 1 1 0 4 1
+pinlabel=Vo
+T 1000 100 5 10 0 1 0 0 1
+pintype=pwr
+}
+P 0 300 100 300 1 0 0
+{
+T 0 350 5 6 1 1 0 0 1
+pinnumber=3
+T 0 400 5 10 0 1 0 6 1
+pinseq=3
+T 200 300 9 4 1 1 0 4 1
+pinlabel=Vi
+T -100 100 5 10 0 1 0 0 1
+pintype=in
+}
+P 500 0 500 100 1 0 0
+{
+T 350 0 5 6 1 1 0 0 1
+pinnumber=1
+T 600 -100 5 10 0 1 0 0 1
+pinseq=1
+T 500 150 9 4 1 1 0 3 1
+pinlabel=Adj
+T 400 -100 5 10 0 1 0 6 1
+pintype=pas
+}
+B 100 100 800 400 3 10 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 200 2500 5 8 0 0 0 0 1
+symversion=3.0
+T 500 400 9 6 1 1 0 4 1
+value=LM317
+T 200 1500 5 8 0 0 0 0 1
+device=VOLTAGE_REGULATOR
