@@ -1,0 +1,60 @@
+v 20130925 2
+T 1100 800 5 8 0 0 0 0 1
+device=OPAMP
+T 1100 1600 5 8 0 0 0 0 1
+numslots=2
+T 1100 1400 5 8 0 0 0 0 1
+slotdef=1:1,2,3
+T 1100 1200 5 8 0 0 0 0 1
+slotdef=2:7,6,5
+T 1100 1000 5 8 0 0 0 0 1
+slot=1
+L 100 800 900 400 3 15 0 0 -1 -1
+P 100 200 0 200 1 0 1
+{
+T -50 225 5 8 0 0 0 0 1
+pinseq=3
+T 50 250 5 6 1 1 0 6 1
+pinnumber=3
+}
+P 100 600 0 600 1 0 1
+{
+T -50 625 5 8 0 0 0 0 1
+pinseq=2
+T 50 650 5 6 1 1 0 6 1
+pinnumber=2
+}
+P 900 400 1000 400 1 0 1
+{
+T 875 625 5 8 0 0 0 0 1
+pinseq=1
+T 900 450 5 6 1 1 0 0 1
+pinnumber=1
+}
+L 150 600 250 600 3 10 0 0 -1 -1
+L 200 250 200 150 3 10 0 0 -1 -1
+L 150 200 250 200 3 10 0 0 -1 -1
+L 900 400 100 0 3 15 0 0 -1 -1
+L 100 0 100 800 3 15 0 0 -1 -1
+T 300 300 8 5 1 1 0 0 1
+value=LM358
+T 300 400 8 7 1 1 0 0 1
+refdes=U?
+T 1093 1795 5 8 0 0 0 0 1
+device=OPAMP
+T 1100 2000 5 8 0 0 0 0 1
+use-license=free, no restrictions
+T 1100 2200 5 8 0 0 0 0 1
+dist-license=GPL 3, http://www.gnu.org/licenses/gpl-3.0.txt
+T 1100 2400 5 8 0 0 0 0 1
+author=Mike Grozak mike.grozak@gmail.com
+T 1100 2600 5 8 0 0 0 0 1
+symversion=1.0
+T 1100 2800 5 8 0 0 0 0 1
+footprints=SO8, DIP8
+T 1100 3000 5 8 0 0 0 0 1
+documentation=https://www.intersil.com/en/products/amplifiers-and-buffers/all-amplifiers/amplifiers/CA3130.html
+T 1100 3200 5 8 0 0 0 0 1
+comment=Use symbol opamp_pwr.sym to connect power pins.
+T 1100 3400 5 8 0 0 0 0 1
+description=operational amplifier
