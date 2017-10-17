@@ -350,7 +350,7 @@ T 48900 45900 5 10 0 1 0 0 1
 footprint=ACY300
 }
 N 49100 45700 49300 45700 4
-C 47900 45000 1 0 0 nc-bottom-2.sym
+C 47900 45000 1 0 0 nc-bottom-1.sym
 {
 T 47800 45400 5 10 0 0 0 0 1
 value=NoConnection

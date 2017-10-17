@@ -748,7 +748,7 @@ T 43200 47100 5 5 1 1 0 6 1
 stdvoltage=35v
 }
 N 47900 43900 47900 44000 4
-C 52500 43200 1 0 0 nc-right-2.sym
+C 52500 43200 1 0 0 nc-right-1.sym
 {
 T 52500 43700 5 10 0 0 0 0 1
 value=NoConnection
@@ -756,7 +756,7 @@ T 52500 43900 5 10 0 0 0 0 1
 device=DRC_Directive
 }
 N 52400 43300 52500 43300 4
-C 52400 45900 1 0 0 nc-right-2.sym
+C 52400 45900 1 0 0 nc-right-1.sym
 {
 T 52400 46400 5 10 0 0 0 0 1
 value=NoConnection

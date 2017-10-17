@@ -504,14 +504,14 @@ footprint=DIP8
 T 45393 45195 5 10 0 1 0 0 1
 device=OPAMP
 }
-C 45600 44900 1 0 0 nc-bottom-2.sym
+C 45600 44900 1 0 0 nc-bottom-1.sym
 {
 T 45500 45400 5 10 0 0 0 0 1
 value=NoConnection
 T 45500 45800 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 46000 44900 1 0 0 nc-bottom-2.sym
+C 46000 44900 1 0 0 nc-bottom-1.sym
 {
 T 45900 45400 5 10 0 0 0 0 1
 value=NoConnection
@@ -630,14 +630,14 @@ N 46600 45700 46600 47400 4
 N 46600 47400 51900 47400 4
 N 51900 46300 51900 47400 4
 N 51900 46300 51700 46300 4
-C 47400 44900 1 0 0 nc-bottom-2.sym
+C 47400 44900 1 0 0 nc-bottom-1.sym
 {
 T 47300 45400 5 10 0 0 0 0 1
 value=NoConnection
 T 47300 45800 5 10 0 0 0 0 1
 device=DRC_Directive
 }
-C 47800 44900 1 0 0 nc-bottom-2.sym
+C 47800 44900 1 0 0 nc-bottom-1.sym
 {
 T 47700 45400 5 10 0 0 0 0 1
 value=NoConnection
