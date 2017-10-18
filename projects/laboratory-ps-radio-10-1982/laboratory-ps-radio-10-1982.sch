@@ -92,22 +92,22 @@ stdvoltage=$(stdvoltage)
 T 43800 45100 5 6 0 1 0 0 1
 pwrdissp=$(pwrdissp)
 }
-C 50700 45100 1 0 0 led-1.sym
+C 50700 45200 1 0 0 led-1.sym
 {
-T 50245 45495 5 10 0 0 0 7 1
+T 50245 45595 5 10 0 0 0 7 1
 footprint=$(Footprint)
 T 50500 45400 5 8 1 1 0 0 1
 refdes=D3
-T 50245 45695 5 10 0 0 0 7 1
+T 50245 45795 5 10 0 0 0 7 1
 device=DIODE
 }
-C 51200 45500 1 0 0 led-1.sym
+C 51200 45600 1 0 0 led-1.sym
 {
-T 50745 45895 5 10 0 0 0 7 1
+T 50745 45995 5 10 0 0 0 7 1
 footprint=$(Footprint)
 T 51400 45800 5 8 1 1 0 0 1
 refdes=D4
-T 50745 46095 5 10 0 0 0 7 1
+T 50745 46195 5 10 0 0 0 7 1
 device=DIODE
 }
 C 43400 46500 1 0 1 tun-small-1.sym
