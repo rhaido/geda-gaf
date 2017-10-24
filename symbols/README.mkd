@@ -1,0 +1,13 @@
+## Guide For Symbol Creation
+
+### Font Sizing
+
+* Pin numbers: 5 or 6 depending on the symbol; try 6 first and if up to 8 pins
+* Pin labels: 5
+* **refdefs**: 7
+* IC **value**: 5 or 6 depending on the symbol and readability
+
+
+### Line Thickness
+
+* IC outling, Contour - 15
