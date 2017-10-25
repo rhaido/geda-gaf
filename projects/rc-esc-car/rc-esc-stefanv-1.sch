@@ -1,2 +1,355 @@
 v 20130925 2
 C 40000 40000 0 0 0 title-B.sym
+C 49400 46500 1 0 0 input-1.sym
+{
+T 49400 46800 5 10 0 0 0 0 1
+device=INPUT
+}
+C 55400 43000 1 0 0 input-1.sym
+{
+T 55400 43300 5 10 0 0 0 0 1
+device=INPUT
+}
+C 55800 43400 1 0 0 input-1.sym
+{
+T 55800 43700 5 10 0 0 0 0 1
+device=INPUT
+}
+C 52800 46300 1 0 0 dc_motor-v-1.sym
+{
+T 53200 47200 5 10 0 0 0 0 1
+device=DC_MOTOR
+T 53000 46700 5 7 1 1 0 4 1
+refdes=M?
+}
+C 41500 46100 1 0 0 lm339-type-1.sym
+{
+T 41800 46500 5 7 1 1 0 0 1
+refdes=U?
+T 41700 49600 5 10 0 0 0 0 1
+device=COMPARATOR
+T 41700 47000 5 10 0 0 0 0 1
+footprint=SO14,DIP14
+T 41800 46400 5 5 1 1 0 0 1
+value=LM339
+}
+C 49400 43800 1 0 0 lm339-type-1.sym
+{
+T 49700 44200 5 7 1 1 0 0 1
+refdes=U?
+T 49600 47300 5 10 0 0 0 0 1
+device=COMPARATOR
+T 49600 44700 5 10 0 0 0 0 1
+footprint=SO14,DIP14
+T 49700 44100 5 5 1 1 0 0 1
+value=LM339
+}
+C 50700 44700 1 0 0 lm339-type-1.sym
+{
+T 51000 45100 5 7 1 1 0 0 1
+refdes=U?
+T 50900 48200 5 10 0 0 0 0 1
+device=COMPARATOR
+T 50900 45600 5 10 0 0 0 0 1
+footprint=SO14,DIP14
+T 51000 45000 5 5 1 1 0 0 1
+value=LM339
+}
+C 51800 43900 1 0 0 lm339-type-2.sym
+{
+T 52100 44300 5 7 1 1 0 0 1
+refdes=U?
+T 52000 47400 5 10 0 0 0 0 1
+device=COMPARATOR
+T 52000 44800 5 10 0 0 0 0 1
+footprint=SO14,DIP14
+T 52100 44200 5 5 1 1 0 0 1
+value=LM339
+}
+C 54500 46200 1 0 0 lm339-type-pwr-1.sym
+{
+T 54390 48200 5 8 0 0 0 0 1
+symversion=1.0
+T 54600 46700 5 7 1 1 0 4 1
+refdes=U?
+T 55000 46700 5 10 0 1 0 0 1
+device=OPAMP
+}
+C 51600 49500 1 0 0 lm2940-1.sym
+{
+T 51800 50100 5 7 1 1 0 4 1
+refdes=U?
+T 51700 51200 5 8 0 0 0 0 1
+footprint=TO220
+T 51700 52000 5 8 0 0 0 0 1
+symversion=1.0
+T 52000 49900 5 5 1 1 0 4 1
+value=LM2940
+T 51700 51000 5 8 0 0 0 0 1
+device=VOLTAGE_REGULATOR
+}
+C 52800 48800 1 0 1 ech-capacitor-pol-v-1.sym
+{
+T 52500 49100 5 7 1 1 0 6 1
+refdes=C3
+T 52500 49000 5 5 1 1 0 6 1
+value=100u
+T 52905 49300 5 10 0 0 0 1 1
+footprint=$(footprint)
+T 52905 49500 5 10 0 0 0 1 1
+device=CAPACITOR
+T 52500 48900 5 5 1 1 0 6 1
+stdvoltage=25v
+}
+C 51200 48800 1 0 0 ech-capacitor-pol-v-1.sym
+{
+T 51500 49100 5 7 1 1 0 0 1
+refdes=C5
+T 51500 49000 5 5 1 1 0 0 1
+value=47u
+T 51095 49300 5 10 0 0 0 7 1
+footprint=$(footprint)
+T 51095 49500 5 10 0 0 0 7 1
+device=CAPACITOR
+T 51500 48900 5 5 1 1 0 0 1
+stdvoltage=10v
+}
+C 53000 48800 1 0 0 ech-capacitor-npol-v-1.sym
+{
+T 53200 49100 5 7 1 1 0 0 1
+refdes=C4
+T 53200 48900 5 5 1 1 0 0 1
+value=100n
+T 53000 49300 5 10 0 0 0 3 1
+footprint=$(Footprint)
+T 53000 49500 5 10 0 0 0 3 1
+device=CAPACITOR
+T 53200 48800 5 5 0 1 0 0 1
+dielectric=$(dielectric)
+}
+C 51000 48800 1 0 1 ech-capacitor-npol-v-1.sym
+{
+T 50800 49100 5 7 1 1 0 6 1
+refdes=C4
+T 50800 48900 5 5 1 1 0 6 1
+value=100u
+T 51000 49300 5 10 0 0 0 3 1
+footprint=$(Footprint)
+T 51000 49500 5 10 0 0 0 3 1
+device=CAPACITOR
+T 50800 48800 5 5 0 1 0 6 1
+dielectric=$(dielectric)
+}
+C 53200 44900 1 0 0 ech-capacitor-npol-h-1.sym
+{
+T 53500 45400 5 7 1 1 180 0 1
+refdes=C?
+T 53200 45000 5 5 1 1 0 0 1
+value=$(capacitance)
+T 53400 45400 5 10 0 0 0 3 1
+footprint=$(Footprint)
+T 53400 45600 5 10 0 0 0 3 1
+device=CAPACITOR
+T 53200 44900 5 5 1 1 0 0 1
+dielectric=$(dielectric)
+}
+C 53800 43700 1 0 0 ech-capacitor-npol-v-1.sym
+{
+T 54000 44000 5 7 1 1 0 0 1
+refdes=C?
+T 54000 43800 5 5 1 1 0 0 1
+value=$(capacitance)
+T 53800 44200 5 10 0 0 0 3 1
+footprint=$(Footprint)
+T 53800 44400 5 10 0 0 0 3 1
+device=CAPACITOR
+T 54000 43700 5 5 1 1 0 0 1
+dielectric=$(dielectric)
+}
+C 53600 43400 1 0 0 ech-capacitor-npol-v-1.sym
+{
+T 53800 43700 5 7 1 1 0 0 1
+refdes=C?
+T 53800 43500 5 5 1 1 0 0 1
+value=$(capacitance)
+T 53600 43900 5 10 0 0 0 3 1
+footprint=$(Footprint)
+T 53600 44100 5 10 0 0 0 3 1
+device=CAPACITOR
+T 53800 43400 5 5 1 1 0 0 1
+dielectric=$(dielectric)
+}
+C 52900 43000 1 0 0 ech-capacitor-npol-v-1.sym
+{
+T 53100 43300 5 7 1 1 0 0 1
+refdes=C?
+T 53100 43100 5 5 1 1 0 0 1
+value=$(capacitance)
+T 52900 43500 5 10 0 0 0 3 1
+footprint=$(Footprint)
+T 52900 43700 5 10 0 0 0 3 1
+device=CAPACITOR
+T 53100 43000 5 5 1 1 0 0 1
+dielectric=$(dielectric)
+}
+C 50500 42900 1 0 0 potmeter-h-1.sym
+{
+T 50502 43102 5 7 1 1 0 0 1
+refdes=P?
+T 51152 43802 5 10 0 0 0 0 1
+device=VARIABLE_RESISTOR
+T 51152 43602 5 10 0 0 0 0 1
+footprint=POT_LAYING
+T 50697 43002 5 5 1 1 0 1 1
+value=R
+}
+C 49800 42800 1 0 0 potmeter-h-1.sym
+{
+T 49802 43002 5 7 1 1 0 0 1
+refdes=P?
+T 50452 43702 5 10 0 0 0 0 1
+device=VARIABLE_RESISTOR
+T 50452 43502 5 10 0 0 0 0 1
+footprint=POT_LAYING
+T 49997 42902 5 5 1 1 0 1 1
+value=R
+}
+C 48100 43200 1 0 0 common.sym
+C 47800 43100 1 0 0 common.sym
+C 47500 42900 1 0 0 common.sym
+C 48100 42700 1 0 0 common.sym
+C 48500 42900 1 0 0 common.sym
+C 48400 43200 1 0 0 common.sym
+C 49000 43300 1 0 0 common.sym
+C 49000 42800 1 0 0 common.sym
+N 52000 49500 52000 48100 4
+N 51300 48800 51300 48100 4
+N 50900 48900 50900 48100 4
+N 52700 48800 52700 48100 4
+N 53100 48900 53100 48100 4
+N 53100 48100 50900 48100 4
+N 50900 49100 50900 49800 4
+N 51300 49200 51300 49800 4
+N 52700 49200 52700 49800 4
+N 53100 49100 53100 49800 4
+N 53100 49800 52400 49800 4
+N 51600 49800 50900 49800 4
+C 45400 43600 1 0 0 lm339-type-2.sym
+{
+T 45700 44000 5 7 1 1 0 0 1
+refdes=U?
+T 45600 47100 5 10 0 0 0 0 1
+device=COMPARATOR
+T 45600 44500 5 10 0 0 0 0 1
+footprint=SO14,DIP14
+T 45700 43900 5 5 1 1 0 0 1
+value=LM339
+}
+C 48700 50200 1 0 0 resistor-h-1.sym
+{
+T 49050 50500 5 10 0 0 0 0 1
+device=RESISTOR
+T 48800 50400 5 7 1 1 0 0 1
+refdes=R?
+T 48891 50302 5 5 1 1 0 1 1
+value=R
+T 49100 50500 5 10 0 1 0 0 1
+footprint=ACY300
+}
+C 44800 44600 1 0 0 resistor-v-1.sym
+{
+T 44950 44900 5 10 0 0 0 0 1
+device=RESISTOR
+T 45000 45100 5 7 1 1 180 0 1
+refdes=R?
+T 45098 44791 5 5 1 1 90 1 1
+value=R
+T 45000 44900 5 10 0 1 0 0 1
+footprint=ACY300
+}
+C 43600 43700 1 0 0 resistor-h-1.sym
+{
+T 43950 44000 5 10 0 0 0 0 1
+device=RESISTOR
+T 43700 43900 5 7 1 1 0 0 1
+refdes=R?
+T 43791 43802 5 5 1 1 0 1 1
+value=R
+T 44000 44000 5 10 0 1 0 0 1
+footprint=ACY300
+}
+C 44200 42900 1 0 0 resistor-v-1.sym
+{
+T 44350 43200 5 10 0 0 0 0 1
+device=RESISTOR
+T 44400 43400 5 7 1 1 180 0 1
+refdes=R?
+T 44498 43091 5 5 1 1 90 1 1
+value=R
+T 44400 43200 5 10 0 1 0 0 1
+footprint=ACY300
+}
+C 44800 42900 1 0 0 resistor-v-1.sym
+{
+T 44950 43200 5 10 0 0 0 0 1
+device=RESISTOR
+T 45000 43400 5 7 1 1 180 0 1
+refdes=R?
+T 45098 43091 5 5 1 1 90 1 1
+value=R
+T 45000 43200 5 10 0 1 0 0 1
+footprint=ACY300
+}
+N 45100 43500 45100 44600 4
+N 45400 44200 45100 44200 4
+N 45100 45200 45100 45800 4
+C 46300 44200 1 0 0 resistor-v-1.sym
+{
+T 46450 44500 5 10 0 0 0 0 1
+device=RESISTOR
+T 46500 44700 5 7 1 1 180 0 1
+refdes=R?
+T 46598 44391 5 5 1 1 90 1 1
+value=R
+T 46500 44500 5 10 0 1 0 0 1
+footprint=ACY300
+}
+N 46400 44000 46800 44000 4
+N 46600 44200 46600 44000 4
+N 46600 44800 46600 45800 4
+N 44200 43800 45400 43800 4
+N 44500 43800 44500 43500 4
+C 46800 43800 1 0 0 1n4148-h-1.sym
+{
+T 46900 44300 5 10 0 0 0 3 1
+footprint=$(Footprint)
+T 46900 44150 5 7 1 1 0 3 1
+refdes=D?
+T 46900 44500 5 10 0 0 0 3 1
+device=DIODE
+T 46800 43800 5 5 1 1 0 0 1
+value=1N4148
+}
+C 50600 42100 1 0 0 1n4148-h-1.sym
+{
+T 50700 42600 5 10 0 0 0 3 1
+footprint=$(Footprint)
+T 50700 42450 5 7 1 1 0 3 1
+refdes=D?
+T 50700 42800 5 10 0 0 0 3 1
+device=DIODE
+T 50600 42100 5 5 1 1 0 0 1
+value=1N4148
+}
+N 47000 44000 48600 44000 4
+C 42700 46400 1 0 0 resistor-h-1.sym
+{
+T 43050 46700 5 10 0 0 0 0 1
+device=RESISTOR
+T 42800 46600 5 7 1 1 0 0 1
+refdes=R?
+T 42891 46502 5 5 1 1 0 1 1
+value=R
+T 43100 46700 5 10 0 1 0 0 1
+footprint=ACY300
+}
