@@ -24,7 +24,7 @@ pintype=pas
 T 0 400 8 10 1 1 0 0 1
 refdes=R?
 T 0 1600 5 10 0 0 0 0 1
-device=Thermistor
+device=THERMISTOR
 T 0 600 5 10 0 0 0 0 1
 author=Stefan Salewski
 T 0 800 5 10 0 0 0 0 1

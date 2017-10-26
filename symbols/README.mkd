@@ -6,7 +6,60 @@
 * **pinlabel**: 5
 * **refdefs**: 7
 * IC **value**: 5 or 6 depending on the symbol and readability
+* D(rain), G(ate), S(ource), B(ase), C(ollector), E(mitter) - size 4, upper case
+
+### Alignment of Text and Numbers
+* IC Pin numbers - "Lower Right" on the left side and "Lower Left" on the right
+  side (on the left side string grow from right to left, on the left - from
+  left to right)
 
 ### Line Thickness
 
 * IC outling, Contour - 15
+
+### Device Attribute
+#### Connectors
+SERVO_CONNECTOR
+TERMINAL_BLOCK
+
+#### Switches
+PUSH_BUTTON
+RELAY
+
+#### CAPs
+CAPACITOR
+POLARIZED_CAPACITOR
+
+#### Motors
+DC_MOTOR
+
+#### Resistors
+RESISTOR
+THERMISTOR
+VARIABLE_RESISTOR
+
+#### Semicons
+DIODE
+NMOS_TRANSISTOR
+PMOS_TRANSISTOR
+NPN_DARLINGTON
+TRIAC
+TUN
+TUP
+
+#### ICs
+LOGIC_IC
+OPAMP
+OPAMP-pwr-pins
+OPTOCOUPLER
+VOLTAGE_COMPARATOR
+VOLTAGE_REGULATOR
+
+#### Misc
+
+DRC_Directive
+FUSE
+CHASSIS_CONNECTION
+SOLDERING_IRON
+TESTPOINT
+

@@ -1,17 +1,17 @@
 v 20130925 2
-T -300 2100 5 8 0 0 0 0 1
+T 500 3100 5 8 0 0 0 0 1
 description=operational amplifier
-T -300 1900 5 8 0 0 0 0 1
+T 500 2900 5 8 0 0 0 0 1
 comment=Use symbol opamp_pwr.sym to connect power pins.
-T -300 1700 5 8 0 0 0 0 1
+T 500 2700 5 8 0 0 0 0 1
 documentation=https://www.intersil.com/en/products/amplifiers-and-buffers/all-amplifiers/amplifiers/CA3130.html
-T -300 1500 5 8 0 0 0 0 1
+T 500 2500 5 8 0 0 0 0 1
 footprints=SO8, DIP8
-T -300 1300 5 8 0 0 0 0 1
+T 500 2300 5 8 0 0 0 0 1
 symversion=1.0
-T -300 1100 5 8 0 0 0 0 1
+T 500 2100 5 8 0 0 0 0 1
 author=Mike Grozak mike.grozak@gmail.com
-T -300 900 5 8 0 0 0 0 1
+T 500 1900 5 8 0 0 0 0 1
 dist-license=GPL 3, http://www.gnu.org/licenses/gpl-3.0.txt
 T 600 1000 8 7 1 1 0 0 1
 refdes=U?
@@ -52,7 +52,7 @@ pintype=out
 T 700 500 9 8 0 1 0 7 1
 pinlabel=out
 }
-T -300 700 5 8 0 0 0 0 1
+T 500 1700 5 8 0 0 0 0 1
 use-license=free, no restrictions
 L 100 900 900 500 3 15 0 0 -1 -1
 L 100 100 900 500 3 15 0 0 -1 -1
@@ -115,5 +115,5 @@ pinnumber=7
 T 400 600 5 10 0 0 0 0 1
 pinseq=7
 }
-T -7 -5 8 10 0 1 0 0 1
-device=CA3130
+T 493 1495 5 8 0 0 0 0 1
+device=OPAMP

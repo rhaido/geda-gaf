@@ -1,7 +1,7 @@
 v 20130925 2
 P 0 200 100 200 1 0 0
 {
-T 0 250 5 6 1 1 0 0 1
+T 50 250 5 6 1 1 0 6 1
 pinnumber=4
 T 150 150 5 8 0 1 0 8 1
 pinseq=1
@@ -12,7 +12,7 @@ pintype=in
 }
 P 0 600 100 600 1 0 0
 {
-T 0 650 5 6 1 1 0 0 1
+T 50 650 5 6 1 1 0 6 1
 pinnumber=5
 T 150 550 5 8 0 1 0 8 1
 pinseq=2
@@ -35,7 +35,7 @@ pintype=oc
 T 300 400 8 7 1 1 0 0 1
 refdes=U?
 T 200 3500 5 10 0 0 0 0 1
-device=COMPARATOR
+device=VOLTAGE_COMPARATOR
 T 200 900 5 10 0 0 0 0 1
 footprint=SO14,DIP14
 T 200 1100 5 10 0 0 0 0 1
