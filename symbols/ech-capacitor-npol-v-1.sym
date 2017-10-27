@@ -21,23 +21,23 @@ pinnumber=2
 T 350 -50 5 10 0 0 90 8 1
 pinseq=2
 }
-T 250 250 8 7 1 1 0 0 1
+T 250 200 8 7 1 1 0 0 1
 refdes=C?
 T 250 100 8 5 1 1 0 0 1
 value=$(capacitance)
-T 0 500 8 10 0 0 0 3 1
+T 0 450 8 10 0 0 0 3 1
 footprint=$(Footprint)
 L 200 175 0 175 3 30 0 0 -1 -1
 L 200 225 0 225 3 30 0 0 -1 -1
-T 0 700 8 10 0 0 0 3 1
+T 0 650 8 10 0 0 0 3 1
 device=CAPACITOR
-T 0 1000 8 10 0 0 0 3 1
+T 0 950 8 10 0 0 0 3 1
 use-license=Unlimited
-T 0 1200 8 10 0 0 0 3 1
+T 0 1150 8 10 0 0 0 3 1
 dist-license=GPL
-T 0 1400 8 10 0 0 0 3 1
+T 0 1350 8 10 0 0 0 3 1
 copyright=(C) 2014 Edward Hennessy
-T 0 1600 8 10 0 0 0 3 1
+T 0 1550 8 10 0 0 0 3 1
 author=Edward Hennessy
 T 250 0 8 5 1 1 0 0 1
 dielectric=$(dielectric)
