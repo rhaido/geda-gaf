@@ -75,6 +75,6 @@ slotdef=3:10,9,8
 T 0 2800 5 8 0 0 0 0 1
 slotdef=1:3,2,1
 T 0 2950 5 8 0 0 0 0 1
-net=VCCP:4
+net=Vcc+:4
 T 0 3100 5 8 0 0 0 0 1
-net=VCCN:11
+net=Vcc-:11
