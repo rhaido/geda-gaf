@@ -1,0 +1,71 @@
+% RC Car ESC: Control Logic General Description
+% Mike Grozak
+
+## Introduction
+
+This is an algorithm, which is basically applicable to the circuits without a
+microcontroller found in this folder. Circuit provided by StefanV is a bit
+different not having clear selector of "BRAKE" action, rather an
+action by "default" in the absence of any throttling activity.
+
+## Glossary
+
+- Rising edge: LOW -> HIGH
+- Falling edge: HIGH -> LOW
+- Leading edge: an edge which defines the beginning of the event
+- Trailing edge: an edge which defines the end of the event
+- "REVERSE" - reverse action and part of the circuitry which is responsible for
+  reverse movement
+- "FORWARD" - forward action and part of the circuitry which is responsible for
+  forward movement
+
+In principle, "REVERSE" or "FOR0WARD" might not have anything to do with
+movement: these are just activators for the sub-circuits.
+
+## Basic Example Circuit
+
+    lazy-b-2004-1.sch
+
+## Pulse duration ranges
+
+- 1.5ms pulse is our neutral gear
+- between 1ms and 1.5ms - "REVERSE"
+- between 1.5ms and 2ms - "FORWARD"
+
+## General description
+
+_R3-Q1-C2-R4-P1_ is a monostable multivibrator which sets duration of a neutral
+pulse. Discharge time time is defined by RC chain _C2-R4-P1_. Normal state is
+HIGH (output of _U2-3 pin 3_).  On the leading edge of the input it's set to
+LOW. If the trailing edge of the input signal happens before the end of the
+"neutral" pulse, then it's decoded as a "REVERSE" signal. Output of the
+corresponding gate goes HIGH until the end of the neutral pulse, thus enabling
+the "REVERSE".
+
+Rising edge of the "neutral" blocks "REVERSE": _U1-2 pin 5_ goes HIGH,
+- and enables "FORWARD" movement by setting _U1-1 pin 2_ to LOW.
+
+If the trailing edge of the RX-signal occurs after the trailing edge of the
+"neutral" pulse, "FORWARD" control gate is activated thus enabling it.
+
+## Algorithm
+
+U1-1 controls the "FORWARD", U1-2 controls the "REVERSE". 
+
+On the leading edge of the RX pulse:
+
+- _U1-1 pin 1_ is LOW
+- _U1-2 pin 6_ is HIGH_
+- Monostable multivibrator _R3-Q1-C2-R4-P1_ is triggered; _U2-3 pin 7_ goes
+  HIGH and _U2-3 pin 6_ is LOW for a time defined by the discharge time of _C2_
+  via _R4-P1_.
+- As the result of mono triggering,_U1-2 pin 5_ is LOW, _U1-1 pin 2_ is HIGH as
+  gating signal is inverted by _U1-3_
+
+If the RX trailing edge happens before trailing edge of a "neutral" pulse: _U1-1
+pin 1_ goes HIGH, _U1-2 pin 6_ goes LOW; as _U1-2 pin 5_ was already low due to
+mono action, therefore _U1-2 pin 4_ goes HIGH, thus activating the "REVERSE".
+
+If the "neutral" trailing edge happens before RX trailing edge: _U1-1 pin 1_ is
+still LOW, _U1-1 pin 2_ goes LOW => _U1-1 pin3_ goes HIGH thus activating
+"FORWARD"; _U1-2 pin 5_ goes HIGH, thus blocking the "REVERSE" completely.
