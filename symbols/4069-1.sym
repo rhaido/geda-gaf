@@ -23,37 +23,39 @@ pinlabel=A
 T 150 200 5 8 0 1 0 2 1
 pintype=in
 }
-T 0 2325 5 10 0 0 0 0 1
+T 0 2525 5 10 0 0 0 0 1
 device=LOGIC_IC
-T 0 725 5 10 0 0 0 0 1
+T 400 0 8 6 1 1 0 0 1
 slot=1
-T 0 925 5 10 0 0 0 0 1
+T 0 1125 5 10 0 0 0 0 1
 numslots=6
-T 0 1525 5 10 0 0 0 0 1
-slotdef=1:5,6
 T 0 1725 5 10 0 0 0 0 1
-slotdef=2:9,8
+slotdef=3:5,6
 T 0 1925 5 10 0 0 0 0 1
-slotdef=3:11,10
+slotdef=4:9,8
 T 0 2125 5 10 0 0 0 0 1
-slotdef=4:13,12
+slotdef=5:11,10
+T 0 2325 5 10 0 0 0 0 1
+slotdef=6:13,12
 T 200 400 8 7 1 1 0 0 1
 refdes=U?
-T 0 2525 5 10 0 0 0 0 1
-footprint=DIP14
 T 0 2725 5 10 0 0 0 0 1
-description=6 INVERTERS
+footprint=DIP14
 T 0 2925 5 10 0 0 0 0 1
-net=VDD:14
+description=HEX inverter
 T 0 3125 5 10 0 0 0 0 1
-net=VSS:7
+net=VDD:14
 T 0 3325 5 10 0 0 0 0 1
+net=VSS:7
+T 0 3525 5 10 0 0 0 0 1
 documentation=www.ti.com/lit/ds/symlink/cd4069ub.pdf
-T 100 600 8 5 0 1 0 0 1
-value=CD4069
+T 0 700 5 10 0 0 0 0 1
+value=4069
 L 100 400 400 200 3 15 0 0 -1 -1
 L 400 200 100 0 3 15 0 0 -1 -1
+T 0 1525 5 10 0 0 0 0 1
+slotdef=2:3,4
 T 0 1325 5 10 0 0 0 0 1
-slotdef=1:3,4
-T 0 1125 5 10 0 0 0 0 1
 slotdef=1:1,2
+T 0 900 5 10 0 0 0 0 1
+slot=1

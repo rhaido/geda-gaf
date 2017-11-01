@@ -100,5 +100,7 @@ T 0 2550 5 10 0 0 0 0 1
 slotdef=2:4,5,6,3,1,2,7
 T 0 2750 5 10 0 0 0 0 1
 description=2 JK master-slave flip-flop
-T 1000 500 8 10 0 1 0 0 1
+T 0 1300 5 10 0 0 0 0 1
 value=4027
+T 800 0 8 6 1 1 0 0 1
+slot=1

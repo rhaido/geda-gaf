@@ -39,7 +39,7 @@ pintype=in
 }
 T 0 1925 5 10 0 0 0 0 1
 device=LOGIC_IC
-T 0 725 5 10 0 0 0 0 1
+T 600 0 8 6 1 1 0 0 1
 slot=1
 T 0 925 5 10 0 0 0 0 1
 numslots=4
@@ -67,5 +67,7 @@ T 0 2725 5 10 0 0 0 0 1
 net=VSS:7
 T 0 2925 5 10 0 0 0 0 1
 documentation=http://www.semiconductors.philips.com/acrobat/datasheets/HEF4093B_CNV_3.pdf
-T 500 500 8 10 0 1 0 0 1
+T 700 400 8 7 0 1 0 0 1
 value=4093
+T 0 700 5 10 0 0 0 0 1
+slot=1

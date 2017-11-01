@@ -58,3 +58,5 @@ T 1100 3200 5 8 0 0 0 0 1
 comment=Use symbol opamp_pwr.sym to connect power pins.
 T 1100 3400 5 8 0 0 0 0 1
 description=operational amplifier
+T 700 100 8 6 1 1 0 0 1
+slot=1
