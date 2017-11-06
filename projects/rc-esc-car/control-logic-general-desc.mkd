@@ -26,6 +26,10 @@ movement: these are just activators for the sub-circuits.
 
     lazy-b-2004-1.sch
 
+**!ATTENTION!** This circuit has no protection against incorrect input. If it's
+always high, then the U1-1 output will be always HIGH. To avoid this, it's
+necessary to add a capacitive coupling for the input.
+
 ## Pulse duration ranges
 
 - 1.5ms pulse is our neutral gear
