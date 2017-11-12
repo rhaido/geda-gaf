@@ -60,3 +60,5 @@ T 1100 3400 5 8 0 0 0 0 1
 description=operational amplifier
 T 700 100 8 6 1 1 0 0 1
 slot=1
+T 1100 3600 5 8 0 0 0 0 1
+footprint=DIP8

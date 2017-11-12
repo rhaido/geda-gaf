@@ -6,8 +6,6 @@ T 51600 50225 5 10 0 0 0 0 1
 device=LOGIC_IC
 T 51800 48300 5 7 1 1 0 0 1
 refdes=U1
-T 51600 50425 5 10 0 0 0 0 1
-footprint=DIP14
 T 51900 48300 5 5 0 1 0 0 1
 value=74HC14
 T 51600 47900 5 10 0 0 0 0 1
@@ -19,8 +17,6 @@ T 52500 50225 5 10 0 0 0 0 1
 device=LOGIC_IC
 T 52700 48300 5 7 1 1 0 0 1
 refdes=U1
-T 52500 50425 5 10 0 0 0 0 1
-footprint=DIP14
 T 52800 48300 5 5 0 1 0 0 1
 value=74HC14
 T 52500 47900 5 10 0 0 0 0 1
@@ -32,8 +28,6 @@ T 44200 47925 5 10 0 0 0 0 1
 device=LOGIC_IC
 T 44400 46000 5 7 1 1 0 0 1
 refdes=U1
-T 44200 48125 5 10 0 0 0 0 1
-footprint=DIP14
 T 44500 46000 5 5 0 1 0 0 1
 value=74HC14
 T 44200 45600 5 10 0 0 0 0 1
@@ -45,8 +39,6 @@ T 46200 45825 5 10 0 0 0 0 1
 device=LOGIC_IC
 T 46400 43900 5 7 1 1 0 0 1
 refdes=U1
-T 46200 46025 5 10 0 0 0 0 1
-footprint=DIP14
 T 46300 43400 5 5 1 1 0 0 1
 value=74HC14
 T 46200 43500 5 10 0 0 0 0 1
@@ -58,8 +50,6 @@ T 45700 47525 5 10 0 0 0 0 1
 device=LOGIC_IC
 T 45900 45600 5 7 1 1 0 0 1
 refdes=U1
-T 45700 47725 5 10 0 0 0 0 1
-footprint=DIP14
 T 46000 45600 5 5 0 1 0 0 1
 value=74HC14
 T 45700 45200 5 10 0 0 0 0 1
@@ -71,8 +61,6 @@ T 46300 47525 5 10 0 0 0 0 1
 device=LOGIC_IC
 T 46500 45600 5 7 1 1 0 0 1
 refdes=U1
-T 46300 47725 5 10 0 0 0 0 1
-footprint=DIP14
 T 46600 45600 5 5 0 1 0 0 1
 value=74HC14
 }
@@ -91,7 +79,7 @@ footprint=ACY300
 C 52300 49700 1 0 0 tun-small-1.sym
 {
 T 51900 50200 5 10 0 1 0 0 1
-footprint=TO92
+footprint=TO92-1
 T 52875 49850 5 6 0 1 0 0 1
 device=TUN
 T 52100 50200 5 7 1 1 0 0 1
@@ -104,7 +92,7 @@ C 52300 48900 1 0 0 tup-small-1.sym
 T 52875 49050 5 6 0 1 0 0 1
 device=TUP
 T 53000 49800 5 10 0 1 0 0 1
-footprint=TO92
+footprint=TO92-1
 T 52100 49000 5 7 1 1 0 0 1
 refdes=Q6
 T 52100 48900 5 5 1 1 0 0 1
@@ -157,7 +145,7 @@ C 53500 47400 1 0 0 tup-small-1.sym
 T 54075 47550 5 6 0 1 0 0 1
 device=TUP
 T 54200 48300 5 10 0 1 0 0 1
-footprint=TO92
+footprint=TO92-1
 T 53300 47500 5 7 1 1 0 0 1
 refdes=Q8
 T 53300 47400 5 5 1 1 0 0 1
@@ -166,7 +154,7 @@ value=BC557
 C 53500 48200 1 0 0 tun-small-1.sym
 {
 T 53100 48700 5 10 0 1 0 0 1
-footprint=TO92
+footprint=TO92-1
 T 54075 48350 5 6 0 1 0 0 1
 device=TUN
 T 53300 48700 5 7 1 1 0 0 1
@@ -179,7 +167,7 @@ N 52700 49600 52800 49600 4
 C 53300 49900 1 0 0 ech-diode-v-2.sym
 {
 T 53400 50300 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_300mil
 T 53550 50000 5 7 1 1 0 0 1
 refdes=D11
 T 53400 50500 5 10 0 0 0 3 1
@@ -190,7 +178,7 @@ value=1N4002
 C 53800 49400 1 0 0 ech-diode-h-1.sym
 {
 T 53900 49900 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_300mil
 T 53900 49750 5 7 1 1 0 3 1
 refdes=D12
 T 53900 50100 5 10 0 0 0 3 1
@@ -201,7 +189,7 @@ value=1N4002
 C 55200 48600 1 0 0 ech-diode-h-1.sym
 {
 T 55300 49100 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_300mil
 T 55300 48950 5 7 1 1 0 3 1
 refdes=D13
 T 55300 49300 5 10 0 0 0 3 1
@@ -222,7 +210,7 @@ refdes=C1
 T 41400 43000 5 5 1 1 0 0 1
 value=100n
 T 41600 43600 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=cap_200mil
 T 41600 43800 5 10 0 0 0 3 1
 device=CAPACITOR
 T 41400 43100 5 5 0 1 0 0 1
@@ -235,7 +223,7 @@ refdes=C2
 T 41650 44000 5 5 1 1 0 6 1
 value=10n
 T 41700 44250 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=cap_200mil
 T 41700 44450 5 10 0 0 0 3 1
 device=CAPACITOR
 T 41950 43800 5 5 0 1 0 0 1
@@ -248,7 +236,7 @@ refdes=C3
 T 43250 46600 5 5 1 1 0 6 1
 value=22n
 T 43300 46850 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=cap_200mil
 T 43300 47050 5 10 0 0 0 3 1
 device=CAPACITOR
 T 43550 46400 5 5 0 1 0 0 1
@@ -274,7 +262,7 @@ refdes=C11
 T 54850 45000 5 5 1 1 0 6 1
 value=100n
 T 55100 45350 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=cap_200mil
 T 55100 45550 5 10 0 0 0 3 1
 device=CAPACITOR
 T 54850 44900 5 5 0 1 0 6 1
@@ -296,7 +284,7 @@ dielectric=$(dielectric)
 C 43000 45100 1 0 0 tun-small-1.sym
 {
 T 42600 45600 5 10 0 1 0 0 1
-footprint=TO92
+footprint=TO92-1
 T 43575 45250 5 6 0 1 0 0 1
 device=TUN
 T 43000 45800 5 7 1 1 0 0 1
@@ -346,7 +334,7 @@ footprint=ACY300
 C 43800 43100 1 0 0 tun-small-1.sym
 {
 T 43400 43600 5 10 0 1 0 0 1
-footprint=TO92
+footprint=TO92-1
 T 44375 43250 5 6 0 1 0 0 1
 device=TUN
 T 43800 43100 5 7 1 1 0 0 1
@@ -382,7 +370,7 @@ footprint=ACY300
 C 42600 42600 1 0 0 1n4148-v-1.sym
 {
 T 42700 43000 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_300mil
 T 42850 42700 5 7 1 1 180 8 1
 refdes=D1
 T 42700 43200 5 10 0 0 0 3 1
@@ -424,7 +412,7 @@ N 44700 45800 45100 45800 4
 C 45100 45600 1 0 0 1n4148-h-2.sym
 {
 T 45200 46100 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_200mil
 T 45200 45950 5 7 1 1 0 3 1
 refdes=D5
 T 45200 46300 5 10 0 0 0 3 1
@@ -435,7 +423,7 @@ value=1N4148
 C 45100 44900 1 0 0 1n4148-h-2.sym
 {
 T 45200 45400 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_200mil
 T 45200 45250 5 7 1 1 0 3 1
 refdes=D4
 T 45200 45600 5 10 0 0 0 3 1
@@ -446,7 +434,7 @@ value=1N4148
 C 45100 43200 1 0 0 1n4148-h-1.sym
 {
 T 45200 43700 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_200mil
 T 45200 43550 5 7 1 1 0 3 1
 refdes=D2
 T 45200 43900 5 10 0 0 0 3 1
@@ -462,7 +450,7 @@ N 44900 44000 45100 44000 4
 C 45100 43800 1 0 0 1n4148-h-1.sym
 {
 T 45200 44300 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_200mil
 T 45200 44150 5 7 1 1 0 3 1
 refdes=D3
 T 45200 44500 5 10 0 0 0 3 1
@@ -497,7 +485,7 @@ N 47100 45400 47100 42800 4
 C 48100 42500 1 0 0 tun-small-1.sym
 {
 T 47700 43000 5 10 0 1 0 0 1
-footprint=TO92
+footprint=TO92-1
 T 48675 42650 5 6 0 1 0 0 1
 device=TUN
 T 48100 42500 5 7 1 1 0 0 1
@@ -508,7 +496,7 @@ value=BC547
 C 47300 43500 1 0 0 1n4148-h-1.sym
 {
 T 47400 44000 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_200mil
 T 47400 43850 5 7 1 1 0 3 1
 refdes=D6
 T 47400 44200 5 10 0 0 0 3 1
@@ -585,7 +573,7 @@ slot=2
 C 47300 45200 1 0 0 1n4148-h-1.sym
 {
 T 47400 45700 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_200mil
 T 47400 45550 5 7 1 1 0 3 1
 refdes=D7
 T 47400 45900 5 10 0 0 0 3 1
@@ -851,12 +839,10 @@ device=CAPACITOR
 T 54300 48300 5 5 1 1 0 0 1
 stdvoltage=25v
 }
-C 54100 47000 1 0 0 common.sym
 N 54200 47100 54200 47200 4
 N 52700 50400 54400 50400 4
 N 53400 50400 53400 50100 4
 N 52700 50400 52700 50300 4
-C 52600 48700 1 0 0 common.sym
 N 52700 48800 52700 48900 4
 N 53900 48800 53900 49100 4
 N 53900 49100 54400 49100 4
@@ -879,7 +865,7 @@ N 48500 42500 48500 41900 4
 C 48000 44400 1 0 0 tun-small-1.sym
 {
 T 47600 44900 5 10 0 1 0 0 1
-footprint=TO92
+footprint=TO92-1
 T 48575 44550 5 6 0 1 0 0 1
 device=TUN
 T 48000 44400 5 7 1 1 0 0 1
@@ -908,11 +894,15 @@ N 49200 44100 49200 44600 4
 N 48800 44400 48800 44100 4
 N 43400 46700 43400 47500 4
 N 43400 47500 48600 47500 4
-C 42700 43900 1 0 0 common.sym
 N 50900 42200 50900 41900 4
 C 47500 41600 1 0 0 common.sym
+{
+T 47500 41600 5 10 0 0 0 0 1
+net=VSS:1
+T 47500 41600 5 10 0 0 0 0 1
+net=GND:1
+}
 N 47600 41700 47600 41900 4
-C 50800 44500 1 0 0 common.sym
 C 48700 43900 1 0 0 common.sym
 N 48800 44000 48800 44100 4
 C 41900 49300 1 0 0 resistor-v-1.sym
@@ -955,7 +945,7 @@ pwrdissp=0.5w
 C 43200 49600 1 90 0 tun-small-1.sym
 {
 T 42700 49200 5 10 0 1 90 0 1
-footprint=TO92
+footprint=unknown
 T 43050 50175 5 6 0 1 90 0 1
 device=TUN
 T 43000 49600 5 7 1 1 0 0 1
@@ -973,7 +963,6 @@ N 42500 48600 42500 48500 4
 N 42200 49900 42200 50200 4
 N 42200 50000 42600 50000 4
 N 43200 50000 43400 50000 4
-C 42400 48400 1 0 0 common.sym
 C 55800 45200 1 180 1 ech-diode-v-2.sym
 {
 T 55900 44800 5 10 0 0 180 3 1
@@ -996,7 +985,6 @@ refdes=B1
 T 45300 50500 5 10 0 0 0 0 1
 symversion=0.1
 }
-C 45400 49000 1 0 0 common.sym
 N 45500 50000 45500 49700 4
 N 45500 49400 45500 49100 4
 N 44200 44700 44200 44900 4
@@ -1026,7 +1014,6 @@ stdvoltage=12v
 T 47950 49000 5 5 1 1 0 0 1
 pwrdissp=0.5w
 }
-C 48100 48600 1 0 0 common.sym
 C 48500 50200 1 0 0 vcc-custom-1.sym
 {
 T 48600 50400 5 6 1 1 0 5 1
@@ -1152,13 +1139,12 @@ refdes=C6
 T 47950 46200 5 5 1 1 0 6 1
 value=100n
 T 48200 46550 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=cap_200mil
 T 48200 46750 5 10 0 0 0 3 1
 device=CAPACITOR
 T 47950 46100 5 5 0 1 0 6 1
 dielectric=$(dielectric)
 }
-C 48300 45800 1 0 0 common.sym
 N 48100 46200 48100 46000 4
 N 48100 46000 48600 46000 4
 N 48600 46000 48600 46200 4
@@ -1216,3 +1202,59 @@ NOR Gate
 B 45000 44800 1900 2100 3 10 0 2 100 100 0 -1 -1 -1 -1 -1
 T 46000 46700 9 10 1 0 0 0 1
 AND Gate
+C 54100 47000 1 0 0 common.sym
+{
+T 54100 47000 5 10 0 0 0 0 1
+net=VSS:1
+T 54100 47000 5 10 0 0 0 0 1
+net=GND:1
+}
+C 42700 43900 1 0 0 common.sym
+{
+T 42700 43900 5 10 0 0 0 0 1
+net=VSS:1
+T 42700 43900 5 10 0 0 0 0 1
+net=GND:1
+}
+C 48300 45800 1 0 0 common.sym
+{
+T 48300 45800 5 10 0 0 0 0 1
+net=VSS:1
+T 48300 45800 5 10 0 0 0 0 1
+net=GND:1
+}
+C 50800 44500 1 0 0 common.sym
+{
+T 50800 44500 5 10 0 0 0 0 1
+net=VSS:1
+T 50800 44500 5 10 0 0 0 0 1
+net=GND:1
+}
+C 52600 48700 1 0 0 common.sym
+{
+T 52600 48700 5 10 0 0 0 0 1
+net=VSS:1
+T 52600 48700 5 10 0 0 0 0 1
+net=GND:1
+}
+C 48100 48600 1 0 0 common.sym
+{
+T 48100 48600 5 10 0 0 0 0 1
+net=VSS:1
+T 48100 48600 5 10 0 0 0 0 1
+net=GND:1
+}
+C 45400 49000 1 0 0 common.sym
+{
+T 45400 49000 5 10 0 0 0 0 1
+net=VSS:1
+T 45400 49000 5 10 0 0 0 0 1
+net=GND:1
+}
+C 42400 48400 1 0 0 common.sym
+{
+T 42400 48400 5 10 0 0 0 0 1
+net=VSS:1
+T 42400 48400 5 10 0 0 0 0 1
+net=GND:1
+}
