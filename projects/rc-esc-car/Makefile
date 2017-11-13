@@ -1,12 +1,13 @@
-SHELL := /bin/bash
-PATH := $(HOME)/pcb-rnd-bin/bin:$(PATH)
+#SHELL := /bin/bash
+#PATH := $(HOME)/pcb-rnd-bin/bin:$(PATH)
+#PATH := $(HOME)/pcb-rnd-bin/bin:$(PATH)
 
 purge:
 	rm *pcb *net *cmd *pcb- *bak; exit 0
 pcb:
-	gsch2pcb -d /home/mike/dev/geda-gaf/footprints project
+	gsch2pcb -d $(HOME)/dev/geda-gaf/footprints project
 pcb-rnd:
-	gsch2pcb-rnd -v -v -v -v -d /home/mike/dev/geda-gaf/footprints -m importsep project
+	gsch2pcb-rnd -v -v -v -v -d $(HOME)/dev/geda-gaf/footprints -m importsep project
 net:
 	gnetlist -g PCB xenon-esc-1.sch -o xenon-esc-1.net
 #net:

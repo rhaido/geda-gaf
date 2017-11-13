@@ -61,6 +61,10 @@ ChangePinName(C12, 1, 1)
 ChangePinName(R20, 1, 1)
 ChangePinName(R20, 2, 2)
 
+# Start of element U?
+ChangePinName(U?, 1, 1)
+ChangePinName(U?, 1, 1)
+
 # Start of element R11
 ChangePinName(R11, 1, 1)
 ChangePinName(R11, 2, 2)
