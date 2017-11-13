@@ -48,10 +48,6 @@ footprint=DIP14
 T 0 2725 5 10 0 0 0 0 1
 description=6 SCHMITT INVERTERS
 T 0 2925 5 10 0 0 0 0 1
-net=VDD:14
-T 0 3125 5 10 0 0 0 0 1
-net=VSS:7
-T 0 3325 5 10 0 0 0 0 1
 documentation=http://www.ti.com/lit/gpn/cd74hc14
 T 300 400 8 5 0 1 0 0 1
 value=74HC14

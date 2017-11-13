@@ -9,7 +9,7 @@ refdes=U1
 T 51900 48300 5 5 0 1 0 0 1
 value=74HC14
 T 51600 47900 5 10 0 0 0 0 1
-slot=6
+slot=4
 }
 C 52500 47900 1 0 0 74hc14-1.sym
 {
@@ -30,8 +30,6 @@ T 44400 46000 5 7 1 1 0 0 1
 refdes=U1
 T 44500 46000 5 5 0 1 0 0 1
 value=74HC14
-T 44200 45600 5 10 0 0 0 0 1
-slot=4
 }
 C 46200 43500 1 0 0 74hc14-1.sym
 {
@@ -42,7 +40,7 @@ refdes=U1
 T 46300 43400 5 5 1 1 0 0 1
 value=74HC14
 T 46200 43500 5 10 0 0 0 0 1
-slot=2
+slot=3
 }
 C 45700 45200 1 0 0 74hc14-1.sym
 {
@@ -53,7 +51,7 @@ refdes=U1
 T 46000 45600 5 5 0 1 0 0 1
 value=74HC14
 T 45700 45200 5 10 0 0 0 0 1
-slot=3
+slot=2
 }
 C 46300 45200 1 0 0 74hc14-1.sym
 {
@@ -63,6 +61,8 @@ T 46500 45600 5 7 1 1 0 0 1
 refdes=U1
 T 46600 45600 5 5 0 1 0 0 1
 value=74HC14
+T 46300 45200 5 10 0 0 0 0 1
+slot=6
 }
 N 52100 48100 52500 48100 4
 C 51400 49500 1 0 0 resistor-h-1.sym
@@ -117,7 +117,7 @@ refdes=C7
 T 51150 47600 5 5 1 1 0 6 1
 value=100n
 T 51400 47950 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=@footprint@
 T 51400 48150 5 10 0 0 0 3 1
 device=CAPACITOR
 T 51150 47500 5 5 0 1 0 6 1
@@ -134,7 +134,7 @@ refdes=C8
 T 52900 49900 5 5 1 1 0 0 1
 value=1u
 T 52895 50600 5 8 0 0 0 0 1
-footprint=$(footprint)
+footprint=@footprint@
 T 52895 50800 5 8 0 0 0 0 1
 device=CAPACITOR
 T 52900 49800 5 5 1 1 0 0 1
@@ -249,7 +249,7 @@ refdes=C5
 T 49350 44600 5 5 1 1 0 0 1
 value=100n
 T 49100 44950 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=cap_200mil
 T 49100 45150 5 10 0 0 0 3 1
 device=CAPACITOR
 T 49350 44500 5 5 0 1 0 0 1
@@ -275,7 +275,7 @@ refdes=C4
 T 49050 42800 5 5 1 1 0 0 1
 value=220n
 T 48800 43150 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=cap_200mil
 T 48800 43350 5 10 0 0 0 3 1
 device=CAPACITOR
 T 49050 42700 5 5 0 1 0 0 1
@@ -632,7 +632,7 @@ refdes=C10
 T 55900 48000 5 5 1 1 0 0 1
 value=10u
 T 55495 48300 5 10 0 0 0 7 1
-footprint=$(footprint)
+footprint=@footprint@
 T 55495 48500 5 10 0 0 0 7 1
 device=CAPACITOR
 T 55900 47900 5 5 1 1 0 0 1
@@ -643,7 +643,7 @@ N 55700 48800 55700 48200 4
 C 50800 44700 1 0 0 ech-diode-zener-1.sym
 {
 T 50595 45095 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=@footprint@
 T 50550 44900 5 7 1 1 0 0 1
 refdes=D9
 T 50595 45295 5 10 0 0 0 7 1
@@ -656,7 +656,7 @@ pwrdissp=0.5w
 C 51000 42200 1 0 1 ech-diode-zener-1.sym
 {
 T 51205 42595 5 10 0 0 0 1 1
-footprint=$(Footprint)
+footprint=@footprint@
 T 50750 42400 5 7 1 1 0 6 1
 refdes=D10
 T 51205 42795 5 10 0 0 0 1 1
@@ -833,7 +833,7 @@ refdes=C9
 T 54300 48400 5 5 1 1 0 0 1
 value=1u
 T 54295 49100 5 8 0 0 0 0 1
-footprint=$(footprint)
+footprint=@footprint@
 T 54295 49300 5 8 0 0 0 0 1
 device=CAPACITOR
 T 54300 48300 5 5 1 1 0 0 1
@@ -895,15 +895,7 @@ N 48800 44400 48800 44100 4
 N 43400 46700 43400 47500 4
 N 43400 47500 48600 47500 4
 N 50900 42200 50900 41900 4
-C 47500 41600 1 0 0 common.sym
-{
-T 47500 41600 5 10 0 0 0 0 1
-net=VSS:1
-T 47500 41600 5 10 0 0 0 0 1
-net=GND:1
-}
 N 47600 41700 47600 41900 4
-C 48700 43900 1 0 0 common.sym
 N 48800 44000 48800 44100 4
 C 41900 49300 1 0 0 resistor-v-1.sym
 {
@@ -923,7 +915,7 @@ refdes=C12
 T 42050 48800 5 5 1 1 0 6 1
 value=100n
 T 42300 49150 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=@footprint@
 T 42300 49350 5 10 0 0 0 3 1
 device=CAPACITOR
 T 42050 48700 5 5 0 1 0 6 1
@@ -932,7 +924,7 @@ dielectric=$(dielectric)
 C 43000 48800 1 0 1 ech-diode-zener-1.sym
 {
 T 43205 49195 5 10 0 0 0 1 1
-footprint=$(Footprint)
+footprint=@footprint@
 T 42750 49000 5 7 1 1 0 6 1
 refdes=D15
 T 43205 49395 5 10 0 0 0 1 1
@@ -966,7 +958,7 @@ N 43200 50000 43400 50000 4
 C 55800 45200 1 180 1 ech-diode-v-2.sym
 {
 T 55900 44800 5 10 0 0 180 3 1
-footprint=$(Footprint)
+footprint=@footprint@
 T 56050 45200 5 7 1 1 180 6 1
 refdes=D14
 T 55900 44600 5 10 0 0 180 3 1
@@ -1004,7 +996,7 @@ footprint=ACY300
 C 47700 49000 1 0 0 ech-diode-zener-1.sym
 {
 T 47495 49395 5 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=@footprint@
 T 47950 49200 5 7 1 1 0 0 1
 refdes=D17
 T 47495 49595 5 10 0 0 0 7 1
@@ -1018,6 +1010,8 @@ C 48500 50200 1 0 0 vcc-custom-1.sym
 {
 T 48600 50400 5 6 1 1 0 5 1
 value=VBi+
+T 48500 50200 5 10 0 0 0 0 1
+net=VBi+:1
 }
 C 48500 48900 1 0 0 ech-capacitor-pol-v-1.sym
 {
@@ -1026,7 +1020,7 @@ refdes=C15
 T 48800 49100 5 5 1 1 0 0 1
 value=1u
 T 48395 49400 5 10 0 0 0 7 1
-footprint=$(footprint)
+footprint=@footprint@
 T 48395 49600 5 10 0 0 0 7 1
 device=CAPACITOR
 T 48800 49000 5 5 1 1 0 0 1
@@ -1041,7 +1035,10 @@ N 47800 48800 49400 48800 4
 N 48200 48700 48200 48800 4
 N 48600 48800 48600 48900 4
 C 47700 50200 1 0 0 vbatp-1.sym
-C 42100 50200 1 0 0 vbatp-1.sym
+{
+T 47700 50200 5 10 0 0 0 0 1
+net=VB+:1
+}
 N 46200 47600 46200 47500 4
 N 44000 47500 44000 47400 4
 C 45900 46200 1 0 1 resistor-v-1.sym
@@ -1124,7 +1121,7 @@ footprint=ACY300
 C 48500 46200 1 0 0 1n4148-v-2.sym
 {
 T 48600 46600 5 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=DIODE_LAY_200mil
 T 48750 46300 5 7 1 1 0 0 1
 refdes=D8
 T 48600 46800 5 10 0 0 0 3 1
@@ -1158,6 +1155,8 @@ C 46100 47600 1 0 0 vcc-custom-1.sym
 {
 T 46200 47800 5 6 1 1 0 5 1
 value=VBi+
+T 46100 47600 5 10 0 0 0 0 1
+net=VBi+:1
 }
 C 44100 44900 1 0 0 vcc-custom-1.sym
 {
@@ -1193,8 +1192,6 @@ T 44100 46400 9 6 1 0 0 0 1
 T 49500 42300 9 6 1 0 0 0 1
 (R14)
 C 55400 46000 1 0 0 vbatp-1.sym
-C 45400 50000 1 0 0 vbatp-1.sym
-C 53500 50500 1 0 0 vbatp-1.sym
 N 53600 50500 53600 50400 4
 B 44800 42300 2000 2000 3 15 0 2 100 100 0 -1 -1 -1 -1 -1
 T 44900 42400 9 10 1 0 0 0 1
@@ -1202,59 +1199,68 @@ NOR Gate
 B 45000 44800 1900 2100 3 10 0 2 100 100 0 -1 -1 -1 -1 -1
 T 46000 46700 9 10 1 0 0 0 1
 AND Gate
-C 54100 47000 1 0 0 common.sym
+C 42400 48400 1 0 0 common.sym
 {
-T 54100 47000 5 10 0 0 0 0 1
-net=VSS:1
-T 54100 47000 5 10 0 0 0 0 1
-net=GND:1
+T 42400 48400 5 10 0 0 0 0 1
+net=COMMON:1
 }
-C 42700 43900 1 0 0 common.sym
+C 53500 50500 1 0 0 vbatp-1.sym
 {
-T 42700 43900 5 10 0 0 0 0 1
-net=VSS:1
-T 42700 43900 5 10 0 0 0 0 1
-net=GND:1
+T 53500 50500 5 10 0 0 0 0 1
+net=VB+:1
 }
-C 48300 45800 1 0 0 common.sym
+C 45400 50000 1 0 0 vbatp-1.sym
 {
-T 48300 45800 5 10 0 0 0 0 1
-net=VSS:1
-T 48300 45800 5 10 0 0 0 0 1
-net=GND:1
+T 45400 50000 5 10 0 0 0 0 1
+net=VB+:1
 }
-C 50800 44500 1 0 0 common.sym
+C 42100 50200 1 0 0 vbatp-1.sym
 {
-T 50800 44500 5 10 0 0 0 0 1
-net=VSS:1
-T 50800 44500 5 10 0 0 0 0 1
-net=GND:1
-}
-C 52600 48700 1 0 0 common.sym
-{
-T 52600 48700 5 10 0 0 0 0 1
-net=VSS:1
-T 52600 48700 5 10 0 0 0 0 1
-net=GND:1
-}
-C 48100 48600 1 0 0 common.sym
-{
-T 48100 48600 5 10 0 0 0 0 1
-net=VSS:1
-T 48100 48600 5 10 0 0 0 0 1
-net=GND:1
+T 42100 50200 5 10 0 0 0 0 1
+net=VB+:1
 }
 C 45400 49000 1 0 0 common.sym
 {
 T 45400 49000 5 10 0 0 0 0 1
-net=VSS:1
-T 45400 49000 5 10 0 0 0 0 1
-net=GND:1
+net=COMMON:1
 }
-C 42400 48400 1 0 0 common.sym
+C 48100 48600 1 0 0 common.sym
 {
-T 42400 48400 5 10 0 0 0 0 1
-net=VSS:1
-T 42400 48400 5 10 0 0 0 0 1
-net=GND:1
+T 48100 48600 5 10 0 0 0 0 1
+net=COMMON:1
+}
+C 54100 47000 1 0 0 common.sym
+{
+T 54100 47000 5 10 0 0 0 0 1
+net=COMMON:1
+}
+C 52600 48700 1 0 0 common.sym
+{
+T 52600 48700 5 10 0 0 0 0 1
+net=COMMON:1
+}
+C 47500 41600 1 0 0 common.sym
+{
+T 47500 41600 5 10 0 0 0 0 1
+net=COMMON:1
+}
+C 42700 43900 1 0 0 common.sym
+{
+T 42700 43900 5 10 0 0 0 0 1
+net=COMMON:1
+}
+C 48300 45800 1 0 0 common.sym
+{
+T 48300 45800 5 10 0 0 0 0 1
+net=COMMON:1
+}
+C 48700 43900 1 0 0 common.sym
+{
+T 48700 43900 5 10 0 0 0 0 1
+net=COMMON:1
+}
+C 50800 44500 1 0 0 common.sym
+{
+T 50800 44500 5 10 0 0 0 0 1
+net=COMMON:1
 }
