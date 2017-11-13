@@ -24,7 +24,7 @@ author=Mikhail Grozak
 T 50 750 8 10 0 0 0 3 1
 device=SOLDERING_IRON
 T 50 550 8 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=@footprint@
 T -78 -205 8 10 0 0 0 0 1
 numslots=5
 T 250 100 8 10 0 1 0 0 1

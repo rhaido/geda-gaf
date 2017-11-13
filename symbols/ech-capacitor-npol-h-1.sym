@@ -26,7 +26,7 @@ refdes=C?
 T 0 100 8 5 1 1 0 0 1
 value=$(capacitance)
 T 200 500 8 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=@footprint@
 L 75 200 75 400 3 30 0 0 -1 -1
 L 125 200 125 400 3 30 0 0 -1 -1
 T 200 700 8 10 0 0 0 3 1

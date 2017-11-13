@@ -24,4 +24,4 @@ author=Edward Hennessy
 T 200 950 8 10 0 0 0 3 1
 device=TESTPOINT
 T 200 750 8 10 0 0 0 3 1
-footprint=$(Footprint)
+footprint=@footprint@

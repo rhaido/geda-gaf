@@ -28,7 +28,7 @@ L 125,375
 L 200,225
 z
 T -1455 -505 8 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=@footprint@
 T -1455 -805 8 10 0 0 0 7 1
 author=Edward Hennessy
 T -1455 -1005 8 10 0 0 0 7 1

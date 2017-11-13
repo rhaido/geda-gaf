@@ -30,7 +30,7 @@ description=Capacitor
 L 50 250 350 250 3 30 0 0 -1 -1
 L 50 150 350 150 3 30 0 0 -1 -1
 T -105 500 8 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=@footprint@
 T -105 200 8 10 0 0 0 7 1
 author=Edward Hennessy
 T -105 0 8 10 0 0 0 7 1

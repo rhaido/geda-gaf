@@ -28,7 +28,7 @@ L 25,100
 L 175,200
 z
 T -605 470 8 10 0 0 0 7 1
-footprint=$(Footprint)
+footprint=@footprint@
 T 0 0 8 7 1 1 0 0 1
 refdes=D?
 T -605 170 8 10 0 0 0 7 1
