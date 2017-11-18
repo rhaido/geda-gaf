@@ -1,6 +1,5 @@
-#SHELL := /bin/bash
-#PATH := $(HOME)/pcb-rnd-bin/bin:$(PATH)
-#PATH := $(HOME)/pcb-rnd-bin/bin:$(PATH)
+SHELL := /bin/bash
+PATH := $(HOME)/pcb-rnd-trunk/bin:$(PATH)
 
 purge:
 	rm *pcb *net *cmd *pcb- *bak; exit 0

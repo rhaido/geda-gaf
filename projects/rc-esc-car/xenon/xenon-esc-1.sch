@@ -87,17 +87,6 @@ refdes=Q5
 T 52100 50100 5 5 1 1 0 0 1
 value=BC547
 }
-C 52300 48900 1 0 0 tup-small-1.sym
-{
-T 52875 49050 5 6 0 1 0 0 1
-device=TUP
-T 53000 49800 5 10 0 1 0 0 1
-footprint=TO92-1
-T 52100 49000 5 7 1 1 0 0 1
-refdes=Q6
-T 52100 48900 5 5 1 1 0 0 1
-value=BC557
-}
 N 53000 48100 53300 48100 4
 N 53300 47700 53300 48500 4
 N 53300 48500 53500 48500 4
@@ -134,22 +123,11 @@ refdes=C8
 T 52900 49900 5 5 1 1 0 0 1
 value=1u
 T 52895 50600 5 8 0 0 0 0 1
-footprint=@footprint@
+footprint=radial_can_200-1
 T 52895 50800 5 8 0 0 0 0 1
 device=CAPACITOR
 T 52900 49800 5 5 1 1 0 0 1
 stdvoltage=25v
-}
-C 53500 47400 1 0 0 tup-small-1.sym
-{
-T 54075 47550 5 6 0 1 0 0 1
-device=TUP
-T 54200 48300 5 10 0 1 0 0 1
-footprint=TO92-1
-T 53300 47500 5 7 1 1 0 0 1
-refdes=Q8
-T 53300 47400 5 5 1 1 0 0 1
-value=BC557
 }
 C 53500 48200 1 0 0 tun-small-1.sym
 {
@@ -383,7 +361,7 @@ N 42300 43000 42300 43400 4
 N 43400 45800 44200 45800 4
 C 44100 46000 1 0 1 potmeter-v-1.sym
 {
-T 44102 46498 5 7 1 1 0 0 1
+T 44102 46398 5 7 1 1 0 0 1
 refdes=P1
 T 43348 46802 5 10 0 0 0 6 1
 device=VARIABLE_RESISTOR
@@ -632,7 +610,7 @@ refdes=C10
 T 55900 48000 5 5 1 1 0 0 1
 value=10u
 T 55495 48300 5 10 0 0 0 7 1
-footprint=@footprint@
+footprint=radial_can_200-1
 T 55495 48500 5 10 0 0 0 7 1
 device=CAPACITOR
 T 55900 47900 5 5 1 1 0 0 1
@@ -833,7 +811,7 @@ refdes=C9
 T 54300 48400 5 5 1 1 0 0 1
 value=1u
 T 54295 49100 5 8 0 0 0 0 1
-footprint=@footprint@
+footprint=radial_can_200-1
 T 54295 49300 5 8 0 0 0 0 1
 device=CAPACITOR
 T 54300 48300 5 5 1 1 0 0 1
@@ -1182,7 +1160,7 @@ T 53900 43600 9 10 1 0 0 0 2
 DRIVE
 FETS
 N 55500 46000 55500 45700 4
-T 44100 46400 9 6 1 0 0 0 1
+T 44100 46300 9 6 1 0 0 0 1
 (R6)
 T 49500 42300 9 6 1 0 0 0 1
 (R14)
@@ -1265,4 +1243,26 @@ T 44200 45100 5 6 1 1 0 5 1
 value=VBi+
 T 44100 44900 5 10 0 0 0 0 1
 net=VBi+:1
+}
+C 52300 48900 1 0 0 tup-small-1.sym
+{
+T 52875 49050 5 6 0 1 0 0 1
+device=TUP
+T 52100 49000 5 7 1 1 0 0 1
+refdes=Q6
+T 53000 49800 5 10 0 1 0 0 1
+footprint=TO92-1
+T 52100 48900 5 5 1 1 0 0 1
+value=BC557
+}
+C 53500 47400 1 0 0 tup-small-1.sym
+{
+T 54075 47550 5 6 0 1 0 0 1
+device=TUP
+T 53300 47500 5 7 1 1 0 0 1
+refdes=Q8
+T 54200 48300 5 10 0 1 0 0 1
+footprint=TO92-1
+T 53300 47400 5 5 1 1 0 0 1
+value=BC557
 }

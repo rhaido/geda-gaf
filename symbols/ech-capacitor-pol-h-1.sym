@@ -24,11 +24,11 @@ pinseq=2
 T 400 400 8 7 1 1 0 0 1
 refdes=C?
 T 400 300 8 5 1 1 0 0 1
-value=$(capacitance)
+value=@capacitance@
 T 400 -300 8 6 0 1 0 0 1
-package=$(package)
+package=@package@
 T -5 200 8 10 0 0 0 7 1
-footprint=$(footprint)
+footprint=@footprint@
 T -5 400 8 10 0 0 0 7 1
 device=CAPACITOR
 T -5 -100 8 10 0 0 0 7 1
@@ -40,7 +40,7 @@ dist-license=GPL
 T -5 -700 8 10 0 0 0 7 1
 use-license=Unlimited
 T 400 200 8 5 1 1 0 0 1
-stdvoltage=$(stdvoltage)
+stdvoltage=@stdvoltage@
 B 200 -25 75 250 3 20 0 0 -1 -1 0 -1 -1 -1 -1 -1
 B 325 -25 50 250 3 20 0 0 -1 -1 1 -1 -1 -1 -1 -1
 T 100 200 9 5 1 0 90 4 1

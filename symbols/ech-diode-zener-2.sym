@@ -46,6 +46,6 @@ dist-license=GPL
 T -305 -705 8 10 0 0 0 7 1
 use-license=Unlimited
 T 0 100 8 5 1 1 0 0 1
-stdvoltage=$(stdvoltage)
+stdvoltage=@stdvoltage@
 T 0 0 8 5 1 1 0 0 1
-pwrdissp=$(pwrdissp)
+pwrdissp=@pwrdissp@

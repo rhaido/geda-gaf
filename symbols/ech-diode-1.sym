@@ -42,4 +42,4 @@ use-license=Unlimited
 T 1895 895 8 10 0 0 0 7 1
 device=DIODE
 T 250 0 8 5 1 1 0 0 1
-value=$(partname)
+value=@partname@

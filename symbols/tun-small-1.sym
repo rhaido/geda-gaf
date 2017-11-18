@@ -59,4 +59,4 @@ device=TUN
 T 600 300 8 7 1 1 0 0 1
 refdes=Q?
 T 600 200 8 5 1 1 0 0 1
-value=$(partname)
+value=@partname@

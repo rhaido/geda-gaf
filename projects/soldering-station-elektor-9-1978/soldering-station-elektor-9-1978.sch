@@ -209,7 +209,7 @@ net=VCC:14
 T 50000 43700 5 10 0 0 0 0 1
 net=REF:7
 }
-C 46100 45900 1 0 0 tup-small.sym
+C 46100 45900 1 0 0 tup-small-1.sym
 {
 T 46675 46050 5 6 1 1 0 0 1
 value=BC559C
