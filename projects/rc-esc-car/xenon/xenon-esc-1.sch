@@ -9,7 +9,7 @@ refdes=U1
 T 51900 48300 5 5 0 1 0 0 1
 value=74HC14
 T 51600 47900 5 10 0 0 0 0 1
-slot=5
+slot=6
 }
 C 52500 47900 1 0 0 74hc14-1.sym
 {
@@ -20,7 +20,7 @@ refdes=U1
 T 52800 48300 5 5 0 1 0 0 1
 value=74HC14
 T 52500 47900 5 10 0 0 0 0 1
-slot=4
+slot=5
 }
 C 44200 45600 1 0 0 74hc14-1.sym
 {
@@ -62,7 +62,7 @@ refdes=U1
 T 46600 45600 5 5 0 1 0 0 1
 value=74HC14
 T 46300 45200 5 10 0 0 0 0 1
-slot=6
+slot=4
 }
 N 52100 48100 52500 48100 4
 C 51400 49500 1 0 0 resistor-h-1.sym
@@ -123,7 +123,7 @@ refdes=C8
 T 52900 49900 5 5 1 1 0 0 1
 value=1u
 T 52895 50600 5 8 0 0 0 0 1
-footprint=radial_can_200-1
+footprint=radial_can_45d-1
 T 52895 50800 5 8 0 0 0 0 1
 device=CAPACITOR
 T 52900 49800 5 5 1 1 0 0 1

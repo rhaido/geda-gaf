@@ -13,9 +13,9 @@ pinlabel=E
 P 400 125 400 0 1 0 1
 {
 T 300 -25 5 6 0 1 0 0 1
-pinnumber=1
+pinnumber=3
 T 454 -25 5 6 0 0 0 0 1
-pinseq=1
+pinseq=3
 T 538 74 5 10 0 1 0 0 1
 pintype=pas
 T 200 -72 5 10 0 1 0 0 1
