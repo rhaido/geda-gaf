@@ -55,7 +55,7 @@ ha:pcb-rnd-board-v4 {
     min_silk = 7.0mil
    }
    ha:grid {
-    spacing = 100.0mil
+    spacing = 25.0mil
     offs_x = 25.0mil
     offs_y = 50.0mil
    }
@@ -90,13 +90,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.73114 {
-       string=ACY300; x=73.152mm; y=28.067mm; scale=100; fid=0; direction=2; role=desc;
+       string=ACY300; x=3.05in; y=26.797mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.73115 {
-       string=R16.1; x=73.152mm; y=28.067mm; scale=100; fid=0; direction=2; role=name;
+       string=R16.1; x=3.05in; y=26.797mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.73116 {
-       string=130R; x=73.152mm; y=28.067mm; scale=100; fid=0; direction=2; role=value;
+       string=130R; x=3.05in; y=26.797mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.73118 {
        x1=-1905.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -145,13 +145,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.72381 {
-       string=radial_can_45d-1; x=81.915mm; y=750.0mil; scale=100; fid=0; direction=1; role=desc;
+       string=radial_can_45d-1; x=2.975in; y=550.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.72382 {
-       string=C8; x=81.915mm; y=750.0mil; scale=100; fid=0; direction=1; role=name;
+       string=C8; x=2.975in; y=550.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.72383 {
-       string=1u; x=81.915mm; y=750.0mil; scale=100; fid=0; direction=1; role=value;
+       string=1u; x=2.975in; y=550.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.72385 {
        x1=-1778.0um; y1=-508.0um; x2=-1778.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -190,13 +190,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.72241 {
-       string=ACY300; x=3.055in; y=1.48in; scale=100; fid=0; direction=0; role=desc;
+       string=ACY300; x=2.93in; y=1.48in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.72242 {
-       string=R17; x=3.055in; y=1.48in; scale=100; fid=0; direction=0; role=name;
+       string=R17; x=2.93in; y=1.48in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.72243 {
-       string=1k; x=3.055in; y=1.48in; scale=100; fid=0; direction=0; role=value;
+       string=1k; x=2.93in; y=1.48in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.72245 {
        x1=0.0; y1=0.0; x2=75.0mil; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -245,13 +245,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.72142 {
-       string=ACY300; x=2.68in; y=40.259mm; scale=100; fid=0; direction=3; role=desc;
+       string=ACY300; x=69.469mm; y=42.418mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.72143 {
-       string=R11; x=2.68in; y=40.259mm; scale=100; fid=0; direction=3; role=name;
+       string=R11; x=69.469mm; y=42.418mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.72144 {
-       string=10k; x=2.68in; y=40.259mm; scale=100; fid=0; direction=3; role=value;
+       string=10k; x=69.469mm; y=42.418mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.72146 {
        x1=0.0; y1=0.0; x2=75.0mil; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -355,13 +355,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.67962 {
-       string=TO92-1; x=2.528in; y=693.0mil; scale=100; fid=0; direction=1; role=desc;
+       string=TO92-1; x=2.532in; y=433.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.67963 {
-       string=Q5; x=2.528in; y=693.0mil; scale=100; fid=0; direction=1; role=name;
+       string=Q5; x=2.532in; y=433.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.67964 {
-       string=BC547; x=2.528in; y=693.0mil; scale=100; fid=0; direction=1; role=value;
+       string=BC547; x=2.532in; y=433.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.67966 {
        x1=-2016.76um; y1=-45.5mil; x2=79.4mil; y2=-45.5mil; thickness=10.0mil; clearance=0.0;
@@ -410,13 +410,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.67942 {
-       string=TO92-1; x=2.682in; y=603.0mil; scale=100; fid=0; direction=0; role=desc;
+       string=TO92-1; x=72.4408mm; y=753.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.67943 {
-       string=Q6; x=2.682in; y=603.0mil; scale=100; fid=0; direction=0; role=name;
+       string=Q6; x=72.4408mm; y=753.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.67944 {
-       string=BC557; x=2.682in; y=603.0mil; scale=100; fid=0; direction=0; role=value;
+       string=BC557; x=72.4408mm; y=753.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.67946 {
        x1=-45.5mil; y1=-2016.76um; x2=-45.5mil; y2=79.4mil; thickness=10.0mil; clearance=0.0;
@@ -462,13 +462,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.67931 {
-       string=TO92-1; x=2.982in; y=26.7462mm; scale=100; fid=0; direction=0; role=desc;
+       string=TO92-1; x=3.012in; y=833.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.67932 {
-       string=Q8; x=2.982in; y=26.7462mm; scale=100; fid=0; direction=0; role=name;
+       string=Q8; x=3.012in; y=833.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.67933 {
-       string=BC557; x=2.982in; y=26.7462mm; scale=100; fid=0; direction=0; role=value;
+       string=BC557; x=3.012in; y=833.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.67935 {
        x1=-2016.76um; y1=-45.5mil; x2=79.4mil; y2=-45.5mil; thickness=10.0mil; clearance=0.0;
@@ -517,13 +517,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.67922 {
-       string=radial_can_200-1; x=3.325in; y=550.0mil; scale=100; fid=0; direction=0; role=desc;
+       string=radial_can_200-1; x=81.915mm; y=570.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.67923 {
-       string=C9; x=3.325in; y=550.0mil; scale=100; fid=0; direction=0; role=name;
+       string=C9; x=81.915mm; y=570.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.67924 {
-       string=1u; x=3.325in; y=550.0mil; scale=100; fid=0; direction=0; role=value;
+       string=1u; x=81.915mm; y=570.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.67926 {
        x1=-254.0um; y1=50.0mil; x2=-254.0um; y2=70.0mil; thickness=10.0mil; clearance=0.0;
@@ -610,118 +610,6 @@ ha:pcb-rnd-board-v4 {
       }
      }
     }
-    ha:element.67902 {
-     x=76.835mm; y=450.0mil;
-     ha:attributes {
-       vendor_part_number=unknown
-       vendor=unknown
-       manufacturer_part_number=unknown
-       device=DIODE
-       manufacturer=unknown
-     }
-
-     li:objects {
-      ha:text.67899 {
-       string=DIODE_LAY_300mil; x=69.215mm; y=350.0mil; scale=100; fid=0; direction=0; role=desc;
-      }
-      ha:text.67900 {
-       string=D11; x=69.215mm; y=350.0mil; scale=100; fid=0; direction=0; role=name;
-      }
-      ha:text.67901 {
-       string=1N4002; x=69.215mm; y=350.0mil; scale=100; fid=0; direction=0; role=value;
-      }
-      ha:line.67903 {
-       x1=-7620.0um; y1=0.0; x2=-5080.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67904 {
-       x1=-5080.0um; y1=-1270.0um; x2=-5080.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67905 {
-       x1=-5080.0um; y1=-1270.0um; x2=-2540.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67906 {
-       x1=-2540.0um; y1=0.0; x2=-5080.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67907 {
-       x1=-2540.0um; y1=-1270.0um; x2=-2540.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67908 {
-       x1=-2540.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:pin.67909 {
-       name=1; number=1; x=0.0; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-        square=1
-        shape=1
-       }
-      }
-      ha:pin.67910 {
-       name=2; number=2; x=-7620.0um; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-       }
-      }
-     }
-    }
-    ha:element.67890 {
-     x=86.995mm; y=450.0mil;
-     ha:attributes {
-       vendor_part_number=unknown
-       vendor=unknown
-       manufacturer_part_number=unknown
-       device=DIODE
-       manufacturer=unknown
-     }
-
-     li:objects {
-      ha:text.67887 {
-       string=DIODE_LAY_300mil; x=3.375in; y=350.0mil; scale=100; fid=0; direction=0; role=desc;
-      }
-      ha:text.67888 {
-       string=D12; x=3.375in; y=350.0mil; scale=100; fid=0; direction=0; role=name;
-      }
-      ha:text.67889 {
-       string=1N4002; x=3.375in; y=350.0mil; scale=100; fid=0; direction=0; role=value;
-      }
-      ha:line.67891 {
-       x1=-7620.0um; y1=0.0; x2=-5080.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67892 {
-       x1=-5080.0um; y1=-1270.0um; x2=-5080.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67893 {
-       x1=-5080.0um; y1=-1270.0um; x2=-2540.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67894 {
-       x1=-2540.0um; y1=0.0; x2=-5080.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67895 {
-       x1=-2540.0um; y1=-1270.0um; x2=-2540.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67896 {
-       x1=-2540.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:pin.67897 {
-       name=1; number=1; x=0.0; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-        square=1
-        shape=1
-       }
-      }
-      ha:pin.67898 {
-       name=2; number=2; x=-7620.0um; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-       }
-      }
-     }
-    }
     ha:element.67880 {
      x=69.215mm; y=950.0mil;
      ha:attributes {
@@ -734,13 +622,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.67877 {
-       string=cap_200mil; x=65.659mm; y=1.01in; scale=100; fid=0; direction=0; role=desc;
+       string=cap_200mil; x=2.745in; y=990.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.67878 {
-       string=C7; x=65.659mm; y=1.01in; scale=100; fid=0; direction=0; role=name;
+       string=C7; x=2.745in; y=990.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.67879 {
-       string=100n; x=65.659mm; y=1.01in; scale=100; fid=0; direction=0; role=value;
+       string=100n; x=2.745in; y=990.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.67881 {
        x1=15.0mil; y1=-1270.0um; x2=15.0mil; y2=50.0mil; thickness=10.0mil; clearance=0.0;
@@ -771,109 +659,6 @@ ha:pcb-rnd-board-v4 {
       }
      }
     }
-    ha:element.67868 {
-     x=3.725in; y=850.0mil;
-     ha:attributes {
-       vendor_part_number=unknown
-       vendor=unknown
-       manufacturer_part_number=unknown
-       device=DIODE
-       manufacturer=unknown
-     }
-
-     li:objects {
-      ha:text.67865 {
-       string=DIODE_LAY_300mil; x=3.725in; y=950.0mil; scale=100; fid=0; direction=2; role=desc;
-      }
-      ha:text.67866 {
-       string=D13; x=3.725in; y=950.0mil; scale=100; fid=0; direction=2; role=name;
-      }
-      ha:text.67867 {
-       string=1N4002; x=3.725in; y=950.0mil; scale=100; fid=0; direction=2; role=value;
-      }
-      ha:line.67869 {
-       x1=-7620.0um; y1=0.0; x2=-5080.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67870 {
-       x1=-5080.0um; y1=-1270.0um; x2=-5080.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67871 {
-       x1=-5080.0um; y1=-1270.0um; x2=-2540.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67872 {
-       x1=-2540.0um; y1=0.0; x2=-5080.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67873 {
-       x1=-2540.0um; y1=-1270.0um; x2=-2540.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67874 {
-       x1=-2540.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:pin.67875 {
-       name=1; number=1; x=0.0; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-        square=1
-        shape=1
-       }
-      }
-      ha:pin.67876 {
-       name=2; number=2; x=-7620.0um; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-       }
-      }
-     }
-    }
-    ha:element.67859 {
-     x=3.725in; y=650.0mil;
-     ha:attributes {
-       vendor_part_number=unknown
-       vendor=unknown
-       manufacturer_part_number=unknown
-       device=CAPACITOR
-       manufacturer=unknown
-     }
-
-     li:objects {
-      ha:text.67856 {
-       string=radial_can_200-1; x=97.155mm; y=550.0mil; scale=100; fid=0; direction=2; role=desc;
-      }
-      ha:text.67857 {
-       string=C10; x=97.155mm; y=550.0mil; scale=100; fid=0; direction=2; role=name;
-      }
-      ha:text.67858 {
-       string=10u; x=97.155mm; y=550.0mil; scale=100; fid=0; direction=2; role=value;
-      }
-      ha:line.67860 {
-       x1=-254.0um; y1=50.0mil; x2=-254.0um; y2=70.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.67861 {
-       x1=-508.0um; y1=60.0mil; x2=0.0; y2=60.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:arc.67864 {
-       x=-1270.0um; y=0.0; width=100.0mil; height=100.0mil; astart=180; adelta=360; thickness=10.0mil; clearance=0.0;
-      }
-      ha:pin.67862 {
-       name=1; number=1; x=0.0; y=0.0; hole=31.5mil; mask=76.0mil; thickness=70.0mil; clearance=40.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-        square=1
-        shape=1
-       }
-      }
-      ha:pin.67863 {
-       name=2; number=2; x=-2540.0um; y=0.0; hole=31.5mil; mask=76.0mil; thickness=70.0mil; clearance=40.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-       }
-      }
-     }
-    }
     ha:element.66299 {
      x=92.075mm; y=26.67mm;
      ha:attributes {
@@ -886,13 +671,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.66296 {
-       string=ACY300; x=85.852mm; y=25.527mm; scale=100; fid=0; direction=2; role=desc;
+       string=ACY300; x=87.376mm; y=965.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.66297 {
-       string=R18; x=85.852mm; y=25.527mm; scale=100; fid=0; direction=2; role=name;
+       string=R18; x=87.376mm; y=965.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.66298 {
-       string=47R; x=85.852mm; y=25.527mm; scale=100; fid=0; direction=2; role=value;
+       string=47R; x=87.376mm; y=965.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.66300 {
        x1=-1905.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -921,61 +706,6 @@ ha:pcb-rnd-board-v4 {
        }
       }
       ha:pin.66307 {
-       name=2; number=2; x=-7620.0um; y=0.0; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-       }
-      }
-     }
-    }
-    ha:element.66287 {
-     x=4.025in; y=1.35in;
-     ha:attributes {
-       vendor_part_number=unknown
-       vendor=unknown
-       manufacturer_part_number=unknown
-       device=RESISTOR
-       manufacturer=unknown
-     }
-
-     li:objects {
-      ha:text.66284 {
-       string=ACY300; x=93.218mm; y=30.353mm; scale=100; fid=0; direction=0; role=desc;
-      }
-      ha:text.66285 {
-       string=R19; x=93.218mm; y=30.353mm; scale=100; fid=0; direction=0; role=name;
-      }
-      ha:text.66286 {
-       string=47R; x=93.218mm; y=30.353mm; scale=100; fid=0; direction=0; role=value;
-      }
-      ha:line.66288 {
-       x1=-1905.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.66289 {
-       x1=-7620.0um; y1=0.0; x2=-5715.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.66290 {
-       x1=-5715.0um; y1=25.0mil; x2=-1905.0um; y2=25.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.66291 {
-       x1=-5715.0um; y1=-635.0um; x2=-5715.0um; y2=25.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.66292 {
-       x1=-5715.0um; y1=-635.0um; x2=-1905.0um; y2=-635.0um; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.66293 {
-       x1=-1905.0um; y1=-635.0um; x2=-1905.0um; y2=25.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:pin.66294 {
-       name=1; number=1; x=0.0; y=0.0; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-        square=1
-       }
-      }
-      ha:pin.66295 {
        name=2; number=2; x=-7620.0um; y=0.0; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
        ha:flags {
         pin=1
@@ -1110,7 +840,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.41510 {
-     x=51.435mm; y=1.35in;
+     x=51.435mm; y=29.21mm;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1121,44 +851,42 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.41507 {
-       string=DIODE_LAY_200mil; x=1.93in; y=1.235in; scale=100; fid=0; direction=0; role=desc;
+       string=DIODE_LAY_200mil; x=52.578mm; y=27.051mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.41508 {
-       string=D2; x=1.93in; y=1.235in; scale=100; fid=0; direction=0; role=name;
+       string=D2; x=52.578mm; y=27.051mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.41509 {
-       string=1N4148; x=1.93in; y=1.235in; scale=100; fid=0; direction=0; role=value;
+       string=1N4148; x=52.578mm; y=27.051mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.41511 {
-       x1=-5080.0um; y1=0.0; x2=-3810.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
+       x1=0.0; y1=150.0mil; x2=0.0; y2=200.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.41512 {
-       x1=-3810.0um; y1=-1270.0um; x2=-3810.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+       x1=-1270.0um; y1=150.0mil; x2=50.0mil; y2=150.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.41513 {
-       x1=-1270.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
+       x1=0.0; y1=0.0; x2=0.0; y2=50.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.41514 {
-       x1=-3810.0um; y1=-1270.0um; x2=-1270.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
+       x1=-1270.0um; y1=150.0mil; x2=0.0; y2=50.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.41515 {
-       x1=-1270.0um; y1=0.0; x2=-3810.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+       x1=0.0; y1=50.0mil; x2=50.0mil; y2=150.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.41516 {
-       x1=-1270.0um; y1=-1270.0um; x2=-1270.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+       x1=-1270.0um; y1=50.0mil; x2=50.0mil; y2=50.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:pin.41517 {
-       name=2; number=2; x=-5080.0um; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
+       name=2; number=2; x=0.0; y=200.0mil; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
        ha:flags {
         pin=1
-        edge2=1
        }
       }
       ha:pin.41518 {
        name=1; number=1; x=0.0; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
        ha:flags {
         pin=1
-        edge2=1
         square=1
         shape=1
        }
@@ -1166,7 +894,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.40380 {
-     x=48.895mm; y=750.0mil;
+     x=1.725in; y=550.0mil;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1177,53 +905,51 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.40377 {
-       string=pot_3296; x=1.825in; y=600.0mil; scale=100; fid=0; direction=0; role=desc;
+       string=pot_3296; x=41.021mm; y=830.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.40378 {
-       string=P1; x=1.825in; y=600.0mil; scale=100; fid=0; direction=0; role=name;
+       string=P1; x=41.021mm; y=830.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.40379 {
-       string=50k; x=1.825in; y=600.0mil; scale=100; fid=0; direction=0; role=value;
+       string=50k; x=41.021mm; y=830.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.40381 {
-       x1=-6985.0um; y1=-1905.0um; x2=75.0mil; y2=-1905.0um; thickness=10.0mil; clearance=0.0;
+       x1=-1905.0um; y1=-1905.0um; x2=-1905.0um; y2=275.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.40382 {
-       x1=-6985.0um; y1=75.0mil; x2=75.0mil; y2=75.0mil; thickness=10.0mil; clearance=0.0;
+       x1=75.0mil; y1=-1905.0um; x2=75.0mil; y2=275.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.40383 {
-       x1=75.0mil; y1=-1905.0um; x2=75.0mil; y2=75.0mil; thickness=10.0mil; clearance=0.0;
+       x1=-1905.0um; y1=-1905.0um; x2=75.0mil; y2=-1905.0um; thickness=10.0mil; clearance=0.0;
       }
       ha:line.40384 {
-       x1=-6985.0um; y1=-1905.0um; x2=-6985.0um; y2=75.0mil; thickness=10.0mil; clearance=0.0;
+       x1=-1905.0um; y1=275.0mil; x2=75.0mil; y2=275.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.40385 {
-       x1=60.0mil; y1=20.0mil; x2=20.0mil; y2=60.0mil; thickness=10.0mil; clearance=0.0;
+       x1=20.0mil; y1=-1524.0um; x2=60.0mil; y2=-508.0um; thickness=10.0mil; clearance=0.0;
       }
       ha:arc.40389 {
-       x=40.0mil; y=40.0mil; width=30.0mil; height=30.0mil; astart=90; adelta=90; thickness=10.0mil; clearance=0.0;
+       x=40.0mil; y=-1016.0um; width=30.0mil; height=30.0mil; astart=180; adelta=90; thickness=10.0mil; clearance=0.0;
       }
       ha:arc.40390 {
-       x=40.0mil; y=40.0mil; width=30.0mil; height=30.0mil; astart=180; adelta=90; thickness=10.0mil; clearance=0.0;
+       x=40.0mil; y=-1016.0um; width=30.0mil; height=30.0mil; astart=270; adelta=90; thickness=10.0mil; clearance=0.0;
       }
       ha:arc.40391 {
-       x=40.0mil; y=40.0mil; width=30.0mil; height=30.0mil; astart=270; adelta=90; thickness=10.0mil; clearance=0.0;
+       x=40.0mil; y=-1016.0um; width=30.0mil; height=30.0mil; astart=0; adelta=90; thickness=10.0mil; clearance=0.0;
       }
       ha:arc.40392 {
-       x=40.0mil; y=40.0mil; width=30.0mil; height=30.0mil; astart=0; adelta=90; thickness=10.0mil; clearance=0.0;
+       x=40.0mil; y=-1016.0um; width=30.0mil; height=30.0mil; astart=90; adelta=90; thickness=10.0mil; clearance=0.0;
       }
       ha:pin.40386 {
-       name=-; number=2; x=-2540.0um; y=0.0; hole=31.5mil; mask=2.152396mm; thickness=1.999996mm; clearance=40.0mil;
+       name=-; number=2; x=0.0; y=100.0mil; hole=31.5mil; mask=2.152396mm; thickness=1.999996mm; clearance=40.0mil;
        ha:flags {
         pin=1
-        edge2=1
        }
       }
       ha:pin.40387 {
-       name=-; number=3; x=-5080.0um; y=0.0; hole=31.5mil; mask=2.152396mm; thickness=1.999996mm; clearance=40.0mil;
+       name=-; number=3; x=0.0; y=200.0mil; hole=31.5mil; mask=2.152396mm; thickness=1.999996mm; clearance=40.0mil;
        ha:flags {
         pin=1
-        edge2=1
        }
       }
       ha:pin.40388 {
@@ -1232,7 +958,6 @@ ha:pcb-rnd-board-v4 {
         pin=1
         square=1
         shape=1
-        edge2=1
        }
       }
      }
@@ -1249,13 +974,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.36060 {
-       string=ACY300; x=2.1in; y=975.0mil; scale=100; fid=0; direction=0; role=desc;
+       string=ACY300; x=2.1in; y=555.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.36061 {
-       string=R9; x=2.1in; y=975.0mil; scale=100; fid=0; direction=0; role=name;
+       string=R9; x=2.1in; y=555.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.36062 {
-       string=100k; x=2.1in; y=975.0mil; scale=100; fid=0; direction=0; role=value;
+       string=100k; x=2.1in; y=555.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.36064 {
        x1=0.0; y1=-1905.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -1291,7 +1016,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.36051 {
-     x=51.435mm; y=29.21mm;
+     x=48.895mm; y=29.21mm;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1302,13 +1027,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.36048 {
-       string=DIODE_LAY_200mil; x=54.102mm; y=26.543mm; scale=100; fid=0; direction=3; role=desc;
+       string=DIODE_LAY_200mil; x=1.9in; y=30.099mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.36049 {
-       string=D3; x=54.102mm; y=26.543mm; scale=100; fid=0; direction=3; role=name;
+       string=D3; x=1.9in; y=30.099mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.36050 {
-       string=1N4148; x=54.102mm; y=26.543mm; scale=100; fid=0; direction=3; role=value;
+       string=1N4148; x=1.9in; y=30.099mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.36052 {
        x1=0.0; y1=-5080.0um; x2=0.0; y2=-3810.0um; thickness=10.0mil; clearance=0.0;
@@ -1345,7 +1070,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.36003 {
-     x=48.895mm; y=950.0mil;
+     x=51.435mm; y=850.0mil;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1356,13 +1081,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.36000 {
-       string=DIODE_LAY_200mil; x=1.955in; y=970.0mil; scale=100; fid=0; direction=1; role=desc;
+       string=DIODE_LAY_200mil; x=52.959mm; y=980.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.36001 {
-       string=D5; x=1.955in; y=970.0mil; scale=100; fid=0; direction=1; role=name;
+       string=D5; x=52.959mm; y=980.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.36002 {
-       string=1N4148; x=1.955in; y=970.0mil; scale=100; fid=0; direction=1; role=value;
+       string=1N4148; x=52.959mm; y=980.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.36004 {
        x1=0.0; y1=150.0mil; x2=0.0; y2=200.0mil; thickness=10.0mil; clearance=0.0;
@@ -1398,63 +1123,8 @@ ha:pcb-rnd-board-v4 {
       }
      }
     }
-    ha:element.13831 {
-     x=1.725in; y=950.0mil;
-     ha:attributes {
-       vendor_part_number=unknown
-       vendor=unknown
-       manufacturer_part_number=unknown
-       device=TUN
-       manufacturer=unknown
-     }
-
-     li:objects {
-      ha:text.13828 {
-       string=TO92-1; x=1.623in; y=873.0mil; scale=100; fid=0; direction=1; role=desc;
-      }
-      ha:text.13829 {
-       string=Q2; x=1.623in; y=873.0mil; scale=100; fid=0; direction=1; role=name;
-      }
-      ha:text.13830 {
-       string=BC547; x=1.623in; y=873.0mil; scale=100; fid=0; direction=1; role=value;
-      }
-      ha:line.13832 {
-       x1=-2016.76um; y1=-45.5mil; x2=79.4mil; y2=-45.5mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:arc.13836 {
-       x=0.0; y=0.0; width=91.5mil; height=91.5mil; astart=18; adelta=143; thickness=10.0mil; clearance=0.0;
-      }
-      ha:arc.13837 {
-       x=0.0; y=0.0; width=91.5mil; height=91.5mil; astart=198; adelta=11; thickness=10.0mil; clearance=0.0;
-      }
-      ha:arc.13838 {
-       x=0.0; y=0.0; width=91.5mil; height=91.5mil; astart=330; adelta=11; thickness=10.0mil; clearance=0.0;
-      }
-      ha:pin.13833 {
-       name=E; number=1; x=100.0mil; y=0.0; hole=29.0mil; mask=56.0mil; thickness=52.0mil; clearance=20.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-       }
-      }
-      ha:pin.13834 {
-       name=B; number=2; x=0.0; y=0.0; hole=29.0mil; mask=56.0mil; thickness=52.0mil; clearance=20.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-       }
-      }
-      ha:pin.13835 {
-       name=C; number=3; x=-2540.0um; y=0.0; hole=29.0mil; mask=56.0mil; thickness=52.0mil; clearance=20.0mil;
-       ha:flags {
-        pin=1
-        edge2=1
-       }
-      }
-     }
-    }
     ha:element.28369 {
-     x=1.625in; y=1.35in;
+     x=1.825in; y=1.35in;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1465,13 +1135,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.28366 {
-       string=DIODE_LAY_200mil; x=42.545mm; y=30.988mm; scale=100; fid=0; direction=0; role=desc;
+       string=DIODE_LAY_200mil; x=48.133mm; y=1.26in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.28367 {
-       string=D4; x=42.545mm; y=30.988mm; scale=100; fid=0; direction=0; role=name;
+       string=D4; x=48.133mm; y=1.26in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.28368 {
-       string=1N4148; x=42.545mm; y=30.988mm; scale=100; fid=0; direction=0; role=value;
+       string=1N4148; x=48.133mm; y=1.26in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.28370 {
        x1=0.0; y1=-5080.0um; x2=0.0; y2=-3810.0um; thickness=10.0mil; clearance=0.0;
@@ -1508,7 +1178,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.19233 {
-     x=36.195mm; y=950.0mil;
+     x=48.895mm; y=850.0mil;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1519,13 +1189,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.19230 {
-       string=ACY300; x=1.465in; y=875.0mil; scale=100; fid=0; direction=0; role=desc;
+       string=ACY300; x=49.911mm; y=575.0mil; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.19231 {
-       string=R5; x=1.465in; y=875.0mil; scale=100; fid=0; direction=0; role=name;
+       string=R5; x=49.911mm; y=575.0mil; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.19232 {
-       string=27k; x=1.465in; y=875.0mil; scale=100; fid=0; direction=0; role=value;
+       string=27k; x=49.911mm; y=575.0mil; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.19234 {
        x1=0.0; y1=-1905.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -1561,7 +1231,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.17122 {
-     x=33.655mm; y=26.67mm;
+     x=1.625in; y=29.21mm;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1572,13 +1242,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.17119 {
-       string=ACY300; x=30.988mm; y=765.0mil; scale=100; fid=0; direction=0; role=desc;
+       string=ACY300; x=1.595in; y=30.226mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.17120 {
-       string=R7; x=30.988mm; y=765.0mil; scale=100; fid=0; direction=0; role=name;
+       string=R7; x=1.595in; y=30.226mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.17121 {
-       string=4k7; x=30.988mm; y=765.0mil; scale=100; fid=0; direction=0; role=value;
+       string=4k7; x=1.595in; y=30.226mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.17123 {
        x1=0.0; y1=-1905.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -1614,7 +1284,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.16606 {
-     x=1.525in; y=1.35in;
+     x=1.725in; y=1.35in;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1625,13 +1295,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.16603 {
-       string=ACY300; x=36.195mm; y=26.543mm; scale=100; fid=0; direction=0; role=desc;
+       string=ACY300; x=1.7in; y=1.37in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.16604 {
-       string=R2; x=36.195mm; y=26.543mm; scale=100; fid=0; direction=0; role=name;
+       string=R2; x=1.7in; y=1.37in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.16605 {
-       string=470R; x=36.195mm; y=26.543mm; scale=100; fid=0; direction=0; role=value;
+       string=470R; x=1.7in; y=1.37in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.16607 {
        x1=0.0; y1=-1905.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -1678,13 +1348,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.14069 {
-       string=ACY300; x=2.02in; y=29.718mm; scale=100; fid=0; direction=0; role=desc;
+       string=ACY300; x=54.61mm; y=1.48in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.14070 {
-       string=R8; x=2.02in; y=29.718mm; scale=100; fid=0; direction=0; role=name;
+       string=R8; x=54.61mm; y=1.48in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.14071 {
-       string=100k; x=2.02in; y=29.718mm; scale=100; fid=0; direction=0; role=value;
+       string=100k; x=54.61mm; y=1.48in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.14073 {
        x1=0.0; y1=-1905.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -1720,7 +1390,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.13842 {
-     x=1.525in; y=750.0mil;
+     x=51.435mm; y=650.0mil;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -1731,13 +1401,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.13839 {
-       string=cap_200mil; x=35.814mm; y=740.0mil; scale=105; fid=0; direction=1; role=desc;
+       string=cap_200mil; x=1.91in; y=610.0mil; scale=105; fid=0; direction=0; role=desc;
       }
       ha:text.13840 {
-       string=C3; x=35.814mm; y=740.0mil; scale=105; fid=0; direction=1; role=name;
+       string=C3; x=1.91in; y=610.0mil; scale=105; fid=0; direction=0; role=name;
       }
       ha:text.13841 {
-       string=22n; x=35.814mm; y=740.0mil; scale=105; fid=0; direction=1; role=value;
+       string=22n; x=1.91in; y=610.0mil; scale=105; fid=0; direction=0; role=value;
       }
       ha:line.13843 {
        x1=-1270.0um; y1=15.0mil; x2=50.0mil; y2=15.0mil; thickness=10.0mil; clearance=0.0;
@@ -1879,13 +1549,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.76554 {
-       string=cap_200mil; x=2.745in; y=1.35in; scale=100; fid=0; direction=1; role=desc;
+       string=cap_200mil; x=78.105mm; y=1.37in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.76555 {
-       string=C6; x=2.745in; y=1.35in; scale=100; fid=0; direction=1; role=name;
+       string=C6; x=78.105mm; y=1.37in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.76556 {
-       string=100n; x=2.745in; y=1.35in; scale=100; fid=0; direction=1; role=value;
+       string=100n; x=78.105mm; y=1.37in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.76558 {
        x1=-381.0um; y1=-1270.0um; x2=-381.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
@@ -2072,13 +1742,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.80660 {
-       string=ACY300; x=67.31mm; y=1.465in; scale=100; fid=0; direction=0; role=desc;
+       string=ACY300; x=65.405mm; y=1.79in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.80661 {
-       string=R10; x=67.31mm; y=1.465in; scale=100; fid=0; direction=0; role=name;
+       string=R10; x=65.405mm; y=1.79in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.80662 {
-       string=10k; x=67.31mm; y=1.465in; scale=100; fid=0; direction=0; role=value;
+       string=10k; x=65.405mm; y=1.79in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.80664 {
        x1=0.0; y1=0.0; x2=0.0; y2=75.0mil; thickness=10.0mil; clearance=0.0;
@@ -2125,13 +1795,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.80707 {
-       string=ACY300; x=2.49in; y=50.673mm; scale=100; fid=0; direction=0; role=desc;
+       string=ACY300; x=63.881mm; y=1.97in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.80708 {
-       string=R12; x=2.49in; y=50.673mm; scale=100; fid=0; direction=0; role=name;
+       string=R12; x=63.881mm; y=1.97in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.80709 {
-       string=1k; x=2.49in; y=50.673mm; scale=100; fid=0; direction=0; role=value;
+       string=1k; x=63.881mm; y=1.97in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.80711 {
        x1=0.0; y1=0.0; x2=0.0; y2=75.0mil; thickness=10.0mil; clearance=0.0;
@@ -2178,13 +1848,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.81572 {
-       string=ACY300; x=73.787mm; y=45.593mm; scale=100; fid=0; direction=3; role=desc;
+       string=ACY300; x=2.92in; y=1.87in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.81573 {
-       string=R15; x=73.787mm; y=45.593mm; scale=100; fid=0; direction=3; role=name;
+       string=R15; x=2.92in; y=1.87in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.81574 {
-       string=120k; x=73.787mm; y=45.593mm; scale=100; fid=0; direction=3; role=value;
+       string=120k; x=2.92in; y=1.87in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.81576 {
        x1=0.0; y1=0.0; x2=75.0mil; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -2233,13 +1903,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.86880 {
-       string=DIODE_LAY_200mil; x=72.263mm; y=34.417mm; scale=100; fid=0; direction=3; role=desc;
+       string=DIODE_LAY_200mil; x=2.78in; y=39.497mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.86881 {
-       string=D7; x=72.263mm; y=34.417mm; scale=100; fid=0; direction=3; role=name;
+       string=D7; x=2.78in; y=39.497mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.86882 {
-       string=1N4148; x=72.263mm; y=34.417mm; scale=100; fid=0; direction=3; role=value;
+       string=1N4148; x=2.78in; y=39.497mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.86884 {
        x1=0.0; y1=-5080.0um; x2=0.0; y2=-3810.0um; thickness=10.0mil; clearance=0.0;
@@ -2287,13 +1957,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.87180 {
-       string=TO92-1; x=2.668in; y=1.713in; scale=100; fid=0; direction=1; role=desc;
+       string=TO92-1; x=2.812in; y=1.893in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.87181 {
-       string=Q3; x=2.668in; y=1.713in; scale=100; fid=0; direction=1; role=name;
+       string=Q3; x=2.812in; y=1.893in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.87182 {
-       string=BC547; x=2.668in; y=1.713in; scale=100; fid=0; direction=1; role=value;
+       string=BC547; x=2.812in; y=1.893in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.87184 {
        x1=-45.5mil; y1=-2016.76um; x2=-45.5mil; y2=79.4mil; thickness=10.0mil; clearance=0.0;
@@ -2339,13 +2009,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.87353 {
-       string=DIODE_LAY_200mil; x=2.455in; y=35.941mm; scale=100; fid=0; direction=2; role=desc;
+       string=DIODE_LAY_200mil; x=2.47in; y=1.535in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.87354 {
-       string=D6; x=2.455in; y=35.941mm; scale=100; fid=0; direction=2; role=name;
+       string=D6; x=2.47in; y=1.535in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.87355 {
-       string=1N4148; x=2.455in; y=35.941mm; scale=100; fid=0; direction=2; role=value;
+       string=1N4148; x=2.47in; y=1.535in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.87357 {
        x1=0.0; y1=-5080.0um; x2=0.0; y2=-3810.0um; thickness=10.0mil; clearance=0.0;
@@ -2393,13 +2063,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.80739 {
-       string=pot_3362; x=90.043mm; y=1.6in; scale=100; fid=0; direction=2; role=desc;
+       string=pot_3362; x=89.027mm; y=47.625mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.80740 {
-       string=P2; x=90.043mm; y=1.6in; scale=100; fid=0; direction=2; role=name;
+       string=P2; x=89.027mm; y=47.625mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.80741 {
-       string=50k; x=90.043mm; y=1.6in; scale=100; fid=0; direction=2; role=value;
+       string=50k; x=89.027mm; y=47.625mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.80743 {
        x1=-3048.0um; y1=30.0mil; x2=-3048.0um; y2=120.0mil; thickness=10.0mil; clearance=0.0;
@@ -2457,13 +2127,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.81584 {
-       string=TO92-1; x=3.022in; y=1.632in; scale=100; fid=0; direction=3; role=desc;
+       string=TO92-1; x=3.157in; y=1.603in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.81585 {
-       string=Q4; x=3.022in; y=1.632in; scale=100; fid=0; direction=3; role=name;
+       string=Q4; x=3.157in; y=1.603in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.81586 {
-       string=BC547; x=3.022in; y=1.632in; scale=100; fid=0; direction=3; role=value;
+       string=BC547; x=3.157in; y=1.603in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.81588 {
        x1=-2016.76um; y1=45.5mil; x2=79.4mil; y2=45.5mil; thickness=10.0mil; clearance=0.0;
@@ -2512,13 +2182,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.81595 {
-       string=cap_200mil; x=3.1in; y=1.48in; scale=100; fid=0; direction=3; role=desc;
+       string=cap_200mil; x=2.83in; y=38.1mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.81596 {
-       string=C5; x=3.1in; y=1.48in; scale=100; fid=0; direction=3; role=name;
+       string=C5; x=2.83in; y=38.1mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.81597 {
-       string=100n; x=3.1in; y=1.48in; scale=100; fid=0; direction=3; role=value;
+       string=100n; x=2.83in; y=38.1mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.81599 {
        x1=-381.0um; y1=-1270.0um; x2=-381.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
@@ -2561,13 +2231,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.80672 {
-       string=ACY300; x=3.18in; y=1.52in; scale=100; fid=0; direction=3; role=desc;
+       string=ACY300; x=86.995mm; y=40.005mm; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.80673 {
-       string=R13; x=3.18in; y=1.52in; scale=100; fid=0; direction=3; role=name;
+       string=R13; x=86.995mm; y=40.005mm; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.80674 {
-       string=10k; x=3.18in; y=1.52in; scale=100; fid=0; direction=3; role=value;
+       string=10k; x=86.995mm; y=40.005mm; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.80676 {
        x1=0.0; y1=0.0; x2=75.0mil; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -2616,13 +2286,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.80729 {
-       string=cap_200mil; x=82.169mm; y=1.66in; scale=100; fid=0; direction=0; role=desc;
+       string=cap_200mil; x=3.31in; y=1.885in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.80730 {
-       string=C4; x=82.169mm; y=1.66in; scale=100; fid=0; direction=0; role=name;
+       string=C4; x=3.31in; y=1.885in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.80731 {
-       string=220n; x=82.169mm; y=1.66in; scale=100; fid=0; direction=0; role=value;
+       string=220n; x=3.31in; y=1.885in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.80733 {
        x1=-1270.0um; y1=-381.0um; x2=50.0mil; y2=-381.0um; thickness=10.0mil; clearance=0.0;
@@ -2651,55 +2321,8 @@ ha:pcb-rnd-board-v4 {
       }
      }
     }
-    ha:element.88715 {
-     x=1.725in; y=44.45mm;
-     ha:attributes {
-       vendor_part_number=unknown
-       vendor=unknown
-       manufacturer_part_number=unknown
-       device=CAPACITOR
-       manufacturer=unknown
-     }
-
-     li:objects {
-      ha:text.88712 {
-       string=cap_200mil; x=1.785in; y=1.89in; scale=100; fid=0; direction=1; role=desc;
-      }
-      ha:text.88713 {
-       string=C1; x=1.785in; y=1.89in; scale=100; fid=0; direction=1; role=name;
-      }
-      ha:text.88714 {
-       string=100n; x=1.785in; y=1.89in; scale=100; fid=0; direction=1; role=value;
-      }
-      ha:line.88716 {
-       x1=-1270.0um; y1=-381.0um; x2=50.0mil; y2=-381.0um; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.88717 {
-       x1=-1270.0um; y1=15.0mil; x2=50.0mil; y2=15.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.88718 {
-       x1=0.0; y1=-1270.0um; x2=0.0; y2=-381.0um; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.88719 {
-       x1=0.0; y1=15.0mil; x2=0.0; y2=50.0mil; thickness=10.0mil; clearance=0.0;
-      }
-      ha:pin.88720 {
-       name=2; number=2; x=0.0; y=-2540.0um; hole=30.0mil; mask=2.055876mm; thickness=77.0mil; clearance=0.999998mm;
-       ha:flags {
-        pin=1
-       }
-      }
-      ha:pin.88721 {
-       name=1; number=1; x=0.0; y=100.0mil; hole=30.0mil; mask=2.055876mm; thickness=77.0mil; clearance=0.999998mm;
-       ha:flags {
-        pin=1
-        square=1
-       }
-      }
-     }
-    }
     ha:element.88725 {
-     x=1.525in; y=1.55in;
+     x=48.895mm; y=46.99mm;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -2710,95 +2333,44 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.88722 {
-       string=cap_200mil; x=36.195mm; y=1.64in; scale=100; fid=0; direction=1; role=desc;
+       string=cap_200mil; x=1.885in; y=1.9in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.88723 {
-       string=C2; x=36.195mm; y=1.64in; scale=100; fid=0; direction=1; role=name;
+       string=C2; x=1.885in; y=1.9in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.88724 {
-       string=10n; x=36.195mm; y=1.64in; scale=100; fid=0; direction=1; role=value;
+       string=10n; x=1.885in; y=1.9in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.88726 {
-       x1=-1270.0um; y1=15.0mil; x2=50.0mil; y2=15.0mil; thickness=10.0mil; clearance=0.0;
+       x1=15.0mil; y1=-1270.0um; x2=15.0mil; y2=50.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.88727 {
-       x1=-1270.0um; y1=-381.0um; x2=50.0mil; y2=-381.0um; thickness=10.0mil; clearance=0.0;
+       x1=-381.0um; y1=-1270.0um; x2=-381.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
       }
       ha:line.88728 {
-       x1=0.0; y1=15.0mil; x2=0.0; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+       x1=15.0mil; y1=0.0; x2=50.0mil; y2=0.0; thickness=10.0mil; clearance=0.0;
       }
       ha:line.88729 {
-       x1=0.0; y1=-1270.0um; x2=0.0; y2=-381.0um; thickness=10.0mil; clearance=0.0;
+       x1=-1270.0um; y1=0.0; x2=-381.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
       }
       ha:pin.88730 {
-       name=2; number=2; x=0.0; y=100.0mil; hole=30.0mil; mask=2.055876mm; thickness=77.0mil; clearance=0.999998mm;
+       name=2; number=2; x=100.0mil; y=0.0; hole=30.0mil; mask=2.055876mm; thickness=77.0mil; clearance=0.999998mm;
        ha:flags {
         pin=1
+        edge2=1
        }
       }
       ha:pin.88731 {
-       name=1; number=1; x=0.0; y=-2540.0um; hole=30.0mil; mask=2.055876mm; thickness=77.0mil; clearance=0.999998mm;
+       name=1; number=1; x=-2540.0um; y=0.0; hole=30.0mil; mask=2.055876mm; thickness=77.0mil; clearance=0.999998mm;
        ha:flags {
         pin=1
+        edge2=1
         square=1
        }
       }
      }
     }
     ha:element.88735 {
-     x=36.195mm; y=1.55in;
-     ha:attributes {
-       vendor_part_number=unknown
-       vendor=unknown
-       manufacturer_part_number=unknown
-       device=RESISTOR
-       manufacturer=unknown
-     }
-
-     li:objects {
-      ha:text.88732 {
-       string=ACY300; x=1.33in; y=1.48in; scale=100; fid=0; direction=0; role=desc;
-      }
-      ha:text.88733 {
-       string=R1; x=1.33in; y=1.48in; scale=100; fid=0; direction=0; role=name;
-      }
-      ha:text.88734 {
-       string=10k; x=1.33in; y=1.48in; scale=100; fid=0; direction=0; role=value;
-      }
-      ha:line.88736 {
-       x1=0.0; y1=-1905.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.88737 {
-       x1=0.0; y1=-7620.0um; x2=0.0; y2=-5715.0um; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.88738 {
-       x1=-635.0um; y1=-5715.0um; x2=-635.0um; y2=-1905.0um; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.88739 {
-       x1=-635.0um; y1=-5715.0um; x2=25.0mil; y2=-5715.0um; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.88740 {
-       x1=25.0mil; y1=-5715.0um; x2=25.0mil; y2=-1905.0um; thickness=10.0mil; clearance=0.0;
-      }
-      ha:line.88741 {
-       x1=-635.0um; y1=-1905.0um; x2=25.0mil; y2=-1905.0um; thickness=10.0mil; clearance=0.0;
-      }
-      ha:pin.88742 {
-       name=1; number=1; x=0.0; y=0.0; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
-       ha:flags {
-        pin=1
-        square=1
-       }
-      }
-      ha:pin.88743 {
-       name=2; number=2; x=0.0; y=-7620.0um; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
-       ha:flags {
-        pin=1
-       }
-      }
-     }
-    }
-    ha:element.88747 {
      x=51.435mm; y=36.83mm;
      ha:attributes {
        vendor_part_number=unknown
@@ -2809,14 +2381,67 @@ ha:pcb-rnd-board-v4 {
      }
 
      li:objects {
+      ha:text.88732 {
+       string=ACY300; x=1.93in; y=42.418mm; scale=100; fid=0; direction=0; role=desc;
+      }
+      ha:text.88733 {
+       string=R1; x=1.93in; y=42.418mm; scale=100; fid=0; direction=0; role=name;
+      }
+      ha:text.88734 {
+       string=10k; x=1.93in; y=42.418mm; scale=100; fid=0; direction=0; role=value;
+      }
+      ha:line.88736 {
+       x1=0.0; y1=0.0; x2=0.0; y2=75.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.88737 {
+       x1=0.0; y1=225.0mil; x2=0.0; y2=300.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.88738 {
+       x1=25.0mil; y1=75.0mil; x2=25.0mil; y2=225.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.88739 {
+       x1=-635.0um; y1=225.0mil; x2=25.0mil; y2=225.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.88740 {
+       x1=-635.0um; y1=75.0mil; x2=-635.0um; y2=225.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.88741 {
+       x1=-635.0um; y1=75.0mil; x2=25.0mil; y2=75.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:pin.88742 {
+       name=1; number=1; x=0.0; y=0.0; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
+       ha:flags {
+        pin=1
+        square=1
+       }
+      }
+      ha:pin.88743 {
+       name=2; number=2; x=0.0; y=300.0mil; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
+       ha:flags {
+        pin=1
+       }
+      }
+     }
+    }
+    ha:element.88747 {
+     x=2.325in; y=36.83mm;
+     ha:attributes {
+       vendor_part_number=unknown
+       vendor=unknown
+       manufacturer_part_number=unknown
+       device=RESISTOR
+       manufacturer=unknown
+     }
+
+     li:objects {
       ha:text.88744 {
-       string=ACY300; x=50.673mm; y=1.51in; scale=100; fid=0; direction=2; role=desc;
+       string=ACY300; x=2.305in; y=1.79in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.88745 {
-       string=R3; x=50.673mm; y=1.51in; scale=100; fid=0; direction=2; role=name;
+       string=R3; x=2.305in; y=1.79in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.88746 {
-       string=200k; x=50.673mm; y=1.51in; scale=100; fid=0; direction=2; role=value;
+       string=200k; x=2.305in; y=1.79in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.88748 {
        x1=0.0; y1=0.0; x2=0.0; y2=75.0mil; thickness=10.0mil; clearance=0.0;
@@ -2852,7 +2477,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.88759 {
-     x=1.825in; y=44.45mm;
+     x=53.975mm; y=46.99mm;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -2863,13 +2488,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.88756 {
-       string=ACY300; x=45.593mm; y=1.73in; scale=100; fid=0; direction=2; role=desc;
+       string=ACY300; x=53.467mm; y=1.87in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.88757 {
-       string=R4; x=45.593mm; y=1.73in; scale=100; fid=0; direction=2; role=name;
+       string=R4; x=53.467mm; y=1.87in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.88758 {
-       string=10k; x=45.593mm; y=1.73in; scale=100; fid=0; direction=2; role=value;
+       string=10k; x=53.467mm; y=1.87in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.88760 {
        x1=0.0; y1=-1905.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
@@ -2905,7 +2530,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.88771 {
-     x=48.895mm; y=44.45mm;
+     x=56.515mm; y=44.45mm;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -2916,13 +2541,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.88768 {
-       string=DIODE_LAY_300mil; x=2.0in; y=1.715in; scale=100; fid=0; direction=2; role=desc;
+       string=DIODE_LAY_300mil; x=2.2in; y=1.785in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.88769 {
-       string=D1; x=2.0in; y=1.715in; scale=100; fid=0; direction=2; role=name;
+       string=D1; x=2.2in; y=1.785in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.88770 {
-       string=1N4148; x=2.0in; y=1.715in; scale=100; fid=0; direction=2; role=value;
+       string=1N4148; x=2.2in; y=1.785in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.88772 {
        x1=0.0; y1=-7620.0um; x2=0.0; y2=-5080.0um; thickness=10.0mil; clearance=0.0;
@@ -2959,7 +2584,7 @@ ha:pcb-rnd-board-v4 {
      }
     }
     ha:element.88783 {
-     x=1.725in; y=36.83mm;
+     x=48.895mm; y=36.83mm;
      ha:attributes {
        vendor_part_number=unknown
        vendor=unknown
@@ -2970,13 +2595,13 @@ ha:pcb-rnd-board-v4 {
 
      li:objects {
       ha:text.88780 {
-       string=TO92-1; x=1.592in; y=1.483in; scale=100; fid=0; direction=0; role=desc;
+       string=TO92-1; x=1.792in; y=1.483in; scale=100; fid=0; direction=0; role=desc;
       }
       ha:text.88781 {
-       string=Q1; x=1.592in; y=1.483in; scale=100; fid=0; direction=0; role=name;
+       string=Q1; x=1.792in; y=1.483in; scale=100; fid=0; direction=0; role=name;
       }
       ha:text.88782 {
-       string=BC547; x=1.592in; y=1.483in; scale=100; fid=0; direction=0; role=value;
+       string=BC547; x=1.792in; y=1.483in; scale=100; fid=0; direction=0; role=value;
       }
       ha:line.88784 {
        x1=45.5mil; y1=-2016.76um; x2=45.5mil; y2=79.4mil; thickness=10.0mil; clearance=0.0;
@@ -3010,22 +2635,375 @@ ha:pcb-rnd-board-v4 {
       }
      }
     }
-    ha:rat.90306 {
-     x1=1.825in; y1=31.75mm; lgrp1=18; x2=1.825in; y2=950.0mil; lgrp2=18;
+    ha:element.13831 {
+     x=1.825in; y=950.0mil;
+     ha:attributes {
+       vendor_part_number=unknown
+       vendor=unknown
+       manufacturer_part_number=unknown
+       device=TUN
+       manufacturer=unknown
+     }
+
+     li:objects {
+      ha:text.13828 {
+       string=TO92-1; x=1.677in; y=838.0mil; scale=100; fid=0; direction=0; role=desc;
+      }
+      ha:text.13829 {
+       string=Q2; x=1.677in; y=838.0mil; scale=100; fid=0; direction=0; role=name;
+      }
+      ha:text.13830 {
+       string=BC547; x=1.677in; y=838.0mil; scale=100; fid=0; direction=0; role=value;
+      }
+      ha:line.13832 {
+       x1=45.5mil; y1=-2016.76um; x2=45.5mil; y2=79.4mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:arc.13836 {
+       x=0.0; y=0.0; width=91.5mil; height=91.5mil; astart=288; adelta=143; thickness=10.0mil; clearance=0.0;
+      }
+      ha:arc.13837 {
+       x=0.0; y=0.0; width=91.5mil; height=91.5mil; astart=108; adelta=11; thickness=10.0mil; clearance=0.0;
+      }
+      ha:arc.13838 {
+       x=0.0; y=0.0; width=91.5mil; height=91.5mil; astart=240; adelta=11; thickness=10.0mil; clearance=0.0;
+      }
+      ha:pin.13833 {
+       name=E; number=1; x=0.0; y=100.0mil; hole=29.0mil; mask=56.0mil; thickness=52.0mil; clearance=20.0mil;
+       ha:flags {
+        pin=1
+       }
+      }
+      ha:pin.13834 {
+       name=B; number=2; x=0.0; y=0.0; hole=29.0mil; mask=56.0mil; thickness=52.0mil; clearance=20.0mil;
+       ha:flags {
+        pin=1
+       }
+      }
+      ha:pin.13835 {
+       name=C; number=3; x=0.0; y=-2540.0um; hole=29.0mil; mask=56.0mil; thickness=52.0mil; clearance=20.0mil;
+       ha:flags {
+        pin=1
+       }
+      }
+     }
     }
-    ha:rat.90309 {
+    ha:element.88715 {
+     x=2.425in; y=46.99mm;
+     ha:attributes {
+       vendor_part_number=unknown
+       vendor=unknown
+       manufacturer_part_number=unknown
+       device=CAPACITOR
+       manufacturer=unknown
+     }
+
+     li:objects {
+      ha:text.88712 {
+       string=cap_200mil; x=2.41in; y=1.985in; scale=100; fid=0; direction=0; role=desc;
+      }
+      ha:text.88713 {
+       string=C1; x=2.41in; y=1.985in; scale=100; fid=0; direction=0; role=name;
+      }
+      ha:text.88714 {
+       string=100n; x=2.41in; y=1.985in; scale=100; fid=0; direction=0; role=value;
+      }
+      ha:line.88716 {
+       x1=-1270.0um; y1=-381.0um; x2=50.0mil; y2=-381.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.88717 {
+       x1=-1270.0um; y1=15.0mil; x2=50.0mil; y2=15.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.88718 {
+       x1=0.0; y1=-1270.0um; x2=0.0; y2=-381.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.88719 {
+       x1=0.0; y1=15.0mil; x2=0.0; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:pin.88720 {
+       name=2; number=2; x=0.0; y=-2540.0um; hole=30.0mil; mask=2.055876mm; thickness=77.0mil; clearance=0.999998mm;
+       ha:flags {
+        pin=1
+       }
+      }
+      ha:pin.88721 {
+       name=1; number=1; x=0.0; y=100.0mil; hole=30.0mil; mask=2.055876mm; thickness=77.0mil; clearance=0.999998mm;
+       ha:flags {
+        pin=1
+        square=1
+       }
+      }
+     }
+    }
+    ha:element.94190 {
+     x=92.075mm; y=36.83mm;
+     ha:attributes {
+       vendor_part_number=unknown
+       vendor=unknown
+       manufacturer_part_number=unknown
+       device=RESISTOR
+       manufacturer=unknown
+     }
+
+     li:objects {
+      ha:text.94187 {
+       string=ACY300; x=3.58in; y=37.719mm; scale=100; fid=0; direction=0; role=desc;
+      }
+      ha:text.94188 {
+       string=R19; x=3.58in; y=37.719mm; scale=100; fid=0; direction=0; role=name;
+      }
+      ha:text.94189 {
+       string=47R; x=3.58in; y=37.719mm; scale=100; fid=0; direction=0; role=value;
+      }
+      ha:line.94191 {
+       x1=0.0; y1=-1905.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94192 {
+       x1=0.0; y1=-7620.0um; x2=0.0; y2=-5715.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94193 {
+       x1=-635.0um; y1=-5715.0um; x2=-635.0um; y2=-1905.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94194 {
+       x1=-635.0um; y1=-5715.0um; x2=25.0mil; y2=-5715.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94195 {
+       x1=25.0mil; y1=-5715.0um; x2=25.0mil; y2=-1905.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94196 {
+       x1=-635.0um; y1=-1905.0um; x2=25.0mil; y2=-1905.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:pin.94197 {
+       name=1; number=1; x=0.0; y=0.0; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
+       ha:flags {
+        pin=1
+        square=1
+       }
+      }
+      ha:pin.94198 {
+       name=2; number=2; x=0.0; y=-7620.0um; hole=30.0mil; mask=61.0mil; thickness=55.0mil; clearance=30.0mil;
+       ha:flags {
+        pin=1
+       }
+      }
+     }
+    }
+    ha:element.94244 {
+     x=89.535mm; y=650.0mil;
+     ha:attributes {
+       vendor_part_number=unknown
+       vendor=unknown
+       manufacturer_part_number=unknown
+       device=DIODE
+       manufacturer=unknown
+     }
+
+     li:objects {
+      ha:text.94241 {
+       string=DIODE_LAY_200mil; x=88.265mm; y=480.0mil; scale=100; fid=0; direction=3; role=desc;
+      }
+      ha:text.94242 {
+       string=D13; x=88.265mm; y=480.0mil; scale=100; fid=0; direction=3; role=name;
+      }
+      ha:text.94243 {
+       string=1N4002; x=88.265mm; y=480.0mil; scale=100; fid=0; direction=3; role=value;
+      }
+      ha:line.94245 {
+       x1=0.0; y1=-5080.0um; x2=0.0; y2=-3810.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94246 {
+       x1=-1270.0um; y1=-3810.0um; x2=50.0mil; y2=-3810.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94247 {
+       x1=0.0; y1=-1270.0um; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94248 {
+       x1=50.0mil; y1=-3810.0um; x2=0.0; y2=-1270.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94249 {
+       x1=0.0; y1=-1270.0um; x2=-1270.0um; y2=-3810.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94250 {
+       x1=-1270.0um; y1=-1270.0um; x2=50.0mil; y2=-1270.0um; thickness=10.0mil; clearance=0.0;
+      }
+      ha:pin.94251 {
+       name=2; number=2; x=0.0; y=-5080.0um; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
+       ha:flags {
+        pin=1
+       }
+      }
+      ha:pin.94252 {
+       name=1; number=1; x=0.0; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
+       ha:flags {
+        pin=1
+        square=1
+        shape=1
+       }
+      }
+     }
+    }
+    ha:element.94268 {
+     x=81.915mm; y=450.0mil;
+     ha:attributes {
+       vendor_part_number=unknown
+       vendor=unknown
+       manufacturer_part_number=unknown
+       device=DIODE
+       manufacturer=unknown
+     }
+
+     li:objects {
+      ha:text.94265 {
+       string=DIODE_LAY_200mil; x=78.105mm; y=500.0mil; scale=100; fid=0; direction=0; role=desc;
+      }
+      ha:text.94266 {
+       string=D12; x=78.105mm; y=500.0mil; scale=100; fid=0; direction=0; role=name;
+      }
+      ha:text.94267 {
+       string=1N4002; x=78.105mm; y=500.0mil; scale=100; fid=0; direction=0; role=value;
+      }
+      ha:line.94269 {
+       x1=-5080.0um; y1=0.0; x2=-3810.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94270 {
+       x1=-3810.0um; y1=-1270.0um; x2=-3810.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94271 {
+       x1=-1270.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94272 {
+       x1=-3810.0um; y1=-1270.0um; x2=-1270.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94273 {
+       x1=-1270.0um; y1=0.0; x2=-3810.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94274 {
+       x1=-1270.0um; y1=-1270.0um; x2=-1270.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:pin.94275 {
+       name=2; number=2; x=-5080.0um; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
+       ha:flags {
+        pin=1
+        edge2=1
+       }
+      }
+      ha:pin.94276 {
+       name=1; number=1; x=0.0; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
+       ha:flags {
+        pin=1
+        edge2=1
+        square=1
+        shape=1
+       }
+      }
+     }
+    }
+    ha:element.94292 {
+     x=74.295mm; y=450.0mil;
+     ha:attributes {
+       vendor_part_number=unknown
+       vendor=unknown
+       manufacturer_part_number=unknown
+       device=DIODE
+       manufacturer=unknown
+     }
+
+     li:objects {
+      ha:text.94289 {
+       string=DIODE_LAY_200mil; x=70.739mm; y=500.0mil; scale=100; fid=0; direction=0; role=desc;
+      }
+      ha:text.94290 {
+       string=D11; x=70.739mm; y=500.0mil; scale=100; fid=0; direction=0; role=name;
+      }
+      ha:text.94291 {
+       string=1N4002; x=70.739mm; y=500.0mil; scale=100; fid=0; direction=0; role=value;
+      }
+      ha:line.94293 {
+       x1=-5080.0um; y1=0.0; x2=-3810.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94294 {
+       x1=-3810.0um; y1=-1270.0um; x2=-3810.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94295 {
+       x1=-1270.0um; y1=0.0; x2=0.0; y2=0.0; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94296 {
+       x1=-3810.0um; y1=-1270.0um; x2=-1270.0um; y2=0.0; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94297 {
+       x1=-1270.0um; y1=0.0; x2=-3810.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.94298 {
+       x1=-1270.0um; y1=-1270.0um; x2=-1270.0um; y2=50.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:pin.94299 {
+       name=2; number=2; x=-5080.0um; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
+       ha:flags {
+        pin=1
+        edge2=1
+       }
+      }
+      ha:pin.94300 {
+       name=1; number=1; x=0.0; y=0.0; hole=40.0mil; mask=81.0mil; thickness=75.0mil; clearance=40.0mil;
+       ha:flags {
+        pin=1
+        edge2=1
+        square=1
+        shape=1
+       }
+      }
+     }
+    }
+    ha:element.67859 {
+     x=89.535mm; y=850.0mil;
+     ha:attributes {
+       vendor_part_number=unknown
+       vendor=unknown
+       manufacturer_part_number=unknown
+       device=CAPACITOR
+       manufacturer=unknown
+     }
+
+     li:objects {
+      ha:text.67856 {
+       string=radial_can_200-1; x=3.3in; y=750.0mil; scale=100; fid=0; direction=0; role=desc;
+      }
+      ha:text.67857 {
+       string=C10; x=3.3in; y=750.0mil; scale=100; fid=0; direction=0; role=name;
+      }
+      ha:text.67858 {
+       string=10u; x=3.3in; y=750.0mil; scale=100; fid=0; direction=0; role=value;
+      }
+      ha:line.67860 {
+       x1=-254.0um; y1=50.0mil; x2=-254.0um; y2=70.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:line.67861 {
+       x1=-508.0um; y1=60.0mil; x2=0.0; y2=60.0mil; thickness=10.0mil; clearance=0.0;
+      }
+      ha:arc.67864 {
+       x=-1270.0um; y=0.0; width=100.0mil; height=100.0mil; astart=180; adelta=360; thickness=10.0mil; clearance=0.0;
+      }
+      ha:pin.67862 {
+       name=1; number=1; x=0.0; y=0.0; hole=31.5mil; mask=76.0mil; thickness=70.0mil; clearance=40.0mil;
+       ha:flags {
+        pin=1
+        edge2=1
+        square=1
+        shape=1
+       }
+      }
+      ha:pin.67863 {
+       name=2; number=2; x=-2540.0um; y=0.0; hole=31.5mil; mask=76.0mil; thickness=70.0mil; clearance=40.0mil;
+       ha:flags {
+        pin=1
+        edge2=1
+       }
+      }
+     }
+    }
+    ha:rat.94541 {
      x1=74.295mm; y1=26.67mm; lgrp1=18; x2=2.625in; y2=26.67mm; lgrp2=18;
     }
-    ha:rat.90312 {
-     x1=1.525in; y1=850.0mil; lgrp1=18; x2=1.625in; y2=950.0mil; lgrp2=18;
-    }
-    ha:rat.90315 {
-     x1=1.725in; y1=950.0mil; lgrp1=18; x2=1.525in; y2=26.67mm; lgrp2=18;
-    }
-    ha:rat.90318 {
-     x1=3.725in; y1=1.35in; lgrp1=18; x2=89.535mm; y2=31.75mm; lgrp2=18;
-    }
-    ha:rat.90321 {
+    ha:rat.94544 {
      x1=97.155mm; y1=250.0mil; lgrp1=18; x2=81.915mm; y2=750.0mil; lgrp2=18;
     }
    }
@@ -3066,12 +3044,6 @@ ha:pcb-rnd-board-v4 {
          clearline=1
         }
        }
-       ha:line.72432 {
-        x1=89.535mm; y1=850.0mil; x2=86.995mm; y2=950.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:line.72429 {
         x1=74.295mm; y1=29.21mm; x2=76.835mm; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
@@ -3079,7 +3051,7 @@ ha:pcb-rnd-board-v4 {
         }
        }
        ha:line.72426 {
-        x1=3.325in; y1=950.0mil; x2=86.995mm; y2=950.0mil; thickness=10.0mil; clearance=40.0mil;
+        x1=3.325in; y1=950.0mil; x2=86.995mm; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -3169,12 +3141,6 @@ ha:pcb-rnd-board-v4 {
          clearline=1
         }
        }
-       ha:line.68074 {
-        x1=3.725in; y1=650.0mil; x2=3.725in; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:line.68065 {
         x1=2.825in; y1=950.0mil; x2=2.825in; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
@@ -3183,12 +3149,6 @@ ha:pcb-rnd-board-v4 {
        }
        ha:line.68044 {
         x1=2.625in; y1=26.67mm; x2=2.625in; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.68018 {
-        x1=89.535mm; y1=750.0mil; x2=92.075mm; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -3241,18 +3201,6 @@ ha:pcb-rnd-board-v4 {
          clearline=1
         }
        }
-       ha:line.67844 {
-        x1=89.535mm; y1=750.0mil; x2=89.535mm; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.67841 {
-        x1=86.995mm; y1=450.0mil; x2=86.995mm; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:line.67838 {
         x1=3.325in; y1=850.0mil; x2=3.325in; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
@@ -3261,18 +3209,6 @@ ha:pcb-rnd-board-v4 {
        }
        ha:line.67835 {
         x1=81.915mm; y1=950.0mil; x2=3.325in; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.67826 {
-        x1=79.375mm; y1=450.0mil; x2=79.375mm; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.67823 {
-        x1=76.835mm; y1=450.0mil; x2=79.375mm; y2=450.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -3302,56 +3238,14 @@ ha:pcb-rnd-board-v4 {
          clearline=1
         }
        }
-       ha:line.49451 {
-        x1=53.975mm; y1=36.83mm; x2=2.075in; y2=1.4in; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.42833 {
-        x1=53.975mm; y1=29.21mm; x2=53.975mm; y2=31.75mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.42830 {
-        x1=51.435mm; y1=1.35in; x2=53.975mm; y2=31.75mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.42275 {
-        x1=1.825in; y1=29.21mm; x2=48.895mm; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:line.38044 {
         x1=2.425in; y1=650.0mil; x2=64.135mm; y2=750.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.38041 {
-        x1=1.725in; y1=650.0mil; x2=2.425in; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.37669 {
-        x1=53.975mm; y1=850.0mil; x2=56.515mm; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.35991 {
-        x1=51.435mm; y1=36.83mm; x2=53.975mm; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:line.35988 {
-        x1=53.975mm; y1=1.35in; x2=56.515mm; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
+        x1=56.515mm; y1=36.83mm; x2=56.515mm; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -3431,30 +3325,6 @@ ha:pcb-rnd-board-v4 {
        }
        ha:line.78427 {
         x1=2.825in; y1=1.35in; x2=74.295mm; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.79296 {
-        x1=1.625in; y1=29.21mm; x2=1.825in; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.79333 {
-        x1=1.625in; y1=31.75mm; x2=1.825in; y2=31.75mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.79336 {
-        x1=1.825in; y1=31.75mm; x2=48.895mm; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.79339 {
-        x1=48.895mm; y1=1.35in; x2=48.895mm; y2=36.83mm; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -3687,72 +3557,6 @@ ha:pcb-rnd-board-v4 {
          clearline=1
         }
        }
-       ha:line.89001 {
-        x1=2.425in; y1=1.55in; x2=56.515mm; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89040 {
-        x1=48.895mm; y1=36.83mm; x2=51.435mm; y2=36.83mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89103 {
-        x1=48.895mm; y1=650.0mil; x2=36.195mm; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89106 {
-        x1=36.195mm; y1=650.0mil; x2=33.655mm; y2=750.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89412 {
-        x1=51.435mm; y1=44.45mm; x2=1.825in; y2=44.45mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89415 {
-        x1=1.825in; y1=36.83mm; x2=1.725in; y2=36.83mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89454 {
-        x1=1.825in; y1=1.55in; x2=48.895mm; y2=36.83mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89517 {
-        x1=1.825in; y1=1.55in; x2=36.195mm; y2=1.55in; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89553 {
-        x1=1.525in; y1=1.65in; x2=1.725in; y2=1.65in; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89556 {
-        x1=1.725in; y1=1.65in; x2=1.825in; y2=44.45mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89604 {
-        x1=3.725in; y1=850.0mil; x2=89.535mm; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:line.89607 {
         x1=89.535mm; y1=26.67mm; x2=89.535mm; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
@@ -3771,98 +3575,260 @@ ha:pcb-rnd-board-v4 {
          clearline=1
         }
        }
-       ha:line.89736 {
-        x1=1.825in; y1=750.0mil; x2=1.525in; y2=750.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89739 {
-        x1=1.525in; y1=750.0mil; x2=36.195mm; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89742 {
-        x1=36.195mm; y1=850.0mil; x2=36.195mm; y2=950.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89763 {
-        x1=1.525in; y1=850.0mil; x2=1.825in; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89766 {
-        x1=1.825in; y1=850.0mil; x2=48.895mm; y2=750.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89799 {
-        x1=48.895mm; y1=750.0mil; x2=56.515mm; y2=750.0mil; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
-       ha:line.89934 {
-        x1=56.515mm; y1=29.21mm; x2=51.435mm; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
-        ha:flags {
-         clearline=1
-        }
-       }
        ha:line.90015 {
-        x1=48.895mm; y1=29.21mm; x2=53.975mm; y2=950.0mil; thickness=10.0mil; clearance=40.0mil;
+        x1=51.435mm; y1=26.67mm; x2=53.975mm; y2=950.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.90018 {
-        x1=48.895mm; y1=950.0mil; x2=51.435mm; y2=950.0mil; thickness=10.0mil; clearance=40.0mil;
+       ha:line.91139 {
+        x1=2.325in; y1=36.83mm; x2=2.425in; y2=1.55in; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.90021 {
-        x1=51.435mm; y1=950.0mil; x2=53.975mm; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
+       ha:line.91250 {
+        x1=1.825in; y1=31.75mm; x2=53.975mm; y2=31.75mm; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.90102 {
-        x1=1.625in; y1=31.75mm; x2=1.525in; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
+       ha:line.91253 {
+        x1=53.975mm; y1=31.75mm; x2=56.515mm; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.90105 {
-        x1=1.525in; y1=29.21mm; x2=1.625in; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
+       ha:line.91277 {
+        x1=51.435mm; y1=26.67mm; x2=48.895mm; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.90231 {
-        x1=36.195mm; y1=31.75mm; x2=1.525in; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
+       ha:line.91301 {
+        x1=56.515mm; y1=29.21mm; x2=48.895mm; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.90234 {
-        x1=1.525in; y1=1.35in; x2=1.525in; y2=36.83mm; thickness=10.0mil; clearance=40.0mil;
+       ha:line.91406 {
+        x1=1.825in; y1=1.35in; x2=51.435mm; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.90264 {
-        x1=1.825in; y1=1.35in; x2=1.625in; y2=1.35in; thickness=10.0mil; clearance=40.0mil;
+       ha:line.91541 {
+        x1=51.435mm; y1=850.0mil; x2=48.895mm; y2=950.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
        }
-       ha:line.90267 {
-        x1=1.625in; y1=1.35in; x2=33.655mm; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
+       ha:line.91544 {
+        x1=1.825in; y1=29.21mm; x2=48.895mm; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.91547 {
+        x1=1.725in; y1=29.21mm; x2=1.825in; y2=31.75mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.91964 {
+        x1=56.515mm; y1=44.45mm; x2=2.425in; y2=44.45mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.92177 {
+        x1=51.435mm; y1=850.0mil; x2=56.515mm; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.92681 {
+        x1=1.725in; y1=29.21mm; x2=1.825in; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.92684 {
+        x1=1.725in; y1=26.67mm; x2=1.825in; y2=950.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.92687 {
+        x1=1.825in; y1=850.0mil; x2=48.895mm; y2=850.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.92690 {
+        x1=48.895mm; y1=850.0mil; x2=51.435mm; y2=750.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.92693 {
+        x1=51.435mm; y1=750.0mil; x2=56.515mm; y2=750.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.92996 {
+        x1=48.895mm; y1=36.83mm; x2=1.825in; y2=1.55in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.92999 {
+        x1=1.825in; y1=1.55in; x2=48.895mm; y2=1.65in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93002 {
+        x1=48.895mm; y1=1.65in; x2=51.435mm; y2=1.65in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93005 {
+        x1=51.435mm; y1=1.65in; x2=53.975mm; y2=1.55in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93008 {
+        x1=48.895mm; y1=1.55in; x2=51.435mm; y2=36.83mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93011 {
+        x1=2.325in; y1=36.83mm; x2=51.435mm; y2=36.83mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93056 {
+        x1=1.725in; y1=1.35in; x2=1.725in; y2=1.55in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93062 {
+        x1=1.725in; y1=1.55in; x2=1.825in; y2=1.65in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93110 {
+        x1=1.825in; y1=1.35in; x2=1.625in; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93260 {
+        x1=1.625in; y1=850.0mil; x2=1.725in; y2=750.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93266 {
+        x1=1.725in; y1=750.0mil; x2=1.725in; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93269 {
+        x1=2.425in; y1=650.0mil; x2=1.725in; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93272 {
+        x1=1.725in; y1=550.0mil; x2=48.895mm; y2=550.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93275 {
+        x1=1.825in; y1=1.65in; x2=1.825in; y2=46.99mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93278 {
+        x1=51.435mm; y1=44.45mm; x2=1.825in; y2=44.45mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93302 {
+        x1=51.435mm; y1=46.99mm; x2=53.975mm; y2=46.99mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.93305 {
+        x1=53.975mm; y1=46.99mm; x2=56.515mm; y2=44.45mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94208 {
+        x1=89.535mm; y1=31.75mm; x2=92.075mm; y2=29.21mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94361 {
+        x1=89.535mm; y1=750.0mil; x2=89.535mm; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94403 {
+        x1=79.375mm; y1=650.0mil; x2=74.295mm; y2=450.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94406 {
+        x1=2.975in; y1=500.0mil; x2=76.835mm; y2=450.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94412 {
+        x1=97.155mm; y1=500.0mil; x2=97.155mm; y2=700.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94418 {
+        x1=89.535mm; y1=750.0mil; x2=89.535mm; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94421 {
+        x1=86.995mm; y1=650.0mil; x2=86.995mm; y2=450.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94427 {
+        x1=81.915mm; y1=450.0mil; x2=89.535mm; y2=450.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94532 {
+        x1=51.435mm; y1=550.0mil; x2=51.435mm; y2=650.0mil; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -3979,6 +3945,78 @@ ha:pcb-rnd-board-v4 {
       li:objects {
        ha:line.68047 {
         x1=2.625in; y1=26.67mm; x2=74.295mm; y2=26.67mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94436 {
+        x1=1.525in; y1=350.0mil; x2=1.525in; y2=52.07mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94439 {
+        x1=1.525in; y1=52.07mm; x2=3.725in; y2=52.07mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94442 {
+        x1=3.725in; y1=52.07mm; x2=3.725in; y2=350.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94445 {
+        x1=3.725in; y1=350.0mil; x2=1.525in; y2=350.0mil; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94496 {
+        x1=1.525in; y1=2.45in; x2=3.925in; y2=2.45in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94499 {
+        x1=3.925in; y1=92.71mm; x2=3.925in; y2=2.45in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94502 {
+        x1=3.925in; y1=92.71mm; x2=92.075mm; y2=92.71mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94505 {
+        x1=92.075mm; y1=102.87mm; x2=51.435mm; y2=102.87mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94508 {
+        x1=51.435mm; y1=102.87mm; x2=51.435mm; y2=95.25mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94511 {
+        x1=51.435mm; y1=95.25mm; x2=1.525in; y2=95.25mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94514 {
+        x1=1.525in; y1=95.25mm; x2=1.525in; y2=2.45in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.94517 {
+        x1=92.075mm; y1=92.71mm; x2=92.075mm; y2=102.87mm; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -5958,7 +5996,7 @@ ha:pcb-rnd-board-v4 {
     li:conn { D3-2; D5-1; U1-2;    }
     }
     ha:unnamed_net5 {
-    li:conn { C3-2; P1-1; Q2-3; U1-1;    }
+    li:conn { C3-2; Q2-3; R5-1; U1-1;    }
     }
     ha:unnamed_net6 {
     li:conn { D6-2; R11-1; U1-6;    }
@@ -6021,7 +6059,7 @@ ha:pcb-rnd-board-v4 {
     li:conn { D2-2; D4-1; Q1-3; R7-1;    }
     }
     ha:unnamed_net26 {
-    li:conn { P1-2; P1-3; R5-1;    }
+    li:conn { P1-1; R5-2;    }
     }
     ha:unnamed_net27 {
     li:conn { Q3-2; R10-2;    }
@@ -6063,7 +6101,7 @@ ha:pcb-rnd-board-v4 {
     li:conn { B1-1; C11-1; D11-2; D14-1; M1-1; Q5-3; Q7-3; Q9-3; Q20-1; Q21-1; Q22-1; R20-2;    }
     }
     ha:VBi+ {
-    li:conn { C3-1; C15-1; D17-1; R5-2; R7-2; R9-2; R28-1; U1-14; U3-3;    }
+    li:conn { C3-1; C15-1; D17-1; P1-2; P1-3; R7-2; R9-2; R28-1; U1-14; U3-3;    }
     }
    }
  }
@@ -6193,7 +6231,7 @@ ha:pcb-rnd-board-v4 {
    ha:editor {
     live_routing = false
     snap_pin = true
-    grid = 100.00 mil
+    grid = 25.00 mil
     show_number = false
     auto_drc = false
     all_direction_lines = 0
