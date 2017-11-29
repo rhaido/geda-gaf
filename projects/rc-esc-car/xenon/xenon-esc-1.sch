@@ -79,7 +79,7 @@ footprint=ACY300
 C 52300 49700 1 0 0 tun-small-1.sym
 {
 T 51900 50200 5 10 0 1 0 0 1
-footprint=TO92-1
+footprint=TO92-2
 T 52875 49850 5 6 0 1 0 0 1
 device=TUN
 T 52100 50200 5 7 1 1 0 0 1
@@ -123,7 +123,7 @@ refdes=C8
 T 52900 49900 5 5 1 1 0 0 1
 value=1u
 T 52895 50600 5 8 0 0 0 0 1
-footprint=radial_can_45d-1
+footprint=radial_can_200-1
 T 52895 50800 5 8 0 0 0 0 1
 device=CAPACITOR
 T 52900 49800 5 5 1 1 0 0 1
@@ -167,7 +167,7 @@ value=1N4002
 C 55200 48600 1 0 0 ech-diode-h-1.sym
 {
 T 55300 49100 5 10 0 0 0 3 1
-footprint=DIODE_LAY_200mil
+footprint=DIODE_LAY_300mil
 T 55300 48950 5 7 1 1 0 3 1
 refdes=D13
 T 55300 49300 5 10 0 0 0 3 1
