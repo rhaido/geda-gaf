@@ -20,10 +20,6 @@ footprint=DIP14
 T 0 2325 5 10 0 0 0 0 1
 description=4 NOR Gates
 T 0 2525 5 10 0 0 0 0 1
-net=VDD:14
-T 0 2725 5 10 0 0 0 0 1
-net=VSS:7
-T 0 2925 5 10 0 0 0 0 1
 documentation=http://www.ti.com/lit/ds/symlink/cd4002b.pdf
 T 500 500 8 10 0 1 0 0 1
 value=4001
