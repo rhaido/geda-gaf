@@ -292,7 +292,7 @@ refdes=R6
 T 47891 43702 5 5 1 1 0 1 1
 value=10k
 T 48100 43900 5 10 0 1 0 0 1
-footprint=ACY200
+footprint=ACY300
 }
 C 47700 45300 1 0 0 resistor-h-1.sym
 {
