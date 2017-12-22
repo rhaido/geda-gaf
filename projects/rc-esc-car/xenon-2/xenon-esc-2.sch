@@ -103,7 +103,7 @@ value=1N4002
 C 55000 48600 1 0 0 ech-diode-h-1.sym
 {
 T 55100 49100 5 10 0 0 0 3 1
-footprint=diode-standing-100mil-1
+footprint=DIODE_LAY_200mil
 T 55100 48950 5 7 1 1 0 3 1
 refdes=D10
 T 55100 49300 5 10 0 0 0 3 1
@@ -615,7 +615,7 @@ refdes=C4
 T 44500 49500 5 5 1 1 0 6 1
 value=1u
 T 44905 49800 5 10 0 0 0 1 1
-footprint=radial_can_200-1
+footprint=tantal-100mil-1
 T 44905 50000 5 10 0 0 0 1 1
 device=CAPACITOR
 T 44500 49400 5 5 1 1 0 6 1
@@ -717,7 +717,7 @@ device=TUP
 T 51900 49000 5 7 1 1 0 0 1
 refdes=Q2
 T 52800 49800 5 10 0 1 0 0 1
-footprint=TO92-1
+footprint=TO92-2
 T 51900 48900 5 5 1 1 0 0 1
 value=BC557
 }
@@ -806,7 +806,7 @@ refdes=R13
 T 50898 43291 5 5 1 1 90 1 1
 value=47R
 T 50800 43400 5 10 0 1 0 0 1
-footprint=ACY200
+footprint=ACY300
 }
 N 56400 43300 56400 44100 4
 C 51000 42300 1 0 1 ech-diode-zener-1.sym
