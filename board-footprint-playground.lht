@@ -52,7 +52,7 @@ ha:pcb-rnd-board-v4 {
     min_silk = 7.0mil
    }
    ha:grid {
-    spacing = 100.0mil
+    spacing = 5.0mil
     offs_x = 0.0
     offs_y = 0.0
    }
@@ -113,6 +113,20 @@ ha:pcb-rnd-board-v4 {
       via=1
       square=1
       shape=1
+     }
+    }
+    ha:via.2170 {
+     name=1; x=99.06mm; y=2.8in; hole=31.5mil; mask=0.0; thickness=60.0mil; clearance=40.0mil;
+     ha:flags {
+      via=1
+      square=1
+      shape=1
+     }
+    }
+    ha:via.2169 {
+     name=2; x=4.0in; y=2.8in; hole=31.5mil; mask=0.0; thickness=60.0mil; clearance=40.0mil;
+     ha:flags {
+      via=1
      }
     }
     ha:element.29 {
@@ -497,6 +511,54 @@ ha:pcb-rnd-board-v4 {
        }
        ha:line.2047 {
         x1=1.63in; y1=31.75mm; x2=1.63in; y2=1.27in; thickness=5.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.2166 {
+        x1=3.968in; y1=2.79in; x2=3.968in; y2=2.81in; thickness=5.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.2163 {
+        x1=3.963in; y1=70.739mm; x2=3.968in; y2=2.79in; thickness=5.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.2160 {
+        x1=3.963in; y1=71.501mm; x2=3.938in; y2=71.501mm; thickness=5.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.2151 {
+        x1=3.933in; y1=2.79in; x2=3.938in; y2=70.739mm; thickness=5.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.2148 {
+        x1=3.933in; y1=2.81in; x2=3.933in; y2=2.79in; thickness=5.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.2145 {
+        x1=3.938in; y1=71.501mm; x2=3.933in; y2=2.81in; thickness=5.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.2142 {
+        x1=3.938in; y1=70.739mm; x2=3.963in; y2=70.739mm; thickness=5.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.2139 {
+        x1=3.968in; y1=2.81in; x2=3.963in; y2=71.501mm; thickness=5.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -2606,7 +2668,7 @@ ha:pcb-rnd-board-v4 {
    ha:editor {
     grid_unit = mil
      buffer_number = 0
-     grid = 100.00 mil
+     grid = 5.00 mil
       thin_draw = false
    }
   }
