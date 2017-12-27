@@ -92,7 +92,7 @@ value=1N4002
 C 53600 49400 1 0 0 ech-diode-h-1.sym
 {
 T 53700 49900 5 10 0 0 0 3 1
-footprint=DIODE_LAY_200mil
+footprint=DIODE_LAY_300mil
 T 53700 49750 5 7 1 1 0 3 1
 refdes=D9
 T 53700 50100 5 10 0 0 0 3 1
@@ -103,7 +103,7 @@ value=1N4002
 C 55000 48600 1 0 0 ech-diode-h-1.sym
 {
 T 55100 49100 5 10 0 0 0 3 1
-footprint=DIODE_LAY_300mil
+footprint=diode-standing-100mil-1
 T 55100 48950 5 7 1 1 0 3 1
 refdes=D10
 T 55100 49300 5 10 0 0 0 3 1
@@ -232,7 +232,7 @@ refdes=R3
 T 43602 46191 5 5 1 1 90 1 1
 value=27k
 T 43700 46300 5 10 0 1 0 6 1
-footprint=r-vert-100mil-1
+footprint=ACY200
 }
 N 43400 47100 43300 47100 4
 N 43300 47100 43300 47700 4
@@ -253,7 +253,7 @@ value=1N4148
 C 44900 44900 1 0 0 1n4148-h-2.sym
 {
 T 45000 45400 5 10 0 0 0 3 1
-footprint=DIODE_LAY_300mil
+footprint=diode-standing-100mil-1
 T 45000 45250 5 7 1 1 0 3 1
 refdes=D3
 T 45000 45600 5 10 0 0 0 3 1
@@ -292,7 +292,7 @@ refdes=R6
 T 47891 43702 5 5 1 1 0 1 1
 value=10k
 T 48100 43900 5 10 0 1 0 0 1
-footprint=ACY300
+footprint=ACY200
 }
 C 47700 45300 1 0 0 resistor-h-1.sym
 {
@@ -317,7 +317,7 @@ refdes=R10
 T 49402 42491 5 5 1 1 90 1 1
 value=10k
 T 49500 42600 5 10 0 1 0 6 1
-footprint=ACY200
+footprint=r-vert-100mil-1
 }
 C 49500 43000 1 0 1 potmeter-v-1.sym
 {
@@ -384,7 +384,7 @@ refdes=R9
 T 48802 44591 5 5 1 1 90 1 1
 value=120k
 T 48900 44700 5 10 0 1 0 6 1
-footprint=ACY200
+footprint=r-vert-100mil-1
 }
 N 48800 45000 48800 45400 4
 N 49200 44800 49200 45700 4
@@ -458,13 +458,7 @@ device=DC_MOTOR
 T 55500 45200 5 7 1 1 0 4 1
 refdes=M1
 T 55300 44800 5 10 0 0 0 0 1
-footprint=termblock200-2
-T 55300 44800 5 10 0 0 0 0 1
-numslots=1
-T 55300 44800 5 10 0 0 0 0 1
-slotdef=1:2,1
-T 55300 44800 5 10 0 0 0 0 1
-slot=1
+footprint=big-solder-pads-1
 }
 N 52800 44100 55500 44100 4
 N 55500 43300 55500 44600 4
@@ -701,7 +695,7 @@ refdes=R13
 T 50898 43291 5 5 1 1 90 1 1
 value=47R
 T 50800 43400 5 10 0 1 0 0 1
-footprint=ACY300
+footprint=r-vert-100mil-1
 }
 C 51000 42300 1 0 1 ech-diode-zener-1.sym
 {
@@ -1070,13 +1064,7 @@ device=BATTERY
 T 42500 50400 5 10 0 0 0 6 1
 symversion=0.1
 T 42500 49300 5 10 0 0 0 6 1
-footprint=termblock200-2
-T 42500 49300 5 10 0 0 0 6 1
-slotdef=1:2,1
-T 42500 49300 5 10 0 0 0 6 1
-numslots=1
-T 42500 49300 5 10 0 0 0 6 1
-slot=1
+footprint=big-solder-pads-1
 T 42000 49400 5 7 1 1 0 6 1
 refdes=B1
 }
