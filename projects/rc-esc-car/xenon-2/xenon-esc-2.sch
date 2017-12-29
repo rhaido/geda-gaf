@@ -81,7 +81,7 @@ N 52500 49600 52600 49600 4
 C 53100 49900 1 0 0 ech-diode-v-2.sym
 {
 T 53200 50300 5 10 0 0 0 3 1
-footprint=DIODE_LAY_200mil
+footprint=DIODE_LAY_300mil
 T 53350 50000 5 7 1 1 0 0 1
 refdes=D8
 T 53200 50500 5 10 0 0 0 3 1
@@ -92,7 +92,7 @@ value=1N4002
 C 53600 49400 1 0 0 ech-diode-h-1.sym
 {
 T 53700 49900 5 10 0 0 0 3 1
-footprint=DIODE_LAY_200mil
+footprint=diode-standing-100mil-45d-1
 T 53700 49750 5 7 1 1 0 3 1
 refdes=D9
 T 53700 50100 5 10 0 0 0 3 1

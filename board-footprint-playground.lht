@@ -52,7 +52,7 @@ ha:pcb-rnd-board-v4 {
     min_silk = 7.0mil
    }
    ha:grid {
-    spacing = 100.0mil
+    spacing = 25.0mil
     offs_x = 0.0
     offs_y = 0.0
    }
@@ -181,6 +181,20 @@ ha:pcb-rnd-board-v4 {
       via=1
       square=1
       shape=1
+     }
+    }
+    ha:via.3920 {
+     name=1; x=2.6in; y=1.9in; hole=31.5mil; mask=0.0; thickness=60.0mil; clearance=40.0mil;
+     ha:flags {
+      via=1
+      square=1
+      shape=1
+     }
+    }
+    ha:via.3919 {
+     name=2; x=63.5mm; y=1.8in; hole=31.5mil; mask=0.0; thickness=60.0mil; clearance=40.0mil;
+     ha:flags {
+      via=1
      }
     }
     ha:element.29 {
@@ -964,6 +978,42 @@ ha:pcb-rnd-board-v4 {
        }
        ha:line.3744 {
         x1=3.95in; y1=3.0in; x2=100.965mm; y2=3.0in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.3945 {
+        x1=63.5mm; y1=1.8in; x2=64.135mm; y2=1.825in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.3936 {
+        x1=65.405mm; y1=47.625mm; x2=2.6in; y2=1.9in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.3930 {
+        x1=63.5mm; y1=46.99mm; x2=65.405mm; y2=47.625mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.3927 {
+        x1=2.55in; y1=1.8in; x2=63.5mm; y2=46.99mm; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.3924 {
+        x1=65.405mm; y1=47.625mm; x2=2.55in; y2=1.8in; thickness=10.0mil; clearance=40.0mil;
+        ha:flags {
+         clearline=1
+        }
+       }
+       ha:line.3921 {
+        x1=2.6in; y1=46.99mm; x2=2.55in; y2=1.9in; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -3073,7 +3123,7 @@ ha:pcb-rnd-board-v4 {
    ha:editor {
     grid_unit = mil
      buffer_number = 0
-     grid = 100.00 mil
+     grid = 25.00 mil
       thin_draw = false
    }
   }
