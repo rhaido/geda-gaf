@@ -406,7 +406,7 @@ N 55500 48800 55500 48200 4
 C 51300 44600 1 0 1 ech-diode-zener-1.sym
 {
 T 51505 44995 5 10 0 0 0 1 1
-footprint=diode-standing-100mil-1
+footprint=DIODE_LAY_300mil
 T 51550 44800 5 7 1 1 0 6 1
 refdes=D6
 T 51505 45195 5 10 0 0 0 1 1
@@ -676,7 +676,7 @@ refdes=R12
 T 51198 45391 5 5 1 1 90 1 1
 value=47R
 T 51100 45500 5 10 0 1 0 0 1
-footprint=r-vert-100mil-1
+footprint=ACY300
 }
 C 51100 44200 1 0 0 common.sym
 {
@@ -695,7 +695,7 @@ refdes=R13
 T 50898 43291 5 5 1 1 90 1 1
 value=47R
 T 50800 43400 5 10 0 1 0 0 1
-footprint=r-vert-100mil-1
+footprint=ACY300
 }
 C 51000 42300 1 0 1 ech-diode-zener-1.sym
 {
