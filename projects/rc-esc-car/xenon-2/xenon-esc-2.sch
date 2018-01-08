@@ -1123,7 +1123,7 @@ C 42600 49700 1 0 0 resistor-v-1.sym
 T 42750 50000 5 10 0 0 0 0 1
 device=RESISTOR
 T 42800 50000 5 10 0 1 0 0 1
-footprint=ACY300
+footprint=r-vert-100mil-1
 T 42800 50200 5 7 1 1 180 0 1
 refdes=R28
 T 42898 49891 5 5 1 1 90 1 1
