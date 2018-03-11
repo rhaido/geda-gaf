@@ -1,10 +1,10 @@
 v 20130925 2
 T 200 2800 5 8 0 0 0 0 1
-description=operational amplifier
+description=differential comparators with strobes
 T 200 2600 5 8 0 0 0 0 1
 comment=Use symbol opamp_pwr.sym to connect power pins.
 T 200 2400 5 8 0 0 0 0 1
-documentation=https://www.intersil.com/en/products/amplifiers-and-buffers/all-amplifiers/amplifiers/CA3130.html
+documentation=www.ti.com/lit/ds/symlink/lm111.pdf
 T 200 2200 5 8 0 0 0 0 1
 footprints=SO8, DIP8
 T 200 2000 5 8 0 0 0 0 1
@@ -95,3 +95,5 @@ T 193 1195 5 8 0 0 0 0 1
 device=VOLTAGE_COMPARATOR
 T 300 400 9 5 1 1 0 0 1
 value=LM311
+T 200 1000 5 8 0 0 0 0 1
+numslots=0
