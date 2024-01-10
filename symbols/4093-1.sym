@@ -38,7 +38,7 @@ T 150 300 5 8 0 1 0 2 1
 pintype=in
 }
 T 0 1925 5 10 0 0 0 0 1
-device=LOGIC_IC
+device=4000
 T 600 0 8 6 1 1 0 0 1
 slot=1
 T 0 925 5 10 0 0 0 0 1
