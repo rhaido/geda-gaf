@@ -430,6 +430,8 @@ T 41450 49325 5 8 1 1 0 0 1
 refdes=F1
 T 41500 49025 5 6 1 1 0 0 1
 value=0.25A
+T 41300 49100 5 10 0 0 0 0 1
+graphical=1
 }
 N 42100 49000 42100 49200 4
 N 41900 49200 42100 49200 4
@@ -444,6 +446,8 @@ T 40500 47850 5 8 1 1 0 0 1
 refdes=VAC1
 T 40600 48050 5 8 0 1 0 0 1
 device=MAINS
+T 40900 47400 5 10 0 0 0 0 1
+graphical=1
 }
 C 53175 45100 1 0 0 tun-small.sym
 {
@@ -520,6 +524,8 @@ T 51900 47800 5 8 1 1 0 4 1
 refdes=U2
 T 51800 47300 5 10 0 0 0 0 1
 value=4093
+T 51800 47300 5 10 0 0 0 0 1
+graphical=1
 }
 C 52100 47300 1 0 0 74_pwr16.sym
 {
@@ -529,6 +535,8 @@ T 52200 47800 5 8 1 1 0 4 1
 refdes=U3
 T 52100 47300 5 10 0 0 0 0 1
 value=4027
+T 52100 47300 5 10 0 0 0 0 1
+graphical=1
 }
 N 51900 48300 51900 48400 4
 N 51575 47200 52200 47200 4
@@ -578,10 +586,6 @@ T 54675 45900 5 10 0 0 0 0 1
 footprint=mike_grozak_termblock200-2
 T 54675 45900 5 10 0 0 0 0 1
 numslots=1
-T 54675 45900 5 10 0 0 0 0 1
-slotdef=1:2,1
-T 54675 45900 5 10 0 0 0 0 1
-slot=1
 }
 N 51775 43900 51875 43900 4
 C 44700 44100 1 0 0 soldering-iron-ptc-element-1.sym
@@ -592,6 +596,8 @@ T 44400 44500 5 8 1 1 0 0 1
 refdes=SI11
 T 44700 44100 5 10 0 0 0 0 1
 footprint=JUMPER2
+T 44700 44100 5 10 0 0 0 0 1
+numslots=1
 }
 C 43000 42600 1 0 0 soldering-iron-ground-2.sym
 {
@@ -732,7 +738,7 @@ refdes=P3
 T 47602 45002 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 47602 44802 5 10 0 0 0 0 1
-footprint=POT_LAYING
+footprint=JUMPER3
 T 47147 44202 5 5 1 1 0 1 1
 value=100k
 }
@@ -753,7 +759,7 @@ refdes=C5
 T 47900 44000 5 5 1 1 0 0 1
 value=22n
 T 48100 44400 5 10 0 0 0 3 1
-footprint=@footprint@
+footprint=cap_200mil
 T 48100 44600 5 10 0 0 0 3 1
 device=CAPACITOR
 }
