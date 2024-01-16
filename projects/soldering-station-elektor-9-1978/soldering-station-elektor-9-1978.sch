@@ -781,3 +781,4 @@ description=lin
 N 46300 45000 46500 45000 4
 T 45800 45700 9 4 1 0 0 0 1
 100μA↓
+C 41300 48400 1 0 0 transformer-primary-1.sym
