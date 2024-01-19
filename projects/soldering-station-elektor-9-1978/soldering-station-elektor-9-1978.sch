@@ -732,7 +732,7 @@ refdes=P3
 T 47602 45002 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 47602 44802 5 10 0 0 0 0 1
-footprint=JUMPER3
+footprint=pot_cermet_3362p
 T 47147 44202 5 5 1 1 0 1 1
 value=100k
 }
@@ -781,4 +781,3 @@ description=lin
 N 46300 45000 46500 45000 4
 T 45800 45700 9 4 1 0 0 0 1
 100μA↓
-C 41300 48400 1 0 0 transformer-primary-1.sym
