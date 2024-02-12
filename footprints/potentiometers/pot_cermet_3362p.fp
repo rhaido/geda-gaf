@@ -1,15 +1,15 @@
 
-Element["" "" "" "" 3.2534mm 125.00mil 20.00mil 0.0000 2 100 ""]
+Element["" "" "" "" 131.0mil 3.175392mm 20.0mil 0.0 2 100 ""]
 (
-	Pin[-100.00mil 0.0000 36.00mil 20.00mil 42.00mil 20.00mil "" "1" "edge2"]
-	Pin[100.00mil 0.0000 36.00mil 20.00mil 42.00mil 20.00mil "" "3" "edge2"]
-	Pin[0.0000 100.00mil 36.00mil 20.00mil 42.00mil 20.00mil "" "2" "edge2"]
-	ElementLine [-120.00mil 30.00mil -120.00mil 120.00mil 10.00mil]
-	ElementLine [-120.00mil 120.00mil -30.00mil 120.00mil 10.00mil]
-	ElementLine [30.00mil 120.00mil 120.00mil 120.00mil 10.00mil]
-	ElementLine [120.00mil 30.00mil 120.00mil 120.00mil 10.00mil]
-	ElementLine [120.00mil -120.00mil 120.00mil -30.00mil 10.00mil]
-	ElementLine [-120.00mil -120.00mil 120.00mil -120.00mil 10.00mil]
-	ElementLine [-120.00mil -120.00mil -120.00mil -30.00mil 10.00mil]
+	Pin[-100.0mil 0.0 56.0mil 20.0mil 62.0mil 38.0mil "" "1" "clearline"]
+	Pin[100.0mil 0.0 56.0mil 20.0mil 62.0mil 38.0mil "" "3" "clearline"]
+	Pin[0.0 100.0mil 56.0mil 20.0mil 62.0mil 38.0mil "" "2" "clearline"]
+	ElementLine [-120.0mil 30.0mil -120.0mil 120.0mil 10.0mil]
+	ElementLine [-120.0mil 120.0mil -30.0mil 120.0mil 10.0mil]
+	ElementLine [30.0mil 120.0mil 120.0mil 120.0mil 10.0mil]
+	ElementLine [120.0mil 30.0mil 120.0mil 120.0mil 10.0mil]
+	ElementLine [120.0mil -120.0mil 120.0mil -30.0mil 10.0mil]
+	ElementLine [-120.0mil -120.0mil 120.0mil -120.0mil 10.0mil]
+	ElementLine [-120.0mil -120.0mil -120.0mil -30.0mil 10.0mil]
 
-	)
+)
